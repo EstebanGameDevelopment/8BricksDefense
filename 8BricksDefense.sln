@@ -1,0 +1,32 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2017
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "8BricksDefense", "8BricksDefense.csproj", "{AFC792B5-0356-DE99-7197-175E13A3E7AE}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "8BricksDefense.Plugins", "8BricksDefense.Plugins.csproj", "{7C541359-694D-2354-AB86-E6CFAD020BE0}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "8BricksDefense.Editor", "8BricksDefense.Editor.csproj", "{4E5DC329-002E-891D-9B97-39D9A249DE77}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{AFC792B5-0356-DE99-7197-175E13A3E7AE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AFC792B5-0356-DE99-7197-175E13A3E7AE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AFC792B5-0356-DE99-7197-175E13A3E7AE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AFC792B5-0356-DE99-7197-175E13A3E7AE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7C541359-694D-2354-AB86-E6CFAD020BE0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7C541359-694D-2354-AB86-E6CFAD020BE0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7C541359-694D-2354-AB86-E6CFAD020BE0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7C541359-694D-2354-AB86-E6CFAD020BE0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4E5DC329-002E-891D-9B97-39D9A249DE77}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4E5DC329-002E-891D-9B97-39D9A249DE77}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4E5DC329-002E-891D-9B97-39D9A249DE77}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4E5DC329-002E-891D-9B97-39D9A249DE77}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

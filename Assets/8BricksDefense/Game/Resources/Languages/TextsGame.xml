@@ -1,0 +1,326 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<texts>
+
+  <!-- APP NAME -->
+  <text id="message.game.title">
+    <en>8 Bricks Defense</en>
+    <es>8 Bricks Defense</es>
+  </text>
+
+  <!-- COMMON TEXTS -->
+  <text id="message.cancel">
+    <en>Cancel</en>
+    <es>Cancelar</es>
+  </text>
+
+  <text id="message.error">
+    <en>Error</en>
+    <es>Error</es>
+  </text>
+
+  <text id="message.warning">
+    <en>Warning</en>
+    <es>Alerta</es>
+  </text>
+
+  <text id="message.info">
+    <en>Information</en>
+    <es>Informacion</es>
+  </text>
+
+  <text id="message.loading">
+    <en>Loading...</en>
+    <es>Cargando...</es>
+  </text>
+
+  <text id="message.connecting">
+    <en>Connecting...</en>
+    <es>Conectando...</es>
+  </text>
+
+  <text id="message.operation.canceled">
+    <en>Operation canceled</en>
+    <es>Operacion cancelada</es>
+  </text>
+
+  <text id="message.do.you.want.exit">
+    <en>Do you want to exit the app?</en>
+    <es>Desea salir de la aplicacion?</es>
+  </text>
+
+  <text id="message.please.wait">
+    <en>Working. Please, wait...</en>
+    <es>Trabajando. Por favor, espere...</es>
+  </text>
+
+  <text id="message.location.connecting.please.wait">
+    <en>Connecting. Please, wait...</en>
+    <es>Conectando. Por favor, espere...</es>
+  </text>
+
+  <text id="message.connecting.players.please.wait.or.start">
+    <en>% Players left to connect. Wait or press button to start game.</en>
+    <es>% Jugadores para conectar. Espere o presione el boton para empezar.</es>
+  </text>
+
+  <text id="message.playing.level.x">
+    <en>LEVEL %</en>
+    <es>NIVEL %</es>
+  </text>
+
+  <text id="message.playing.level.description">
+    <en>Destroy all the enemies before they escape</en>
+    <es>Destruye todos los enemigos antes de que escapen.</es>
+  </text>
+
+  <text id="message.you.should.select.an.item">
+    <en>You should at least select one item</en>
+    <es>Debes seleccionar por lo menos 1 item</es>
+  </text>
+
+  <!-- MAIN MENU -->
+  <text id="screen.main.menu.local.party">
+    <en>Local Party Game</en>
+    <es>Juego Local</es>
+  </text>
+
+  <text id="screen.main.menu.remote.party">
+    <en>Remote Party Game</en>
+    <es>Juego Remoto</es>
+  </text>
+
+  <text id="screen.main.menu.instructions.game">
+    <en>Instructions</en>
+    <es>Instrucciones</es>
+  </text>
+
+  <text id="screen.room.not.created.right">
+    <en>There has been a problem in the Web Server to create the room</en>
+    <es>Ha habido un problema en el Web Server para crear la habitación</es>
+  </text>
+
+  <!-- LOCAL GAME -->
+  <text id="screen.local.game.start.a.new.game">
+    <en>Create a new game</en>
+    <es>Crear un nuevo juego</es>
+  </text>
+
+  <text id="screen.local.game.join.local.game">
+    <en>Join an existing game</en>
+    <es>Unirse al juego</es>
+  </text>
+
+  <!-- ENABLE VR/GYROSCOPE -->
+  <text id="screen.play.as.vr.game">
+    <en>Play it in VR</en>
+    <es>Jugar en VR</es>
+  </text>
+
+  <text id="screen.play.with.gyroscope">
+    <en>Play it with Gyroscope</en>
+    <es>Jugarlo con Giroscopio</es>
+  </text>
+
+  <!-- PLAYER NUMBER MENU -->
+  <text id="screen.player.number.create.new.game">
+    <en>Create New Game</en>
+    <es>Crear Nuevo Juego</es>
+  </text>
+
+  <text id="screen.player.number.description">
+    <en>Numbers of players who are going to join the game</en>
+    <es>Numero de jugadores que van a participar</es>
+  </text>
+
+  <text id="screen.player.number.not.right.number">
+    <en>Only 1 to 4 players are allowed to be in the game</en>
+    <es>Solo esta permitido un numero de 1 a 4 jugadores</es>
+  </text>
+
+  <!-- REMOTE MODE -->
+  <text id="screen.remote.mode.friends.mode">
+    <en>Play with Friends</en>
+    <es>Jugar con amigos</es>
+  </text>
+
+  <text id="screen.remote.mode.lobby.mode">
+    <en>Go to the game lobby</en>
+    <es>Ir a salon de juegos</es>
+  </text>
+
+  <!-- MAIN LOBBY -->
+  <text id="screen.lobby.create.room">
+    <en>Create a new Room</en>
+    <es>Crear una nueva sala</es>
+  </text>
+
+  <text id="screen.lobby.join.room">
+    <en>Join a room</en>
+    <es>Unirse a una sala</es>
+  </text>
+
+  <!-- CREATE ROOM -->
+  <text id="screen.lobby.create.with.name.room">
+    <en>Create Room</en>
+    <es>Crear Sala</es>
+  </text>
+
+  <text id="screen.lobby.create.with.description.room">
+    <en>Write down the name of the room you want to create</en>
+    <es>Escribe el nombre de la sala que quieres crear</es>
+  </text>
+
+  <text id="screen.lobby.no.name.in.create.room">
+    <en>You should write a name of the room with at least 5 characters</en>
+    <es>Debes escribir un nombre de sala con la menos 5 caracteres</es>
+  </text>
+
+  <!-- JOIN ROOM -->
+  <text id="screen.lobby.join.the.selected.room">
+    <en>Join Room</en>
+    <es>Unirte a la Sala</es>
+  </text>
+
+  <!-- FACEBOOK CONNECTION -->
+  <text id="message.facebook.description.connect.for.friends">
+    <en>In order of play with your friends you will have to connect by Facebook</en>
+    <es>Para poder jugar con tus amigos tendrás que conectarte por Facebook</es>
+  </text>
+
+  <text id="message.facebook.connecting.wait">
+    <en>Connecting Facebook. Please, wait...</en>
+    <es>Connectando con Facebook. Por favor, espere...</es>
+  </text>
+
+  <text id="message.facebook.connecting.to.server">
+    <en>Now connecting to server. Please, wait...</en>
+    <es>Ahora conectando con servidor. Por favor, espere...</es>
+  </text>
+
+  <text id="screen.facebook.connect">
+    <en>Connect with Facebook</en>
+    <es>Conectar con Facebook</es>
+  </text>
+
+  <text id="screen.facebook.connection.error">
+    <en>There was an error on Facebook connection</en>
+    <es>Hubo un error en la conexion a Facebook</es>
+  </text>
+
+  <!-- FACEBOOK MAIN -->
+  <text id="screen.facebook.create.invitation">
+    <en>Invite a friend to new game</en>
+    <es>Invitar a un amigo a nueva partida</es>
+  </text>
+
+  <text id="screen.facebook.invitations.list">
+    <en>Accept an invitation from a friend</en>
+    <es>Aceptar una invitación de un amigo</es>
+  </text>
+
+  <!-- FACEBOOK FRIENDS LIST TO INVITE -->
+  <text id="screen.facebook.invite.friends">
+    <en>Select the friends you want to invite</en>
+    <es>Elige los amigos a invitar</es>
+  </text>
+
+  <text id="screen.facebook.send.invitations">
+    <en>Send Invitations</en>
+    <es>Enviar Invitaciones</es>
+  </text>
+
+  <text id="screen.facebook.select.invitation.to.accept">
+    <en>Select the invitation you want to accept</en>
+    <es>Elige la invitacion que deseas aceptar</es>
+  </text>
+
+  <text id="screen.facebook.accept.invitation">
+    <en>Accept Invitation</en>
+    <es>Aceptar Invitacion</es>
+  </text>
+
+  <!-- INSTRUCTIONS PAGES -->
+  <text id="screen.instructions.title">
+    <en>Instructions</en>
+    <es>Instrucciones</es>
+  </text>
+
+  <text id="screen.instructions.page.1">
+    <en>Press fire to shoot the enemies before they escape</en>
+    <es>Pressione acción para disparar a los enemigos</es>
+  </text>
+
+  <text id="screen.instructions.page.2">
+    <en>Keep pressed fire until teleportation mode is activated</en>
+    <es>Mantenga presionado acción para activar la teletransportación.</es>
+  </text>
+
+  <text id="screen.instructions.page.3">
+    <en>Collect the power ups to jump longer and shoot bombs</en>
+    <es>Recoja los potenciadores para saltar mas y disparar bombas</es>
+  </text>
+
+  <text id="screen.instructions.page.4">
+    <en>This is a game example using the "YourNetworkTools" plugin. Now Available!</en>
+    <es>Este es un ejemplo de juego usando "YourNetworkTools" plugin. Ya disponible!</es>
+  </text>
+
+  <!-- IN GAME TEXTS -->
+  <text id="message.victory">
+    <en>Victory!!!</en>
+    <es>Victoria!!!</es>
+  </text>
+
+  <text id="message.message.victory.and.wait">
+    <en>Starting the next level in few seconds...</en>
+    <es>Empezando siguiente nivel en pocos segundos...</es>
+  </text>
+
+  <text id="message.defeat">
+    <en>Defeat!!!</en>
+    <es>Derrota!!!</es>
+  </text>
+
+  <text id="message.message.defeat.and.wait">
+    <en>You have been defeated. Wait to restart the game.</en>
+    <es>Has sido derrotado. Espera para reiniciar el juego.</es>
+  </text>
+
+  <text id="message.game.completed">
+    <en>Game Completed!!!</en>
+    <es>Juego Completado!!!</es>
+  </text>
+
+  <text id="message.game.completed.start.over.powerup.full">
+    <en>You will start over the game with your powerups aquired.</en>
+    <es>Reiniciaras el juego con todos los potenciadores consiguidos.</es>
+  </text>
+
+  <text id="message.disconnected">
+    <en>Game Disconnected!!!</en>
+    <es>Juego Disconnectado!!!</es>
+  </text>
+
+  <text id="message.message.disconnected.and.exit">
+    <en>We are sorry. The game has been disconnected. Press to exit.</en>
+    <es>Lo sentimos. El juego ha caido. Pulse para salir.</es>
+  </text>
+
+  <text id="message.powerup.build.tower">
+    <en>Build Tower</en>
+    <es>Construir Torre</es>
+  </text>
+
+  <text id="message.powerup.super.shoot">
+    <en>Super Shoot</en>
+    <es>Super Disparo</es>
+  </text>
+
+  <text id="message.powerup.mega.bomb">
+    <en>Mega Bomb</en>
+    <es>Mega Bomba</es>
+  </text>
+
+</texts>
+
+

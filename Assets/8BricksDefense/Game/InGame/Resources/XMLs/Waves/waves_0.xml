@@ -1,0 +1,18 @@
+<waves>
+	<wave delay_start="5" delay_generation="5">
+		<enemy enter="0" exit="0" type="0" animation="IDLE" speed="15" life="100"/>
+		<enemy enter="0" exit="0" type="0" animation="IDLE" speed="15" life="100"/>
+    <enemy enter="0" exit="0" type="0" animation="IDLE" speed="15" life="100"/>
+	</wave>
+	<wave delay_start="25" delay_generation="7">
+		<enemy enter="0" exit="0" type="1" animation="WALK" speed="30" life="50"/>
+		<enemy enter="0" exit="0" type="1" animation="WALK" speed="30" life="50"/>
+    <enemy enter="0" exit="0" type="1" animation="WALK" speed="30" life="50"/>
+	</wave>
+	<wave delay_start="35" delay_generation="6">
+    <enemy enter="0" exit="0" type="0" animation="IDLE" speed="15" life="120"/>
+		<enemy enter="0" exit="0" type="1" animation="WALK" speed="30" life="50"/>
+    <enemy enter="0" exit="0" type="0" animation="IDLE" speed="15" life="120"/>
+    <enemy enter="0" exit="0" type="1" animation="WALK" speed="30" life="50"/>
+	</wave>
+</waves>
