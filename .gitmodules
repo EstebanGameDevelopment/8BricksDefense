@@ -1,0 +1,3 @@
+[submodule "Assets/Submodules"]
+	path = Assets/Submodules
+	url = https://github.com/EstebanGameDevelopment/YourNetworkTools.git
