@@ -235,7 +235,7 @@ PlayerSettings:
   AndroidTargetDevice: 0
   AndroidSplashScreenScale: 0
   androidSplashScreen: {fileID: 0}
-  AndroidKeystoreName: D:/Workspace/Snippets/8BricksDefense/eightbricksdefense.keystore
+  AndroidKeystoreName: C:/Users/Esteban/Desktop/GitHub/8BricksDefense/eightbricksdefense.keystore
   AndroidKeyaliasName: eight bricks defense
   AndroidTVCompatibility: 1
   AndroidIsGame: 1

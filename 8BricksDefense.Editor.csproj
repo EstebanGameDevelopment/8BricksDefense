@@ -378,6 +378,7 @@
     <None Include="Assets\Plugins\Android\AndroidManifest.xml" />
     <None Include="Assets\Plugins\Pixelplacement\iTween\ReadMe!\ReadMe!.txt" />
     <None Include="Assets\Submodules\NetworkTools\Menus\Resources\Languages\TextsMenus.xml" />
+    <None Include="Assets\Submodules\NetworkTools\Networking\Scripts\Controller\SERVER\README.txt" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <Target Name="GenerateTargetFrameworkMonikerAttribute" />
