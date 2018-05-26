@@ -20,7 +20,7 @@ namespace EightBricksDefense
 		// ----------------------------------------------
 		// CONSTANTS
 		// ----------------------------------------------	
-		public const float DAMAGE = 50;
+		public const float DAMAGE = 10;
 		public const float SPEED = 10;
 
 		// -------------------------------------------
@@ -44,7 +44,7 @@ namespace EightBricksDefense
 		 */
 		public override void OnTriggerEnter(Collider _collision)
 		{
-			if (CheckCollisionEnemy(_collision.gameObject, DAMAGE))
+			if (CheckCollisionEnemy(_collision.gameObject, DAMAGE).Length > 0)
 			{
 				GameEventController.Instance.DispatchGameEvent(EVENT_SHOOT_DESTROY, this.gameObject);
 			}

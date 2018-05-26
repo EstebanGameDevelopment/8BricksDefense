@@ -4,8 +4,9 @@ using System.Linq;
 using System.Text;
 using UnityEngine;
 using UnityEngine.UI;
+using YourCommonTools;
 using YourNetworkingTools;
-using YouVRUI;
+using YourVRUI;
 
 namespace EightBricksDefense
 {
@@ -71,7 +72,7 @@ namespace EightBricksDefense
 		 */
 		public void Destroy()
 		{
-			GameObject.DestroyObject(this.gameObject);
+			GameObject.Destroy(this.gameObject);
 		}
 
 		// -------------------------------------------

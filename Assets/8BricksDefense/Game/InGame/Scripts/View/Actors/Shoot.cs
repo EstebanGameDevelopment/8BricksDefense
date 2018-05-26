@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using UnityEngine;
+using YourCommonTools;
 using YourNetworkingTools;
 
 namespace EightBricksDefense
@@ -89,7 +90,7 @@ namespace EightBricksDefense
 		/* 
 		 * CheckCollisionEnemy
 		 */
-		protected bool CheckCollisionEnemy(GameObject _collided, float _damage)
+		protected string CheckCollisionEnemy(GameObject _collided, float _damage)
 		{
 			if (_collided.tag == Enemy.TAG_ENEMY)
 			{
@@ -100,13 +101,16 @@ namespace EightBricksDefense
 						if (_collided.GetComponent<Enemy>() != null)
 						{
 							_collided.GetComponent<Enemy>().Damage(_damage, transform.position);
-							return true;
+							return _collided.tag;
 						}
 					}
 				}
-				return false;
+				return "";
 			}
-			return true;
+			else
+			{
+				return _collided.tag;
+			}
 		}
 
 		// -------------------------------------------

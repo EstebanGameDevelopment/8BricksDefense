@@ -5,6 +5,7 @@ using System.Text;
 using UnityEngine;
 using UnityEngine.SceneManagement;
 using UnityEngine.UI;
+using YourCommonTools;
 using YourNetworkingTools;
 
 /******************************************
@@ -65,7 +66,7 @@ public class ScreenGameOptionsView : ScreenBaseView, IBasicView
 	public void Destroy()
 	{
 		MenuEventController.Instance.MenuEvent -= OnMenuEvent;
-		GameObject.DestroyObject(this.gameObject);
+		GameObject.Destroy(this.gameObject);
 	}
 
 	// -------------------------------------------
@@ -74,7 +75,7 @@ public class ScreenGameOptionsView : ScreenBaseView, IBasicView
 		*/
 	private void PlayInVRPressed()
 	{
-		SoundsController.Instance.PlayFxSelection();
+		SoundsController.Instance.PlaySingleSound(SoundsConfiguration.SOUND_SELECTION_FX);
 		MultiplayerConfiguration.SaveEnableCardboard(true);
 		MenuScreenController.Instance.CreateOrJoinRoomInServer(false);
 		MenuScreenController.Instance.CreateNewScreen(ScreenMenuLoadingView.SCREEN_NAME, ScreenTypePreviousActionEnum.KEEP_CURRENT_SCREEN, false, null);
@@ -86,7 +87,7 @@ public class ScreenGameOptionsView : ScreenBaseView, IBasicView
 		*/
 	private void PlayWithGyroscopePressed()
 	{
-		SoundsController.Instance.PlayFxSelection();
+		SoundsController.Instance.PlaySingleSound(SoundsConfiguration.SOUND_SELECTION_FX);
 		MultiplayerConfiguration.SaveEnableCardboard(false);
 		MenuScreenController.Instance.CreateOrJoinRoomInServer(false);
 		MenuScreenController.Instance.CreateNewScreen(ScreenMenuLoadingView.SCREEN_NAME, ScreenTypePreviousActionEnum.KEEP_CURRENT_SCREEN, false, null);

@@ -45,7 +45,7 @@ namespace EightBricksDefense
 		 */
 		public override void OnTriggerEnter(Collider _collision)
 		{
-			if (CheckCollisionEnemy(_collision.gameObject, DAMAGE))
+			if (CheckCollisionEnemy(_collision.gameObject, DAMAGE) == Enemy.TAG_ENEMY)
 			{ 
 				GameEventController.Instance.DispatchGameEvent(EVENT_SHOOT_DESTROY, this.gameObject);
 			}

@@ -1,3 +1,9 @@
 [submodule "Assets/Submodules"]
 	path = Assets/Submodules
 	url = https://github.com/EstebanGameDevelopment/YourNetworkTools.git
+[submodule "Assets/YourCommonTools"]
+	path = Assets/YourCommonTools
+	url = https://github.com/EstebanGameDevelopment/YourCommonTools.git
+[submodule "Assets/YourVRUI"]
+	path = Assets/YourVRUI
+	url = https://github.com/EstebanGameDevelopment/YourVRUI.git

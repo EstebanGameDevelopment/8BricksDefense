@@ -922,6 +922,7 @@ MeshRenderer:
   m_MotionVectors: 1
   m_LightProbeUsage: 0
   m_ReflectionProbeUsage: 1
+  m_RenderingLayerMask: 4294967295
   m_Materials:
   - {fileID: 2100000, guid: edf83db5ac07c274ca95ba1e9f72ae3d, type: 2}
   m_StaticBatchInfo:
@@ -994,6 +995,7 @@ Animator:
   m_WarningMessage: 
   m_HasTransformHierarchy: 1
   m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorControllerStateOnDisable: 0
 --- !u!137 &13710254
 SkinnedMeshRenderer:
   m_ObjectHideFlags: 1
@@ -1007,6 +1009,7 @@ SkinnedMeshRenderer:
   m_MotionVectors: 1
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
+  m_RenderingLayerMask: 4294967295
   m_Materials:
   - {fileID: 2100000, guid: b7642857580d74b889aeb77f6bda2db4, type: 2}
   m_StaticBatchInfo:
