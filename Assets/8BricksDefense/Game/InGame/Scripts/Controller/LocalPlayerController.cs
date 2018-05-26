@@ -1,4 +1,5 @@
 ﻿using UnityEngine;
+using YourCommonTools;
 using YourNetworkingTools;
 using YourVRUI;
 
@@ -176,7 +177,7 @@ namespace EightBricksDefense
 			this.gameObject.tag = YourVRUIScreenController.Instance.TagPlayerDetectionCollision;
 
 #if UNITY_ANDROID || UNITY_IOS
-			if (!MultiplayerConfiguration.LoadEnableCardboard())
+			if (!CardboardLoaderVR.LoadEnableCardboard())
 			{
 				m_enableGyroscope = true;
 			}

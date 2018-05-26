@@ -651,13 +651,8 @@
     <Compile Include="Assets\8BricksDefense\Game\InGame\Scripts\View\HUD\ScreenVRHUDView.cs" />
     <Compile Include="Assets\8BricksDefense\Game\InGame\Scripts\View\InformationScreens\ScreenVRInformationView.cs" />
     <Compile Include="Assets\8BricksDefense\Game\Menus\ScreenGameOptionsView.cs" />
-    <Compile Include="Assets\8BricksDefense\Game\Utilities\CardboardLoaderVR.cs" />
-    <Compile Include="Assets\8BricksDefense\Game\Utilities\ClearLocalStore.cs" />
     <Compile Include="Assets\8BricksDefense\Game\Utilities\GameConfiguration.cs" />
     <Compile Include="Assets\8BricksDefense\Game\Utilities\SoundsConstants.cs" />
-    <Compile Include="Assets\8BricksDefense\Game\Utilities\StateManager.cs" />
-    <Compile Include="Assets\8BricksDefense\Game\Utilities\StateManagerNoMono.cs" />
-    <Compile Include="Assets\8BricksDefense\Game\Utilities\Utilities.cs" />
     <Compile Include="Assets\FacebookSDK\Examples\Scripts\ConsoleBase.cs" />
     <Compile Include="Assets\FacebookSDK\Examples\Scripts\LogView.cs" />
     <Compile Include="Assets\FacebookSDK\Examples\Scripts\MenuBase.cs" />
@@ -853,8 +848,10 @@
     <Compile Include="Assets\YourCommonTools\Controllers\Scripts\TextEntry.cs" />
     <Compile Include="Assets\YourCommonTools\Controllers\Scripts\TimedEventData.cs" />
     <Compile Include="Assets\YourCommonTools\Encryption\RJEncryptor.cs" />
+    <Compile Include="Assets\YourCommonTools\Image\ImageRequestedInfo.cs" />
     <Compile Include="Assets\YourCommonTools\Image\ImageURLLoader.cs" />
     <Compile Include="Assets\YourCommonTools\Image\ImageUtils.cs" />
+    <Compile Include="Assets\YourCommonTools\Image\ThumbnailRequestedInfo.cs" />
     <Compile Include="Assets\YourCommonTools\Interpolator\InterpolateData.cs" />
     <Compile Include="Assets\YourCommonTools\Interpolator\InterpolatorController.cs" />
     <Compile Include="Assets\YourCommonTools\JSON\SimpleJSON.cs" />

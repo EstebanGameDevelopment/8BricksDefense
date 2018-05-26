@@ -76,7 +76,7 @@ public class ScreenGameOptionsView : ScreenBaseView, IBasicView
 	private void PlayInVRPressed()
 	{
 		SoundsController.Instance.PlaySingleSound(SoundsConfiguration.SOUND_SELECTION_FX);
-		MultiplayerConfiguration.SaveEnableCardboard(true);
+		CardboardLoaderVR.SaveEnableCardboard(true);
 		MenuScreenController.Instance.CreateOrJoinRoomInServer(false);
 		MenuScreenController.Instance.CreateNewScreen(ScreenMenuLoadingView.SCREEN_NAME, ScreenTypePreviousActionEnum.KEEP_CURRENT_SCREEN, false, null);
 	}
@@ -88,7 +88,7 @@ public class ScreenGameOptionsView : ScreenBaseView, IBasicView
 	private void PlayWithGyroscopePressed()
 	{
 		SoundsController.Instance.PlaySingleSound(SoundsConfiguration.SOUND_SELECTION_FX);
-		MultiplayerConfiguration.SaveEnableCardboard(false);
+		CardboardLoaderVR.SaveEnableCardboard(false);
 		MenuScreenController.Instance.CreateOrJoinRoomInServer(false);
 		MenuScreenController.Instance.CreateNewScreen(ScreenMenuLoadingView.SCREEN_NAME, ScreenTypePreviousActionEnum.KEEP_CURRENT_SCREEN, false, null);
 	}
