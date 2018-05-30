@@ -550,7 +550,7 @@ PlayerSettings:
   webGLLinkerTarget: 0
   scriptingDefineSymbols:
     1: 
-    7: ENABLE_FACEBOOK
+    7: ENABLE_FACEBOOK;ENABLE_BALANCE_LOADER
   platformArchitecture: {}
   scriptingBackend: {}
   il2cppCompilerConfiguration: {}
@@ -637,7 +637,7 @@ PlayerSettings:
   cloudServicesEnabled:
     UNet: 1
   facebookSdkVersion: pluginIncompatible
-  apiCompatibilityLevel: 2
+  apiCompatibilityLevel: 3
   cloudProjectId: 80e7b90d-c7cb-4fcb-9dcc-3e30d8c601cc
   projectName: 8MultiBricksBase
   organizationId: esteban-gallardo

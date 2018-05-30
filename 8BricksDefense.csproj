@@ -30,7 +30,7 @@
     <IntermediateOutputPath>Temp\UnityVS_obj\Debug\</IntermediateOutputPath>
     <ErrorReport>prompt</ErrorReport>
     <WarningLevel>4</WarningLevel>
-    <DefineConstants>DEBUG;TRACE;UNITY_5_3_OR_NEWER;UNITY_5_4_OR_NEWER;UNITY_5_5_OR_NEWER;UNITY_5_6_OR_NEWER;UNITY_2017_1_OR_NEWER;UNITY_2017_2_OR_NEWER;UNITY_2017_3_OR_NEWER;UNITY_2018_1_OR_NEWER;UNITY_2018_1_1;UNITY_2018_1;UNITY_2018;UNITY_ANALYTICS;ENABLE_AUDIO;ENABLE_CACHING;ENABLE_CLOTH;ENABLE_MICROPHONE;ENABLE_MULTIPLE_DISPLAYS;ENABLE_PHYSICS;ENABLE_SPRITERENDERER_FLIPPING;ENABLE_SPRITES;ENABLE_GRID;ENABLE_TILEMAP;ENABLE_TERRAIN;ENABLE_RAKNET;ENABLE_DIRECTOR;ENABLE_UNET;ENABLE_LZMA;ENABLE_UNITYEVENTS;ENABLE_WEBCAM;ENABLE_WWW;ENABLE_CLOUD_SERVICES_COLLAB;ENABLE_CLOUD_SERVICES_COLLAB_SOFTLOCKS;ENABLE_CLOUD_SERVICES_ADS;ENABLE_CLOUD_HUB;ENABLE_CLOUD_PROJECT_ID;ENABLE_CLOUD_SERVICES_USE_WEBREQUEST;ENABLE_CLOUD_SERVICES_UNET;ENABLE_CLOUD_SERVICES_BUILD;ENABLE_CLOUD_LICENSE;ENABLE_EDITOR_HUB;ENABLE_EDITOR_HUB_LICENSE;ENABLE_WEBSOCKET_CLIENT;ENABLE_DIRECTOR_AUDIO;ENABLE_DIRECTOR_TEXTURE;ENABLE_TIMELINE;ENABLE_EDITOR_METRICS;ENABLE_EDITOR_METRICS_CACHING;ENABLE_MANAGED_JOBS;ENABLE_MANAGED_TRANSFORM_JOBS;INCLUDE_DYNAMIC_GI;INCLUDE_GI;ENABLE_MONO_BDWGC;PLATFORM_SUPPORTS_MONO;INCLUDE_PUBNUB;ENABLE_PLAYMODE_TESTS_RUNNER;ENABLE_VIDEO;ENABLE_PACKMAN;ENABLE_CUSTOM_RENDER_TEXTURE;ENABLE_LOCALIZATION;PLATFORM_ANDROID;UNITY_ANDROID;UNITY_ANDROID_API;ENABLE_SUBSTANCE;ENABLE_EGL;ENABLE_NETWORK;ENABLE_RUNTIME_GI;ENABLE_CRUNCH_TEXTURE_COMPRESSION;ENABLE_UNITYWEBREQUEST;ENABLE_CLOUD_SERVICES;ENABLE_CLOUD_SERVICES_ANALYTICS;ENABLE_EVENT_QUEUE;ENABLE_CLOUD_SERVICES_PURCHASING;ENABLE_CLOUD_SERVICES_CRASH_REPORTING;ENABLE_CLOUD_SERVICES_NATIVE_CRASH_REPORTING;PLATFORM_SUPPORTS_ADS_ID;UNITY_CAN_SHOW_SPLASH_SCREEN;ENABLE_VR;ENABLE_AR;ENABLE_SPATIALTRACKING;ENABLE_UNITYADS_RUNTIME;UNITY_UNITYADS_API;ENABLE_MONO;NET_4_6;ENABLE_PROFILER;DEBUG;TRACE;UNITY_ASSERTIONS;UNITY_EDITOR;UNITY_EDITOR_64;UNITY_EDITOR_WIN;ENABLE_UNITY_COLLECTIONS_CHECKS;UNITY_TEAM_LICENSE;ENABLE_VSTU;ENABLE_FACEBOOK;UNITY_HAS_GOOGLEVR;UNITY_HAS_TANGO</DefineConstants>
+    <DefineConstants>DEBUG;TRACE;UNITY_5_3_OR_NEWER;UNITY_5_4_OR_NEWER;UNITY_5_5_OR_NEWER;UNITY_5_6_OR_NEWER;UNITY_2017_1_OR_NEWER;UNITY_2017_2_OR_NEWER;UNITY_2017_3_OR_NEWER;UNITY_2018_1_OR_NEWER;UNITY_2018_1_1;UNITY_2018_1;UNITY_2018;UNITY_ANALYTICS;ENABLE_AUDIO;ENABLE_CACHING;ENABLE_CLOTH;ENABLE_MICROPHONE;ENABLE_MULTIPLE_DISPLAYS;ENABLE_PHYSICS;ENABLE_SPRITERENDERER_FLIPPING;ENABLE_SPRITES;ENABLE_GRID;ENABLE_TILEMAP;ENABLE_TERRAIN;ENABLE_RAKNET;ENABLE_DIRECTOR;ENABLE_UNET;ENABLE_LZMA;ENABLE_UNITYEVENTS;ENABLE_WEBCAM;ENABLE_WWW;ENABLE_CLOUD_SERVICES_COLLAB;ENABLE_CLOUD_SERVICES_COLLAB_SOFTLOCKS;ENABLE_CLOUD_SERVICES_ADS;ENABLE_CLOUD_HUB;ENABLE_CLOUD_PROJECT_ID;ENABLE_CLOUD_SERVICES_USE_WEBREQUEST;ENABLE_CLOUD_SERVICES_UNET;ENABLE_CLOUD_SERVICES_BUILD;ENABLE_CLOUD_LICENSE;ENABLE_EDITOR_HUB;ENABLE_EDITOR_HUB_LICENSE;ENABLE_WEBSOCKET_CLIENT;ENABLE_DIRECTOR_AUDIO;ENABLE_DIRECTOR_TEXTURE;ENABLE_TIMELINE;ENABLE_EDITOR_METRICS;ENABLE_EDITOR_METRICS_CACHING;ENABLE_MANAGED_JOBS;ENABLE_MANAGED_TRANSFORM_JOBS;INCLUDE_DYNAMIC_GI;INCLUDE_GI;ENABLE_MONO_BDWGC;PLATFORM_SUPPORTS_MONO;INCLUDE_PUBNUB;ENABLE_PLAYMODE_TESTS_RUNNER;ENABLE_VIDEO;ENABLE_PACKMAN;ENABLE_CUSTOM_RENDER_TEXTURE;ENABLE_LOCALIZATION;PLATFORM_ANDROID;UNITY_ANDROID;UNITY_ANDROID_API;ENABLE_SUBSTANCE;ENABLE_EGL;ENABLE_NETWORK;ENABLE_RUNTIME_GI;ENABLE_CRUNCH_TEXTURE_COMPRESSION;ENABLE_UNITYWEBREQUEST;ENABLE_CLOUD_SERVICES;ENABLE_CLOUD_SERVICES_ANALYTICS;ENABLE_EVENT_QUEUE;ENABLE_CLOUD_SERVICES_PURCHASING;ENABLE_CLOUD_SERVICES_CRASH_REPORTING;ENABLE_CLOUD_SERVICES_NATIVE_CRASH_REPORTING;PLATFORM_SUPPORTS_ADS_ID;UNITY_CAN_SHOW_SPLASH_SCREEN;ENABLE_VR;ENABLE_AR;ENABLE_SPATIALTRACKING;ENABLE_UNITYADS_RUNTIME;UNITY_UNITYADS_API;ENABLE_MONO;NET_4_6;ENABLE_PROFILER;DEBUG;TRACE;UNITY_ASSERTIONS;UNITY_EDITOR;UNITY_EDITOR_64;UNITY_EDITOR_WIN;ENABLE_UNITY_COLLECTIONS_CHECKS;UNITY_TEAM_LICENSE;ENABLE_VSTU;ENABLE_FACEBOOK;ENABLE_BALANCE_LOADER;UNITY_HAS_GOOGLEVR;UNITY_HAS_TANGO</DefineConstants>
     <AllowUnsafeBlocks>true</AllowUnsafeBlocks>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
@@ -40,7 +40,7 @@
     <IntermediateOutputPath>Temp\UnityVS_obj\Release\</IntermediateOutputPath>
     <ErrorReport>prompt</ErrorReport>
     <WarningLevel>4</WarningLevel>
-    <DefineConstants>TRACE;UNITY_5_3_OR_NEWER;UNITY_5_4_OR_NEWER;UNITY_5_5_OR_NEWER;UNITY_5_6_OR_NEWER;UNITY_2017_1_OR_NEWER;UNITY_2017_2_OR_NEWER;UNITY_2017_3_OR_NEWER;UNITY_2018_1_OR_NEWER;UNITY_2018_1_1;UNITY_2018_1;UNITY_2018;UNITY_ANALYTICS;ENABLE_AUDIO;ENABLE_CACHING;ENABLE_CLOTH;ENABLE_MICROPHONE;ENABLE_MULTIPLE_DISPLAYS;ENABLE_PHYSICS;ENABLE_SPRITERENDERER_FLIPPING;ENABLE_SPRITES;ENABLE_GRID;ENABLE_TILEMAP;ENABLE_TERRAIN;ENABLE_RAKNET;ENABLE_DIRECTOR;ENABLE_UNET;ENABLE_LZMA;ENABLE_UNITYEVENTS;ENABLE_WEBCAM;ENABLE_WWW;ENABLE_CLOUD_SERVICES_COLLAB;ENABLE_CLOUD_SERVICES_COLLAB_SOFTLOCKS;ENABLE_CLOUD_SERVICES_ADS;ENABLE_CLOUD_HUB;ENABLE_CLOUD_PROJECT_ID;ENABLE_CLOUD_SERVICES_USE_WEBREQUEST;ENABLE_CLOUD_SERVICES_UNET;ENABLE_CLOUD_SERVICES_BUILD;ENABLE_CLOUD_LICENSE;ENABLE_EDITOR_HUB;ENABLE_EDITOR_HUB_LICENSE;ENABLE_WEBSOCKET_CLIENT;ENABLE_DIRECTOR_AUDIO;ENABLE_DIRECTOR_TEXTURE;ENABLE_TIMELINE;ENABLE_EDITOR_METRICS;ENABLE_EDITOR_METRICS_CACHING;ENABLE_MANAGED_JOBS;ENABLE_MANAGED_TRANSFORM_JOBS;INCLUDE_DYNAMIC_GI;INCLUDE_GI;ENABLE_MONO_BDWGC;PLATFORM_SUPPORTS_MONO;INCLUDE_PUBNUB;ENABLE_PLAYMODE_TESTS_RUNNER;ENABLE_VIDEO;ENABLE_PACKMAN;ENABLE_CUSTOM_RENDER_TEXTURE;ENABLE_LOCALIZATION;PLATFORM_ANDROID;UNITY_ANDROID;UNITY_ANDROID_API;ENABLE_SUBSTANCE;ENABLE_EGL;ENABLE_NETWORK;ENABLE_RUNTIME_GI;ENABLE_CRUNCH_TEXTURE_COMPRESSION;ENABLE_UNITYWEBREQUEST;ENABLE_CLOUD_SERVICES;ENABLE_CLOUD_SERVICES_ANALYTICS;ENABLE_EVENT_QUEUE;ENABLE_CLOUD_SERVICES_PURCHASING;ENABLE_CLOUD_SERVICES_CRASH_REPORTING;ENABLE_CLOUD_SERVICES_NATIVE_CRASH_REPORTING;PLATFORM_SUPPORTS_ADS_ID;UNITY_CAN_SHOW_SPLASH_SCREEN;ENABLE_VR;ENABLE_AR;ENABLE_SPATIALTRACKING;ENABLE_UNITYADS_RUNTIME;UNITY_UNITYADS_API;ENABLE_MONO;NET_4_6;ENABLE_PROFILER;DEBUG;TRACE;UNITY_ASSERTIONS;UNITY_EDITOR;UNITY_EDITOR_64;UNITY_EDITOR_WIN;ENABLE_UNITY_COLLECTIONS_CHECKS;UNITY_TEAM_LICENSE;ENABLE_VSTU;ENABLE_FACEBOOK;UNITY_HAS_GOOGLEVR;UNITY_HAS_TANGO</DefineConstants>
+    <DefineConstants>TRACE;UNITY_5_3_OR_NEWER;UNITY_5_4_OR_NEWER;UNITY_5_5_OR_NEWER;UNITY_5_6_OR_NEWER;UNITY_2017_1_OR_NEWER;UNITY_2017_2_OR_NEWER;UNITY_2017_3_OR_NEWER;UNITY_2018_1_OR_NEWER;UNITY_2018_1_1;UNITY_2018_1;UNITY_2018;UNITY_ANALYTICS;ENABLE_AUDIO;ENABLE_CACHING;ENABLE_CLOTH;ENABLE_MICROPHONE;ENABLE_MULTIPLE_DISPLAYS;ENABLE_PHYSICS;ENABLE_SPRITERENDERER_FLIPPING;ENABLE_SPRITES;ENABLE_GRID;ENABLE_TILEMAP;ENABLE_TERRAIN;ENABLE_RAKNET;ENABLE_DIRECTOR;ENABLE_UNET;ENABLE_LZMA;ENABLE_UNITYEVENTS;ENABLE_WEBCAM;ENABLE_WWW;ENABLE_CLOUD_SERVICES_COLLAB;ENABLE_CLOUD_SERVICES_COLLAB_SOFTLOCKS;ENABLE_CLOUD_SERVICES_ADS;ENABLE_CLOUD_HUB;ENABLE_CLOUD_PROJECT_ID;ENABLE_CLOUD_SERVICES_USE_WEBREQUEST;ENABLE_CLOUD_SERVICES_UNET;ENABLE_CLOUD_SERVICES_BUILD;ENABLE_CLOUD_LICENSE;ENABLE_EDITOR_HUB;ENABLE_EDITOR_HUB_LICENSE;ENABLE_WEBSOCKET_CLIENT;ENABLE_DIRECTOR_AUDIO;ENABLE_DIRECTOR_TEXTURE;ENABLE_TIMELINE;ENABLE_EDITOR_METRICS;ENABLE_EDITOR_METRICS_CACHING;ENABLE_MANAGED_JOBS;ENABLE_MANAGED_TRANSFORM_JOBS;INCLUDE_DYNAMIC_GI;INCLUDE_GI;ENABLE_MONO_BDWGC;PLATFORM_SUPPORTS_MONO;INCLUDE_PUBNUB;ENABLE_PLAYMODE_TESTS_RUNNER;ENABLE_VIDEO;ENABLE_PACKMAN;ENABLE_CUSTOM_RENDER_TEXTURE;ENABLE_LOCALIZATION;PLATFORM_ANDROID;UNITY_ANDROID;UNITY_ANDROID_API;ENABLE_SUBSTANCE;ENABLE_EGL;ENABLE_NETWORK;ENABLE_RUNTIME_GI;ENABLE_CRUNCH_TEXTURE_COMPRESSION;ENABLE_UNITYWEBREQUEST;ENABLE_CLOUD_SERVICES;ENABLE_CLOUD_SERVICES_ANALYTICS;ENABLE_EVENT_QUEUE;ENABLE_CLOUD_SERVICES_PURCHASING;ENABLE_CLOUD_SERVICES_CRASH_REPORTING;ENABLE_CLOUD_SERVICES_NATIVE_CRASH_REPORTING;PLATFORM_SUPPORTS_ADS_ID;UNITY_CAN_SHOW_SPLASH_SCREEN;ENABLE_VR;ENABLE_AR;ENABLE_SPATIALTRACKING;ENABLE_UNITYADS_RUNTIME;UNITY_UNITYADS_API;ENABLE_MONO;NET_4_6;ENABLE_PROFILER;DEBUG;TRACE;UNITY_ASSERTIONS;UNITY_EDITOR;UNITY_EDITOR_64;UNITY_EDITOR_WIN;ENABLE_UNITY_COLLECTIONS_CHECKS;UNITY_TEAM_LICENSE;ENABLE_VSTU;ENABLE_FACEBOOK;ENABLE_BALANCE_LOADER;UNITY_HAS_GOOGLEVR;UNITY_HAS_TANGO</DefineConstants>
     <AllowUnsafeBlocks>true</AllowUnsafeBlocks>
   </PropertyGroup>
   <ItemGroup>
@@ -768,17 +768,12 @@
     <Compile Include="Assets\GoogleVR\Scripts\Utilities\GvrUIHelpers.cs" />
     <Compile Include="Assets\GoogleVR\Scripts\Utilities\GvrVRHelpers.cs" />
     <Compile Include="Assets\GoogleVR\Scripts\Video\GvrVideoPlayerTexture.cs" />
-    <Compile Include="Assets\Submodules\NetworkTools\Menus\Scripts\Controller\FacebookController.cs" />
-    <Compile Include="Assets\Submodules\NetworkTools\Menus\Scripts\Controller\MenuEventController.cs" />
     <Compile Include="Assets\Submodules\NetworkTools\Menus\Scripts\Controller\MenuScreenController.cs" />
-    <Compile Include="Assets\Submodules\NetworkTools\Menus\Scripts\Model\PageInformationData.cs" />
     <Compile Include="Assets\Submodules\NetworkTools\Menus\Scripts\View\FacebookScreens\ScreenFacebookConnectView.cs" />
     <Compile Include="Assets\Submodules\NetworkTools\Menus\Scripts\View\FacebookScreens\ScreenFacebookCreateInvitationView.cs" />
     <Compile Include="Assets\Submodules\NetworkTools\Menus\Scripts\View\FacebookScreens\ScreenFacebookInvitationListView.cs" />
     <Compile Include="Assets\Submodules\NetworkTools\Menus\Scripts\View\FacebookScreens\ScreenFacebookMainView.cs" />
     <Compile Include="Assets\Submodules\NetworkTools\Menus\Scripts\View\InformationScreens\ScreenGameOptionsView.cs" />
-    <Compile Include="Assets\Submodules\NetworkTools\Menus\Scripts\View\InformationScreens\ScreenMenuInformationView.cs" />
-    <Compile Include="Assets\Submodules\NetworkTools\Menus\Scripts\View\InformationScreens\ScreenMenuLoadingView.cs" />
     <Compile Include="Assets\Submodules\NetworkTools\Menus\Scripts\View\LobbyScreens\ScreenCreateRoomView.cs" />
     <Compile Include="Assets\Submodules\NetworkTools\Menus\Scripts\View\LobbyScreens\ScreenListRoomsView.cs" />
     <Compile Include="Assets\Submodules\NetworkTools\Menus\Scripts\View\LobbyScreens\ScreenMainLobbyView.cs" />
@@ -787,23 +782,14 @@
     <Compile Include="Assets\Submodules\NetworkTools\Menus\Scripts\View\MainMenuScreens\ScreenMenuMainView.cs" />
     <Compile Include="Assets\Submodules\NetworkTools\Menus\Scripts\View\MainMenuScreens\ScreenMenuNumberPlayersView.cs" />
     <Compile Include="Assets\Submodules\NetworkTools\Menus\Scripts\View\MainMenuScreens\ScreenSplashView.cs" />
-    <Compile Include="Assets\Submodules\NetworkTools\Menus\Scripts\View\Utils\BaseItemView.cs" />
-    <Compile Include="Assets\Submodules\NetworkTools\Menus\Scripts\View\Utils\IBasicItemView.cs" />
-    <Compile Include="Assets\Submodules\NetworkTools\Menus\Scripts\View\Utils\IBasicView.cs" />
     <Compile Include="Assets\Submodules\NetworkTools\Menus\Scripts\View\Utils\ItemFriendView.cs" />
     <Compile Include="Assets\Submodules\NetworkTools\Menus\Scripts\View\Utils\ItemLobbyRoomView.cs" />
     <Compile Include="Assets\Submodules\NetworkTools\Menus\Scripts\View\Utils\ItemRoomView.cs" />
-    <Compile Include="Assets\Submodules\NetworkTools\Menus\Scripts\View\Utils\ItemStringView.cs" />
-    <Compile Include="Assets\Submodules\NetworkTools\Menus\Scripts\View\Utils\ScreenBaseView.cs" />
-    <Compile Include="Assets\Submodules\NetworkTools\Menus\Scripts\View\Utils\SelectableButtonView.cs" />
     <Compile Include="Assets\Submodules\NetworkTools\Networking\Scripts\Controller\ClientTCPEventsController.cs" />
     <Compile Include="Assets\Submodules\NetworkTools\Networking\Scripts\Controller\CommunicationsController.cs" />
     <Compile Include="Assets\Submodules\NetworkTools\Networking\Scripts\Controller\GenericNetworkTransmitter.cs" />
-    <Compile Include="Assets\Submodules\NetworkTools\Networking\Scripts\Controller\HTTP\BaseDataHTTP.cs" />
     <Compile Include="Assets\Submodules\NetworkTools\Networking\Scripts\Controller\HTTP\CreateNewRoomHTTP.cs" />
     <Compile Include="Assets\Submodules\NetworkTools\Networking\Scripts\Controller\HTTP\GetListRoomsHTTP.cs" />
-    <Compile Include="Assets\Submodules\NetworkTools\Networking\Scripts\Controller\HTTP\IHTTPComms.cs" />
-    <Compile Include="Assets\Submodules\NetworkTools\Networking\Scripts\Controller\HTTPController.cs" />
     <Compile Include="Assets\Submodules\NetworkTools\Networking\Scripts\Controller\NetworkDiscoveryUNET.cs" />
     <Compile Include="Assets\Submodules\NetworkTools\Networking\Scripts\Controller\NetworkManagerUNET.cs" />
     <Compile Include="Assets\Submodules\NetworkTools\Networking\Scripts\Controller\NetworkVariablesController.cs" />
@@ -834,10 +820,9 @@
     <Compile Include="Assets\Submodules\NetworkTools\System\Scripts\Controllers\NetworkEventController.cs" />
     <Compile Include="Assets\Submodules\NetworkTools\System\Scripts\Controllers\StreamingHololens.cs" />
     <Compile Include="Assets\Submodules\NetworkTools\System\Scripts\Controllers\StreamingWebcam.cs" />
-    <Compile Include="Assets\Submodules\NetworkTools\System\Scripts\Controllers\UIEventController.cs" />
     <Compile Include="Assets\Submodules\NetworkTools\System\Scripts\Intefaces\IGameNetworkActor.cs" />
     <Compile Include="Assets\Submodules\NetworkTools\System\Scripts\Model\ActorNetwork.cs" />
-    <Compile Include="Assets\Submodules\NetworkTools\System\Scripts\Model\AppEventData.cs" />
+    <Compile Include="Assets\Submodules\NetworkTools\System\Scripts\Model\CommsHTTPConfiguration.cs" />
     <Compile Include="Assets\Submodules\NetworkTools\System\Scripts\Model\MultiplayerConfiguration.cs" />
     <Compile Include="Assets\Submodules\NetworkTools\System\Scripts\Model\SoundsConfiguration.cs" />
     <Compile Include="Assets\YourCommonTools\Actor\Actor.cs" />
@@ -848,15 +833,39 @@
     <Compile Include="Assets\YourCommonTools\Controllers\Scripts\TextEntry.cs" />
     <Compile Include="Assets\YourCommonTools\Controllers\Scripts\TimedEventData.cs" />
     <Compile Include="Assets\YourCommonTools\Encryption\RJEncryptor.cs" />
+    <Compile Include="Assets\YourCommonTools\Facebook\FacebookController.cs" />
+    <Compile Include="Assets\YourCommonTools\FileBrowser\Scripts\FileItemView.cs" />
+    <Compile Include="Assets\YourCommonTools\FileBrowser\Scripts\FileManagerView.cs" />
+    <Compile Include="Assets\YourCommonTools\FileBrowser\Scripts\FileSystemController.cs" />
+    <Compile Include="Assets\YourCommonTools\GoogleMaps\GoogleMap.cs" />
+    <Compile Include="Assets\YourCommonTools\HTTPComms\BaseDataHTTP.cs" />
+    <Compile Include="Assets\YourCommonTools\HTTPComms\CommController.cs" />
+    <Compile Include="Assets\YourCommonTools\HTTPComms\CommEventData.cs" />
+    <Compile Include="Assets\YourCommonTools\HTTPComms\IHTTPComms.cs" />
     <Compile Include="Assets\YourCommonTools\Image\ImageRequestedInfo.cs" />
     <Compile Include="Assets\YourCommonTools\Image\ImageURLLoader.cs" />
     <Compile Include="Assets\YourCommonTools\Image\ImageUtils.cs" />
     <Compile Include="Assets\YourCommonTools\Image\ThumbnailRequestedInfo.cs" />
+    <Compile Include="Assets\YourCommonTools\Inputs\KeysEventInputController.cs" />
     <Compile Include="Assets\YourCommonTools\Interpolator\InterpolateData.cs" />
     <Compile Include="Assets\YourCommonTools\Interpolator\InterpolatorController.cs" />
     <Compile Include="Assets\YourCommonTools\JSON\SimpleJSON.cs" />
     <Compile Include="Assets\YourCommonTools\Pathfinding\Scripts\NodePathMatrix.cs" />
     <Compile Include="Assets\YourCommonTools\Pathfinding\Scripts\PathFindingController.cs" />
+    <Compile Include="Assets\YourCommonTools\Screens\Controller\ScreenController.cs" />
+    <Compile Include="Assets\YourCommonTools\Screens\Controller\UIEventController.cs" />
+    <Compile Include="Assets\YourCommonTools\Screens\Interface\IBasicItemView.cs" />
+    <Compile Include="Assets\YourCommonTools\Screens\Interface\IBasicView.cs" />
+    <Compile Include="Assets\YourCommonTools\Screens\Model\AppEventData.cs" />
+    <Compile Include="Assets\YourCommonTools\Screens\View\Information\ScreenInformationView.cs" />
+    <Compile Include="Assets\YourCommonTools\Screens\View\Information\ScreenLoadingView.cs" />
+    <Compile Include="Assets\YourCommonTools\Screens\View\Information\ScreenSingleImageView.cs" />
+    <Compile Include="Assets\YourCommonTools\Screens\View\Slots\ISlotView.cs" />
+    <Compile Include="Assets\YourCommonTools\Screens\View\Slots\SlotManagerView.cs" />
+    <Compile Include="Assets\YourCommonTools\Screens\View\Utils\BaseItemView.cs" />
+    <Compile Include="Assets\YourCommonTools\Screens\View\Utils\ItemStringView.cs" />
+    <Compile Include="Assets\YourCommonTools\Screens\View\Utils\ScreenBaseView.cs" />
+    <Compile Include="Assets\YourCommonTools\Screens\View\Utils\SelectableButtonView.cs" />
     <Compile Include="Assets\YourCommonTools\Utilities\CardboardLoaderVR.cs" />
     <Compile Include="Assets\YourCommonTools\Utilities\ClearLocalStore.cs" />
     <Compile Include="Assets\YourCommonTools\Utilities\DateConverter.cs" />

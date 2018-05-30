@@ -47,7 +47,7 @@ public class ScreenGameOptionsView : ScreenBaseView, IBasicView
 		playWithGyroscopeGame.transform.Find("Text").GetComponent<Text>().text = LanguageController.Instance.GetText("screen.play.with.gyroscope");
 		playWithGyroscopeGame.GetComponent<Button>().onClick.AddListener(PlayWithGyroscopePressed);
 
-		MenuEventController.Instance.MenuEvent += new MenuEventHandler(OnMenuEvent);
+		UIEventController.Instance.UIEvent += new UIEventHandler(OnMenuEvent);
 	}
 
 	// -------------------------------------------
@@ -61,12 +61,16 @@ public class ScreenGameOptionsView : ScreenBaseView, IBasicView
 
 	// -------------------------------------------
 	/* 
-		* Destroy
-		*/
-	public void Destroy()
+	* Destroy
+	*/
+	public override bool Destroy()
 	{
-		MenuEventController.Instance.MenuEvent -= OnMenuEvent;
+		if (base.Destroy()) return true;
+
+		UIEventController.Instance.UIEvent -= OnMenuEvent;
 		GameObject.Destroy(this.gameObject);
+
+		return false;
 	}
 
 	// -------------------------------------------
@@ -78,19 +82,21 @@ public class ScreenGameOptionsView : ScreenBaseView, IBasicView
 		SoundsController.Instance.PlaySingleSound(SoundsConfiguration.SOUND_SELECTION_FX);
 		CardboardLoaderVR.SaveEnableCardboard(true);
 		MenuScreenController.Instance.CreateOrJoinRoomInServer(false);
-		MenuScreenController.Instance.CreateNewScreen(ScreenMenuLoadingView.SCREEN_NAME, ScreenTypePreviousActionEnum.KEEP_CURRENT_SCREEN, false, null);
+		Destroy();
+		MenuScreenController.Instance.CreateNewScreen(ScreenLoadingView.SCREEN_NAME, UIScreenTypePreviousAction.KEEP_CURRENT_SCREEN, false, null);		
 	}
 
 	// -------------------------------------------
 	/* 
-		* JoinGamePressed
-		*/
+	* JoinGamePressed
+	*/
 	private void PlayWithGyroscopePressed()
 	{
 		SoundsController.Instance.PlaySingleSound(SoundsConfiguration.SOUND_SELECTION_FX);
 		CardboardLoaderVR.SaveEnableCardboard(false);
 		MenuScreenController.Instance.CreateOrJoinRoomInServer(false);
-		MenuScreenController.Instance.CreateNewScreen(ScreenMenuLoadingView.SCREEN_NAME, ScreenTypePreviousActionEnum.KEEP_CURRENT_SCREEN, false, null);
+		Destroy();
+		MenuScreenController.Instance.CreateNewScreen(ScreenLoadingView.SCREEN_NAME, UIScreenTypePreviousAction.KEEP_CURRENT_SCREEN, false, null);
 	}
 
 	// -------------------------------------------

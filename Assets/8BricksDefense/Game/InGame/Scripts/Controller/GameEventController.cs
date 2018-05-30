@@ -568,7 +568,7 @@ namespace EightBricksDefense
 		 */
 		private void SetState(int _newState)
 		{
-			List<PageInformationData> pages = new List<PageInformationData>();
+			List<PageInformation> pages = new List<PageInformation>();
 
 			base.ChangeState(_newState);
 
