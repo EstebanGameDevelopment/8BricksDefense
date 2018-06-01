@@ -550,7 +550,7 @@ PlayerSettings:
   webGLLinkerTarget: 0
   scriptingDefineSymbols:
     1: 
-    7: ENABLE_FACEBOOK;ENABLE_BALANCE_LOADER
+    7: ENABLE_FACEBOOK
   platformArchitecture: {}
   scriptingBackend: {}
   il2cppCompilerConfiguration: {}
