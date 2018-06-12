@@ -19,7 +19,7 @@ namespace EightBricksDefense
 	 * 
 	 * @author Esteban Gallardo
 	 */
-	public class ScreenVRHUDView : MonoBehaviour, IBasicScreenView
+	public class ScreenVRHUDView : MonoBehaviour, IBasicView
 	{
 		public const string SCREEN_NAME = "SCREEN_VR_HUD";
 
@@ -41,6 +41,19 @@ namespace EightBricksDefense
 		private Text m_description;
 		private Text m_bullets;
 		private bool m_hasBeenDestroyed = false;
+
+		public string NameOfScreen
+		{
+			get
+			{
+				return "";
+			}
+
+			set
+			{
+				
+			}
+		}
 
 		// -------------------------------------------
 		/* 
@@ -70,9 +83,18 @@ namespace EightBricksDefense
 		/* 
 		 * Destroy
 		 */
-		public void Destroy()
+		public bool Destroy()
 		{
 			GameObject.Destroy(this.gameObject);
+			return true;
+		}
+
+		// -------------------------------------------
+		/* 
+		 * SetActivation
+		 */
+		public void SetActivation(bool _activation)
+		{
 		}
 
 		// -------------------------------------------
@@ -83,12 +105,18 @@ namespace EightBricksDefense
 		{
 			if (_nameEvent == EVENT_HUD_ACTIVATION)
 			{
-				m_container.gameObject.SetActive((bool)_list[0]);
-				m_lifes.text = GameEventController.Instance.GlobalLifes.ToString();
+				if (m_container != null)
+				{
+					m_container.gameObject.SetActive((bool)_list[0]);
+					m_lifes.text = GameEventController.Instance.GlobalLifes.ToString();
+				}
 			}
 			if (_nameEvent == Enemy.EVENT_ENEMY_ESCAPED)
 			{
-				m_lifes.text = GameEventController.Instance.GlobalLifes.ToString();
+				if (m_container != null)
+				{
+					m_lifes.text = GameEventController.Instance.GlobalLifes.ToString();
+				}					
 			}
 			if (_nameEvent == EVENT_HUD_REFRESH_DATA)
 			{

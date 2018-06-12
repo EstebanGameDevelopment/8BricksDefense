@@ -125,7 +125,7 @@ namespace EightBricksDefense
 		void Start()
 		{
 			GameEventController.Instance.GameEvent += new GameEventHandler(OnGameEvent);
-			ScreenVREventController.Instance.ScreenVREvent += new ScreenVREventHandler(OnScreenVREvent);
+			UIEventController.Instance.UIEvent += new UIEventHandler(OnScreenVREvent);
 			NetworkEventController.Instance.NetworkEvent += new NetworkEventHandler(OnNetworkEvent);
 
 			TeleportController.Instance.Initialize();
@@ -139,11 +139,9 @@ namespace EightBricksDefense
 			PathFindingController.Instance.Initialize();
 			LevelBuilderController.Instance.Initialize();
 			SoundsController.Instance.Initialize();
+			KeysEventInputController.Instance.Initialization();
 
 			m_isMultiplayer = false;
-
-			// CREATE HUD
-			CreateGameHUD();
 
 			// START AS A MASTER OR AS A CLIENT
 			m_totalPlayersConfigurated = MultiplayerConfiguration.LoadNumberOfPlayers();
@@ -194,14 +192,13 @@ namespace EightBricksDefense
 
 			if (instance != null)
 			{
-				DestroyObject(instance.gameObject);
+				Destroy(instance.gameObject);
 				instance = null;
 			}
 
-			ScreenVREventController.Instance.ScreenVREvent -= OnScreenVREvent;
+			UIEventController.Instance.UIEvent -= OnScreenVREvent;
 			NetworkEventController.Instance.NetworkEvent -= OnNetworkEvent;
 
-			ScreenVREventController.Instance.Destroy();
 			NetworkEventController.Instance.Destroy();
 
 			Debug.Log("GameEventController::Destroy::ALL RESOURCES RELEASED");
@@ -302,7 +299,10 @@ namespace EightBricksDefense
 		*/
 		private void CreateGameHUD()
 		{
-			YourVRUIScreenController.Instance.CreateHUD(ScreenVRHUDView.SCREEN_NAME, 2.5f);
+			if (GameObject.FindObjectOfType<ScreenVRHUDView>() == null)
+			{
+				YourVRUIScreenController.Instance.CreateHUD(ScreenVRHUDView.SCREEN_NAME, 2.5f);
+			}			
 		}
 
 		// -------------------------------------------
@@ -347,19 +347,19 @@ namespace EightBricksDefense
 				if ((m_connectionPlayersInitialized > 0) && (m_connectionPlayersInitialized < 100))
 				{
 					pages.Add(new PageInformation(LanguageController.Instance.GetText("message.connecting"), LanguageController.Instance.GetText("message.connecting.players.please.wait.or.start", m_connectionPlayersInitialized), null, null));
-					YourVRUIScreenController.Instance.CreateScreenLinkedToCamera(ScreenVRInformationView.SCREEN_VR_INFORMATION, pages, 1.5f, -1);
-					ScreenVREventController.Instance.DispatchScreenVREvent(ScreenVRInformationView.EVENT_SCREEN_VR_ENABLE_OK_BUTTON, false);
+					YourVRUIScreenController.Instance.CreateScreenLinkedToCamera(ScreenInformationView.SCREEN_INFORMATION, pages, 1.5f, -1);
+					UIEventController.Instance.DispatchUIEvent(ScreenInformationView.EVENT_SCREEN_ENABLE_OK_BUTTON, false);
 				}
 				else
 				{
 					pages.Add(new PageInformation(LanguageController.Instance.GetText("message.connecting"), LanguageController.Instance.GetText("message.location.connecting.please.wait"), null, null));
-					YourVRUIScreenController.Instance.CreateScreenLinkedToCamera(ScreenVRInformationView.SCREEN_VR_LOADING, pages, 1.5f, -1);
+					YourVRUIScreenController.Instance.CreateScreenLinkedToCamera(ScreenInformationView.SCREEN_WAIT, pages, 1.5f, -1);
 				}
 			}
 			else
 			{
 				pages.Add(new PageInformation(LanguageController.Instance.GetText("message.loading"), LanguageController.Instance.GetText("message.please.wait"), null, null));
-				YourVRUIScreenController.Instance.CreateScreenLinkedToCamera(ScreenVRInformationView.SCREEN_VR_LOADING, pages, 1.5f, -1);
+				YourVRUIScreenController.Instance.CreateScreenLinkedToCamera(ScreenInformationView.SCREEN_WAIT, pages, 1.5f, -1);
 			}
 		}
 
@@ -371,7 +371,7 @@ namespace EightBricksDefense
 		{
 			List<PageInformation> pages = new List<PageInformation>();
 			pages.Add(new PageInformation(LanguageController.Instance.GetText("message.victory"), LanguageController.Instance.GetText("message.message.victory.and.wait"), null, null));
-			YourVRUIScreenController.Instance.CreateScreenLinkedToCamera(ScreenVRInformationView.SCREEN_VR_LOADING, pages, 1.5f, -1);
+			YourVRUIScreenController.Instance.CreateScreenLinkedToCamera(ScreenInformationView.SCREEN_WAIT, pages, 1.5f, -1);
 		}
 
 		// -------------------------------------------
@@ -382,7 +382,7 @@ namespace EightBricksDefense
 		{
 			List<PageInformation> pages = new List<PageInformation>();
 			pages.Add(new PageInformation(LanguageController.Instance.GetText("message.defeat"), LanguageController.Instance.GetText("message.message.defeat.and.wait"), null, null));
-			YourVRUIScreenController.Instance.CreateScreenLinkedToCamera(ScreenVRInformationView.SCREEN_VR_LOADING, pages, 1.5f, -1);
+			YourVRUIScreenController.Instance.CreateScreenLinkedToCamera(ScreenInformationView.SCREEN_WAIT, pages, 1.5f, -1);
 		}
 
 		// -------------------------------------------
@@ -393,7 +393,7 @@ namespace EightBricksDefense
 		{
 			List<PageInformation> pages = new List<PageInformation>();
 			pages.Add(new PageInformation(LanguageController.Instance.GetText("message.disconnected"), LanguageController.Instance.GetText("message.message.disconnected.and.exit"), null, null));
-			YourVRUIScreenController.Instance.CreateScreenLinkedToCamera(ScreenVRInformationView.SCREEN_VR_INFORMATION, pages, 1.5f, -1);
+			YourVRUIScreenController.Instance.CreateScreenLinkedToCamera(ScreenInformationView.SCREEN_WAIT, pages, 1.5f, -1);
 		}
 
 		// -------------------------------------------
@@ -404,7 +404,7 @@ namespace EightBricksDefense
 		{
 			List<PageInformation> pages = new List<PageInformation>();
 			pages.Add(new PageInformation(LanguageController.Instance.GetText("message.game.completed"), LanguageController.Instance.GetText("message.game.completed.start.over.powerup.full"), null, null));
-			YourVRUIScreenController.Instance.CreateScreenLinkedToCamera(ScreenVRInformationView.SCREEN_VR_LOADING, pages, 1.5f, -1);
+			YourVRUIScreenController.Instance.CreateScreenLinkedToCamera(ScreenInformationView.SCREEN_WAIT, pages, 1.5f, -1);
 		}
 
 		// -------------------------------------------
@@ -438,7 +438,7 @@ namespace EightBricksDefense
 			{
 				List<PageInformation> pages = new List<PageInformation>();
 				pages.Add(new PageInformation(LanguageController.Instance.GetText("message.playing.level.x", (m_level + 1)), LanguageController.Instance.GetText("message.playing.level.description"), null, null));
-				YourVRUIScreenController.Instance.CreateScreenLinkedToCamera(ScreenVRInformationView.SCREEN_VR_INFORMATION, pages, 1.5f, 10);
+				YourVRUIScreenController.Instance.CreateScreenLinkedToCamera(ScreenInformationView.SCREEN_INFORMATION, pages, 1.5f, 10);
 			}
 		}
 
@@ -448,7 +448,7 @@ namespace EightBricksDefense
 		*/
 		private void OnScreenVREvent(string _nameEvent, params object[] _list)
 		{
-			if (_nameEvent == YourVRUIScreenController.EVENT_SCREENMANAGER_REPORT_DESTROYED)
+			if (_nameEvent == UIEventController.EVENT_SCREENMANAGER_REPORT_DESTROYED)
 			{
 				switch (m_state)
 				{
@@ -460,7 +460,7 @@ namespace EightBricksDefense
 						break;
 				}
 			}
-			if (_nameEvent == ScreenVRInformationView.EVENT_SCREEN_VR_INFORMATION_CONFIRMATION_POPUP)
+			if (_nameEvent == ScreenController.EVENT_CONFIRMATION_POPUP)
 			{
 				bool accepted = (bool)_list[1];
 				switch (m_state)
@@ -503,7 +503,7 @@ namespace EightBricksDefense
 				if (m_connectionPlayersInitialized > 0)
 				{
 					m_connectionPlayersInitialized--;
-					ScreenVREventController.Instance.DispatchScreenVREvent(ScreenVRInformationView.EVENT_SCREEN_VR_UPDATE_TEXT_DESCRIPTION, LanguageController.Instance.GetText("message.connecting.players.please.wait.or.start", m_connectionPlayersInitialized));
+					UIEventController.Instance.DispatchUIEvent(ScreenInformationView.EVENT_SCREEN_UPDATE_TEXT_DESCRIPTION, LanguageController.Instance.GetText("message.connecting.players.please.wait.or.start", m_connectionPlayersInitialized));
 					m_totalPlayersInGame++;
 					CheckGameStart();
 				}
@@ -512,7 +512,7 @@ namespace EightBricksDefense
 					if (_nameEvent == NetworkEventController.EVENT_SYSTEM_INITIALITZATION_LOCAL_COMPLETED)
 					{
 						m_communicationEstablished = true;
-						ScreenVREventController.Instance.DispatchScreenVREvent(ScreenVRInformationView.EVENT_SCREEN_VR_ENABLE_OK_BUTTON, true);
+						UIEventController.Instance.DispatchUIEvent(ScreenInformationView.EVENT_SCREEN_ENABLE_OK_BUTTON, true);
 					}
 				}
 			}
@@ -585,8 +585,7 @@ namespace EightBricksDefense
 #endif
 					GameEventController.instance.DispatchGameEvent(LocalPlayerController.EVENT_LOCALPLAYERCONTROLLER_FREEZE_PHYSICS);
 
-					ScreenVREventController.Instance.DispatchScreenVREvent(YourVRUIScreenController.EVENT_SCREENMANAGER_DESTROY_BY_NAME_SCREEN, ScreenVRInformationView.SCREEN_VR_LOADING);
-					ScreenVREventController.Instance.DispatchScreenVREvent(YourVRUIScreenController.EVENT_SCREENMANAGER_DESTROY_BY_NAME_SCREEN, ScreenVRInformationView.SCREEN_VR_INFORMATION);
+					UIEventController.Instance.DispatchUIEvent(UIEventController.EVENT_SCREENMANAGER_DESTROY_ALL_SCREEN);
 
 					GameEventController.instance.DispatchGameEvent(ScreenVRHUDView.EVENT_HUD_ACTIVATION, false);
 					CreateLoadingScreen();
@@ -597,8 +596,7 @@ namespace EightBricksDefense
 #if DEBUG_MODE_DISPLAY_LOG
 					Debug.LogError("+++++++STATE_GAME_PRESENTATION");
 #endif
-					ScreenVREventController.Instance.DispatchScreenVREvent(YourVRUIScreenController.EVENT_SCREENMANAGER_DESTROY_BY_NAME_SCREEN, ScreenVRInformationView.SCREEN_VR_LOADING);
-					ScreenVREventController.Instance.DispatchScreenVREvent(YourVRUIScreenController.EVENT_SCREENMANAGER_DESTROY_BY_NAME_SCREEN, ScreenVRInformationView.SCREEN_VR_INFORMATION);
+					UIEventController.Instance.DispatchUIEvent(UIEventController.EVENT_SCREENMANAGER_DESTROY_ALL_SCREEN);
 
 					// LEVEL PRESENTATION
 					GameEventController.Instance.DelayGameEvent(EVENT_GAMEEVENT_SHOW_PRESENTATION_SCREEN, 0.2f);
@@ -610,12 +608,13 @@ namespace EightBricksDefense
 					Debug.LogError("+++++++STATE_GAME_RUNNING");
 #endif
 
-					ScreenVREventController.Instance.DispatchScreenVREvent(YourVRUIScreenController.EVENT_SCREENMANAGER_DESTROY_BY_NAME_SCREEN, ScreenVRInformationView.SCREEN_VR_INFORMATION);
+					UIEventController.Instance.DispatchUIEvent(UIEventController.EVENT_SCREENMANAGER_DESTROY_ALL_SCREEN);
 
 					// ASSIGN INITIAL POSITIONS
 					GameEventController.instance.DelayGameEvent(PlayersController.EVENT_PLAYERSCONTROLLER_ASSIGN_INITIAL_POSITION, 0.1f);
 
 					// HUD ACTIVATION
+					CreateGameHUD();
 					GameEventController.instance.DispatchGameEvent(ScreenVRHUDView.EVENT_HUD_ACTIVATION, true);
 					SoundsConstants.PlayMelodyGameplay();
 

@@ -501,11 +501,6 @@ namespace EightBricksDefense
 #if (UNITY_ANDROID || UNITY_IOS) && !UNITY_EDITOR
 		GyroModifyCamera();
 #endif
-
-			if (Input.GetButtonUp("Fire1") || Input.GetKeyUp(KeyCode.LeftControl))
-			{
-				ScreenVREventController.Instance.DispatchScreenVREvent(KeyEventInputController.ACTION_BUTTON_DOWN);
-			}
 		}
 
 
@@ -549,9 +544,8 @@ namespace EightBricksDefense
 				MoveCameraWithMouse();
 			}
 
-
 			// CHECK FIRE PRESSED
-			if (Input.GetButtonDown("Fire1") || Input.GetKeyDown(KeyCode.LeftControl))
+			if (Input.GetButtonDown("Fire1") || Input.GetMouseButtonDown(0) || Input.GetKeyDown(KeyCode.LeftControl))
 			{
 				m_fireHasBeenPressed = true;
 			}
@@ -570,9 +564,8 @@ namespace EightBricksDefense
 			m_timeoutShootCoolDown -= Time.deltaTime;
 			if (m_fireHasBeenPressed)
 			{
-				if (Input.GetButtonUp("Fire1") || Input.GetKeyUp(KeyCode.LeftControl))
+				if (Input.GetButtonUp("Fire1") || Input.GetMouseButtonUp(0) || Input.GetKeyUp(KeyCode.LeftControl))
 				{
-					ScreenVREventController.Instance.DispatchScreenVREvent(KeyEventInputController.ACTION_BUTTON_DOWN);
 					m_fireHasBeenPressed = false;
 					m_timeAcum = 0;
 					if (m_timeoutShootCoolDown <= 0)
@@ -720,7 +713,7 @@ namespace EightBricksDefense
 		{
 			if (_nameEvent == EVENT_LOCALPLAYERCONTROLLER_SET_POSITION)
 			{
-				m_initialPosition = UtilitiesYourVRUI.ClonePoint((Vector3)_list[0]);
+				m_initialPosition = Utilities.ClonePoint((Vector3)_list[0]);
 				this.gameObject.transform.position = m_initialPosition;
 			}
 			if (_nameEvent == EVENT_LOCALPLAYERCONTROLLER_FREEZE_PHYSICS)
