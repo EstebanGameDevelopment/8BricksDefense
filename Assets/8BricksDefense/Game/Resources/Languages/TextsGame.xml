@@ -139,8 +139,8 @@
 
   <!-- REMOTE MODE -->
   <text id="screen.remote.mode.friends.mode">
-    <en>Play with Friends</en>
-    <es>Jugar con amigos</es>
+    <en>Connect with Facebook</en>
+    <es>Conectar con Facebook</es>
   </text>
 
   <text id="screen.remote.mode.lobby.mode">

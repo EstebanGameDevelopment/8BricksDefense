@@ -39,7 +39,8 @@ namespace EightBricksDefense
 		public const int STATE_TARGETING = 2;
 		public const int STATE_GO = 3;
 
-		public const float TIME_TO_TRIGGER_TELEPORT_TARGETING = 0.5f;
+        public const float TIME_TO_ACTION_DOWN = 0.3f;
+        public const float TIME_TO_TRIGGER_TELEPORT_TARGETING = 0.5f;
 		public const float TIME_TO_TELEPORT = 0.5f;
 		public const float TIMEOUT_TO_UPDATE_ROTATION = 0.5f;
 		public const float TIMEOUT_TO_SHOOT_COOLDOWN = 0.4f;
@@ -501,7 +502,13 @@ namespace EightBricksDefense
 #if (UNITY_ANDROID || UNITY_IOS) && !UNITY_EDITOR
 		GyroModifyCamera();
 #endif
-		}
+
+            // CHECK FIRE PRESSED
+            if (Input.GetButtonDown("Fire1") || Input.GetMouseButtonDown(0) || Input.GetKeyDown(KeyCode.LeftControl))
+            {
+                UIEventController.Instance.DispatchUIEvent(KeysEventInputController.ACTION_BUTTON_DOWN);
+            }
+        }
 
 
 		// -------------------------------------------
@@ -550,23 +557,23 @@ namespace EightBricksDefense
 				m_fireHasBeenPressed = true;
 			}
 
-			if (m_fireHasBeenPressed)
-			{
-				m_timeAcum += Time.deltaTime;
-				if (m_timeAcum > TIME_TO_TRIGGER_TELEPORT_TARGETING)
-				{
-					m_fireHasBeenPressed = false;
-					ChangeState(STATE_TARGETING);
-				}
-			}
+            if (m_fireHasBeenPressed)
+            {
+                m_timeAcum += Time.deltaTime;
+                if (m_timeAcum > TIME_TO_TRIGGER_TELEPORT_TARGETING)
+                {
+                    m_fireHasBeenPressed = false;
+                    ChangeState(STATE_TARGETING);
+                }
+            }
 
-			// CHECK FIRE RELEASED
-			m_timeoutShootCoolDown -= Time.deltaTime;
+            // CHECK FIRE RELEASED
+            m_timeoutShootCoolDown -= Time.deltaTime;
 			if (m_fireHasBeenPressed)
 			{
 				if (Input.GetButtonUp("Fire1") || Input.GetMouseButtonUp(0) || Input.GetKeyUp(KeyCode.LeftControl))
 				{
-					m_fireHasBeenPressed = false;
+                    m_fireHasBeenPressed = false;
 					m_timeAcum = 0;
 					if (m_timeoutShootCoolDown <= 0)
 					{
