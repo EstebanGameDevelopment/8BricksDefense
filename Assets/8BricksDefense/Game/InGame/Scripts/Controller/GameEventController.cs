@@ -576,10 +576,7 @@ namespace EightBricksDefense
 			{
 				/////////////////////////////////
 				case STATE_GAME_LOADING:
-					if (IsGameMaster())
-					{
-						m_playersLoadedInitialData = 0;
-					}
+					m_playersLoadedInitialData = 0;
 #if DEBUG_MODE_DISPLAY_LOG
 					Debug.LogError("+++++++STATE_GAME_LOADING");
 #endif
