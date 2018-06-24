@@ -366,11 +366,11 @@
     <None Include="Assets\GoogleVR\Plugins\Android\proguard-gvr.txt" />
     <None Include="Assets\8BricksDefense\Game\InGame\Resources\FX\Particles\ParticleAdd_Vortex.shader" />
     <None Include="Assets\GoogleVR\Plugins\Android\AndroidManifest-Cardboard.xml" />
-    <Reference Include="Unity.PackageManagerUI.Editor">
-      <HintPath>D:/YourVRExperience/8BricksDefense/Library/ScriptAssemblies/Unity.PackageManagerUI.Editor.dll</HintPath>
-    </Reference>
     <Reference Include="UnityEditor.StandardEvents">
       <HintPath>D:/YourVRExperience/8BricksDefense/Library/ScriptAssemblies/UnityEditor.StandardEvents.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.PackageManagerUI.Editor">
+      <HintPath>D:/YourVRExperience/8BricksDefense/Library/ScriptAssemblies/Unity.PackageManagerUI.Editor.dll</HintPath>
     </Reference>
     <Reference Include="UnityEngine.AIModule">
       <HintPath>C:/Program Files/Unity/Editor/Data/Managed/UnityEngine/UnityEngine.AIModule.dll</HintPath>

@@ -321,6 +321,21 @@
     <es>Mega Bomba</es>
   </text>
 
+  <text id="screen.splash.presentation.text">
+    <en>Multiplayer Example game developed using YourNetworkTools Plugin.++Develop your own apps and games with this asset.</en>
+    <es>Ejemplo de juego multijugador desarrollado usando YourNetworkTools Plugin.++Desarrolla tus apps y juegos con este asset.</es>
+  </text>
+
+  <text id="screen.splash.play.game">
+    <en>Play Game</en>
+    <es>Iniciar Juego</es>
+  </text>
+
+  <text id="screen.splash.go.to.store">
+    <en>Go To Unity Asset Store</en>
+    <es>Ir a la tienda Unity</es>
+  </text>
+  
 </texts>
 
 
