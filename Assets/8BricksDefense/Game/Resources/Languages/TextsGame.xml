@@ -331,6 +331,11 @@
     <es>Iniciar Juego</es>
   </text>
 
+  <text id="screen.splash.timer.2d.game">
+    <en>Press to start in menus 2D before % seconds</en>
+    <es>Pulse para empezar en menus 2D antes de % segundos</es>
+  </text>
+
   <text id="screen.splash.go.to.store">
     <en>Go To Unity Asset Store</en>
     <es>Ir a la tienda Unity</es>
