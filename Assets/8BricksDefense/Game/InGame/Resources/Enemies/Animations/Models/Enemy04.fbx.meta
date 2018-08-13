@@ -1,0 +1,667 @@
+fileFormatVersion: 2
+guid: 20b8027919aadfa4cbc0bbadbeb6091e
+timeCreated: 1458121569
+licenseType: Free
+ModelImporter:
+  serializedVersion: 19
+  fileIDToRecycleName:
+    100000: //RootNode
+    100002: Enemy04
+    100004: Mdl_Enemy04:bn_Arm_L_1
+    100006: Mdl_Enemy04:bn_Arm_L_2
+    100008: Mdl_Enemy04:bn_Arm_R_1
+    100010: Mdl_Enemy04:bn_Arm_R_2
+    100012: Mdl_Enemy04:bn_Foot_L_1
+    100014: Mdl_Enemy04:bn_Foot_L_2
+    100016: Mdl_Enemy04:bn_Foot_R_1
+    100018: Mdl_Enemy04:bn_Foot_R_2
+    100020: Mdl_Enemy04:bn_Head
+    100022: Mdl_Enemy04:bn_Leg_L_1
+    100024: Mdl_Enemy04:bn_Leg_L_2
+    100026: Mdl_Enemy04:bn_Leg_R_1
+    100028: Mdl_Enemy04:bn_Leg_R_2
+    100030: Mdl_Enemy04:bn_Neck
+    100032: Mdl_Enemy04:bn_Spine_1
+    100034: Mdl_Enemy04:bn_Spine_2
+    100036: Mdl_Enemy04:bn_Spine_3
+    100038: Mdl_Enemy04:eff_Arm_L
+    100040: Mdl_Enemy04:eff_Arm_R
+    100042: Mdl_Enemy04:eff_Foot_L
+    100044: Mdl_Enemy04:eff_Foot_R
+    100046: Mdl_Enemy04:eff_Head
+    100048: Mdl_Enemy04:eff_Leg_L
+    100050: Mdl_Enemy04:eff_Leg_R
+    100052: Mdl_Enemy04:eff_Spine
+    100054: Mdl_Enemy04:Mdl_Enemy04
+    100056: Mdl_Enemy04:Rig
+    100058: Mdl_Enemy04:rt_Arm_L
+    100060: Mdl_Enemy04:rt_Arm_R
+    100062: Mdl_Enemy04:rt_Foot_L
+    100064: Mdl_Enemy04:rt_Foot_R
+    100066: Mdl_Enemy04:rt_Head
+    100068: Mdl_Enemy04:rt_Leg_L
+    100070: Mdl_Enemy04:rt_Leg_R
+    100072: Mdl_Enemy04:rt_Spine
+    100074: Enemy04_Low
+    400000: //RootNode
+    400002: Enemy04
+    400004: Mdl_Enemy04:bn_Arm_L_1
+    400006: Mdl_Enemy04:bn_Arm_L_2
+    400008: Mdl_Enemy04:bn_Arm_R_1
+    400010: Mdl_Enemy04:bn_Arm_R_2
+    400012: Mdl_Enemy04:bn_Foot_L_1
+    400014: Mdl_Enemy04:bn_Foot_L_2
+    400016: Mdl_Enemy04:bn_Foot_R_1
+    400018: Mdl_Enemy04:bn_Foot_R_2
+    400020: Mdl_Enemy04:bn_Head
+    400022: Mdl_Enemy04:bn_Leg_L_1
+    400024: Mdl_Enemy04:bn_Leg_L_2
+    400026: Mdl_Enemy04:bn_Leg_R_1
+    400028: Mdl_Enemy04:bn_Leg_R_2
+    400030: Mdl_Enemy04:bn_Neck
+    400032: Mdl_Enemy04:bn_Spine_1
+    400034: Mdl_Enemy04:bn_Spine_2
+    400036: Mdl_Enemy04:bn_Spine_3
+    400038: Mdl_Enemy04:eff_Arm_L
+    400040: Mdl_Enemy04:eff_Arm_R
+    400042: Mdl_Enemy04:eff_Foot_L
+    400044: Mdl_Enemy04:eff_Foot_R
+    400046: Mdl_Enemy04:eff_Head
+    400048: Mdl_Enemy04:eff_Leg_L
+    400050: Mdl_Enemy04:eff_Leg_R
+    400052: Mdl_Enemy04:eff_Spine
+    400054: Mdl_Enemy04:Mdl_Enemy04
+    400056: Mdl_Enemy04:Rig
+    400058: Mdl_Enemy04:rt_Arm_L
+    400060: Mdl_Enemy04:rt_Arm_R
+    400062: Mdl_Enemy04:rt_Foot_L
+    400064: Mdl_Enemy04:rt_Foot_R
+    400066: Mdl_Enemy04:rt_Head
+    400068: Mdl_Enemy04:rt_Leg_L
+    400070: Mdl_Enemy04:rt_Leg_R
+    400072: Mdl_Enemy04:rt_Spine
+    400074: Enemy04_Low
+    4300000: Enemy04
+    4300002: Enemy04_Low
+    7400000: Enemy04_anIdle
+    7400002: Enemy04_anWalk
+    7400004: Enemy04_anRun
+    7400006: Enemy04_anAttack
+    7400008: Enemy04_anDie
+    9500000: //RootNode
+    13700000: Enemy04
+    13700002: Enemy04_Low
+  materials:
+    importMaterials: 1
+    materialName: 1
+    materialSearch: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleRotations: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    clipAnimations:
+    - serializedVersion: 16
+      name: Enemy04_anIdle
+      takeName: Take 001
+      firstFrame: 1
+      lastFrame: 100
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 1
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Enemy04
+        weight: 1
+      - path: Mdl_Enemy04:Mdl_Enemy04
+        weight: 1
+      - path: Mdl_Enemy04:Mdl_Enemy04/Mdl_Enemy04:Rig
+        weight: 1
+      - path: Mdl_Enemy04:Mdl_Enemy04/Mdl_Enemy04:Rig/Mdl_Enemy04:rt_Spine
+        weight: 1
+      - path: Mdl_Enemy04:Mdl_Enemy04/Mdl_Enemy04:Rig/Mdl_Enemy04:rt_Spine/Mdl_Enemy04:bn_Spine_1
+        weight: 1
+      - path: Mdl_Enemy04:Mdl_Enemy04/Mdl_Enemy04:Rig/Mdl_Enemy04:rt_Spine/Mdl_Enemy04:bn_Spine_1/Mdl_Enemy04:bn_Spine_2
+        weight: 1
+      - path: Mdl_Enemy04:Mdl_Enemy04/Mdl_Enemy04:Rig/Mdl_Enemy04:rt_Spine/Mdl_Enemy04:bn_Spine_1/Mdl_Enemy04:bn_Spine_2/Mdl_Enemy04:bn_Spine_3
+        weight: 1
+      - path: Mdl_Enemy04:Mdl_Enemy04/Mdl_Enemy04:Rig/Mdl_Enemy04:rt_Spine/Mdl_Enemy04:bn_Spine_1/Mdl_Enemy04:bn_Spine_2/Mdl_Enemy04:bn_Spine_3/Mdl_Enemy04:eff_Spine
+        weight: 1
+      - path: Mdl_Enemy04:Mdl_Enemy04/Mdl_Enemy04:Rig/Mdl_Enemy04:rt_Spine/Mdl_Enemy04:bn_Spine_1/Mdl_Enemy04:bn_Spine_2/Mdl_Enemy04:bn_Spine_3/Mdl_Enemy04:rt_Arm_L
+        weight: 1
+      - path: Mdl_Enemy04:Mdl_Enemy04/Mdl_Enemy04:Rig/Mdl_Enemy04:rt_Spine/Mdl_Enemy04:bn_Spine_1/Mdl_Enemy04:bn_Spine_2/Mdl_Enemy04:bn_Spine_3/Mdl_Enemy04:rt_Arm_L/Mdl_Enemy04:bn_Arm_L_1
+        weight: 1
+      - path: Mdl_Enemy04:Mdl_Enemy04/Mdl_Enemy04:Rig/Mdl_Enemy04:rt_Spine/Mdl_Enemy04:bn_Spine_1/Mdl_Enemy04:bn_Spine_2/Mdl_Enemy04:bn_Spine_3/Mdl_Enemy04:rt_Arm_L/Mdl_Enemy04:bn_Arm_L_1/Mdl_Enemy04:bn_Arm_L_2
+        weight: 1
+      - path: Mdl_Enemy04:Mdl_Enemy04/Mdl_Enemy04:Rig/Mdl_Enemy04:rt_Spine/Mdl_Enemy04:bn_Spine_1/Mdl_Enemy04:bn_Spine_2/Mdl_Enemy04:bn_Spine_3/Mdl_Enemy04:rt_Arm_L/Mdl_Enemy04:bn_Arm_L_1/Mdl_Enemy04:bn_Arm_L_2/Mdl_Enemy04:eff_Arm_L
+        weight: 1
+      - path: Mdl_Enemy04:Mdl_Enemy04/Mdl_Enemy04:Rig/Mdl_Enemy04:rt_Spine/Mdl_Enemy04:bn_Spine_1/Mdl_Enemy04:bn_Spine_2/Mdl_Enemy04:bn_Spine_3/Mdl_Enemy04:rt_Arm_R
+        weight: 1
+      - path: Mdl_Enemy04:Mdl_Enemy04/Mdl_Enemy04:Rig/Mdl_Enemy04:rt_Spine/Mdl_Enemy04:bn_Spine_1/Mdl_Enemy04:bn_Spine_2/Mdl_Enemy04:bn_Spine_3/Mdl_Enemy04:rt_Arm_R/Mdl_Enemy04:bn_Arm_R_1
+        weight: 1
+      - path: Mdl_Enemy04:Mdl_Enemy04/Mdl_Enemy04:Rig/Mdl_Enemy04:rt_Spine/Mdl_Enemy04:bn_Spine_1/Mdl_Enemy04:bn_Spine_2/Mdl_Enemy04:bn_Spine_3/Mdl_Enemy04:rt_Arm_R/Mdl_Enemy04:bn_Arm_R_1/Mdl_Enemy04:bn_Arm_R_2
+        weight: 1
+      - path: Mdl_Enemy04:Mdl_Enemy04/Mdl_Enemy04:Rig/Mdl_Enemy04:rt_Spine/Mdl_Enemy04:bn_Spine_1/Mdl_Enemy04:bn_Spine_2/Mdl_Enemy04:bn_Spine_3/Mdl_Enemy04:rt_Arm_R/Mdl_Enemy04:bn_Arm_R_1/Mdl_Enemy04:bn_Arm_R_2/Mdl_Enemy04:eff_Arm_R
+        weight: 1
+      - path: Mdl_Enemy04:Mdl_Enemy04/Mdl_Enemy04:Rig/Mdl_Enemy04:rt_Spine/Mdl_Enemy04:bn_Spine_1/Mdl_Enemy04:bn_Spine_2/Mdl_Enemy04:bn_Spine_3/Mdl_Enemy04:rt_Head
+        weight: 1
+      - path: Mdl_Enemy04:Mdl_Enemy04/Mdl_Enemy04:Rig/Mdl_Enemy04:rt_Spine/Mdl_Enemy04:bn_Spine_1/Mdl_Enemy04:bn_Spine_2/Mdl_Enemy04:bn_Spine_3/Mdl_Enemy04:rt_Head/Mdl_Enemy04:bn_Neck
+        weight: 1
+      - path: Mdl_Enemy04:Mdl_Enemy04/Mdl_Enemy04:Rig/Mdl_Enemy04:rt_Spine/Mdl_Enemy04:bn_Spine_1/Mdl_Enemy04:bn_Spine_2/Mdl_Enemy04:bn_Spine_3/Mdl_Enemy04:rt_Head/Mdl_Enemy04:bn_Neck/Mdl_Enemy04:bn_Head
+        weight: 1
+      - path: Mdl_Enemy04:Mdl_Enemy04/Mdl_Enemy04:Rig/Mdl_Enemy04:rt_Spine/Mdl_Enemy04:bn_Spine_1/Mdl_Enemy04:bn_Spine_2/Mdl_Enemy04:bn_Spine_3/Mdl_Enemy04:rt_Head/Mdl_Enemy04:bn_Neck/Mdl_Enemy04:bn_Head/Mdl_Enemy04:eff_Head
+        weight: 1
+      - path: Mdl_Enemy04:Mdl_Enemy04/Mdl_Enemy04:Rig/Mdl_Enemy04:rt_Spine/Mdl_Enemy04:bn_Spine_1/Mdl_Enemy04:rt_Leg_L
+        weight: 1
+      - path: Mdl_Enemy04:Mdl_Enemy04/Mdl_Enemy04:Rig/Mdl_Enemy04:rt_Spine/Mdl_Enemy04:bn_Spine_1/Mdl_Enemy04:rt_Leg_L/Mdl_Enemy04:bn_Leg_L_1
+        weight: 1
+      - path: Mdl_Enemy04:Mdl_Enemy04/Mdl_Enemy04:Rig/Mdl_Enemy04:rt_Spine/Mdl_Enemy04:bn_Spine_1/Mdl_Enemy04:rt_Leg_L/Mdl_Enemy04:bn_Leg_L_1/Mdl_Enemy04:bn_Leg_L_2
+        weight: 1
+      - path: Mdl_Enemy04:Mdl_Enemy04/Mdl_Enemy04:Rig/Mdl_Enemy04:rt_Spine/Mdl_Enemy04:bn_Spine_1/Mdl_Enemy04:rt_Leg_L/Mdl_Enemy04:bn_Leg_L_1/Mdl_Enemy04:bn_Leg_L_2/Mdl_Enemy04:eff_Leg_L
+        weight: 1
+      - path: Mdl_Enemy04:Mdl_Enemy04/Mdl_Enemy04:Rig/Mdl_Enemy04:rt_Spine/Mdl_Enemy04:bn_Spine_1/Mdl_Enemy04:rt_Leg_L/Mdl_Enemy04:bn_Leg_L_1/Mdl_Enemy04:bn_Leg_L_2/Mdl_Enemy04:rt_Foot_L
+        weight: 1
+      - path: Mdl_Enemy04:Mdl_Enemy04/Mdl_Enemy04:Rig/Mdl_Enemy04:rt_Spine/Mdl_Enemy04:bn_Spine_1/Mdl_Enemy04:rt_Leg_L/Mdl_Enemy04:bn_Leg_L_1/Mdl_Enemy04:bn_Leg_L_2/Mdl_Enemy04:rt_Foot_L/Mdl_Enemy04:bn_Foot_L_1
+        weight: 1
+      - path: Mdl_Enemy04:Mdl_Enemy04/Mdl_Enemy04:Rig/Mdl_Enemy04:rt_Spine/Mdl_Enemy04:bn_Spine_1/Mdl_Enemy04:rt_Leg_L/Mdl_Enemy04:bn_Leg_L_1/Mdl_Enemy04:bn_Leg_L_2/Mdl_Enemy04:rt_Foot_L/Mdl_Enemy04:bn_Foot_L_1/Mdl_Enemy04:bn_Foot_L_2
+        weight: 1
+      - path: Mdl_Enemy04:Mdl_Enemy04/Mdl_Enemy04:Rig/Mdl_Enemy04:rt_Spine/Mdl_Enemy04:bn_Spine_1/Mdl_Enemy04:rt_Leg_L/Mdl_Enemy04:bn_Leg_L_1/Mdl_Enemy04:bn_Leg_L_2/Mdl_Enemy04:rt_Foot_L/Mdl_Enemy04:bn_Foot_L_1/Mdl_Enemy04:bn_Foot_L_2/Mdl_Enemy04:eff_Foot_L
+        weight: 1
+      - path: Mdl_Enemy04:Mdl_Enemy04/Mdl_Enemy04:Rig/Mdl_Enemy04:rt_Spine/Mdl_Enemy04:bn_Spine_1/Mdl_Enemy04:rt_Leg_R
+        weight: 1
+      - path: Mdl_Enemy04:Mdl_Enemy04/Mdl_Enemy04:Rig/Mdl_Enemy04:rt_Spine/Mdl_Enemy04:bn_Spine_1/Mdl_Enemy04:rt_Leg_R/Mdl_Enemy04:bn_Leg_R_1
+        weight: 1
+      - path: Mdl_Enemy04:Mdl_Enemy04/Mdl_Enemy04:Rig/Mdl_Enemy04:rt_Spine/Mdl_Enemy04:bn_Spine_1/Mdl_Enemy04:rt_Leg_R/Mdl_Enemy04:bn_Leg_R_1/Mdl_Enemy04:bn_Leg_R_2
+        weight: 1
+      - path: Mdl_Enemy04:Mdl_Enemy04/Mdl_Enemy04:Rig/Mdl_Enemy04:rt_Spine/Mdl_Enemy04:bn_Spine_1/Mdl_Enemy04:rt_Leg_R/Mdl_Enemy04:bn_Leg_R_1/Mdl_Enemy04:bn_Leg_R_2/Mdl_Enemy04:eff_Leg_R
+        weight: 1
+      - path: Mdl_Enemy04:Mdl_Enemy04/Mdl_Enemy04:Rig/Mdl_Enemy04:rt_Spine/Mdl_Enemy04:bn_Spine_1/Mdl_Enemy04:rt_Leg_R/Mdl_Enemy04:bn_Leg_R_1/Mdl_Enemy04:bn_Leg_R_2/Mdl_Enemy04:rt_Foot_R
+        weight: 1
+      - path: Mdl_Enemy04:Mdl_Enemy04/Mdl_Enemy04:Rig/Mdl_Enemy04:rt_Spine/Mdl_Enemy04:bn_Spine_1/Mdl_Enemy04:rt_Leg_R/Mdl_Enemy04:bn_Leg_R_1/Mdl_Enemy04:bn_Leg_R_2/Mdl_Enemy04:rt_Foot_R/Mdl_Enemy04:bn_Foot_R_1
+        weight: 1
+      - path: Mdl_Enemy04:Mdl_Enemy04/Mdl_Enemy04:Rig/Mdl_Enemy04:rt_Spine/Mdl_Enemy04:bn_Spine_1/Mdl_Enemy04:rt_Leg_R/Mdl_Enemy04:bn_Leg_R_1/Mdl_Enemy04:bn_Leg_R_2/Mdl_Enemy04:rt_Foot_R/Mdl_Enemy04:bn_Foot_R_1/Mdl_Enemy04:bn_Foot_R_2
+        weight: 1
+      - path: Mdl_Enemy04:Mdl_Enemy04/Mdl_Enemy04:Rig/Mdl_Enemy04:rt_Spine/Mdl_Enemy04:bn_Spine_1/Mdl_Enemy04:rt_Leg_R/Mdl_Enemy04:bn_Leg_R_1/Mdl_Enemy04:bn_Leg_R_2/Mdl_Enemy04:rt_Foot_R/Mdl_Enemy04:bn_Foot_R_1/Mdl_Enemy04:bn_Foot_R_2/Mdl_Enemy04:eff_Foot_R
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 1
+    - serializedVersion: 16
+      name: Enemy04_anWalk
+      takeName: Take 001
+      firstFrame: 101
+      lastFrame: 199
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 1
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Enemy04
+        weight: 1
+      - path: Mdl_Enemy04:Mdl_Enemy04
+        weight: 1
+      - path: Mdl_Enemy04:Mdl_Enemy04/Mdl_Enemy04:Rig
+        weight: 1
+      - path: Mdl_Enemy04:Mdl_Enemy04/Mdl_Enemy04:Rig/Mdl_Enemy04:rt_Spine
+        weight: 1
+      - path: Mdl_Enemy04:Mdl_Enemy04/Mdl_Enemy04:Rig/Mdl_Enemy04:rt_Spine/Mdl_Enemy04:bn_Spine_1
+        weight: 1
+      - path: Mdl_Enemy04:Mdl_Enemy04/Mdl_Enemy04:Rig/Mdl_Enemy04:rt_Spine/Mdl_Enemy04:bn_Spine_1/Mdl_Enemy04:bn_Spine_2
+        weight: 1
+      - path: Mdl_Enemy04:Mdl_Enemy04/Mdl_Enemy04:Rig/Mdl_Enemy04:rt_Spine/Mdl_Enemy04:bn_Spine_1/Mdl_Enemy04:bn_Spine_2/Mdl_Enemy04:bn_Spine_3
+        weight: 1
+      - path: Mdl_Enemy04:Mdl_Enemy04/Mdl_Enemy04:Rig/Mdl_Enemy04:rt_Spine/Mdl_Enemy04:bn_Spine_1/Mdl_Enemy04:bn_Spine_2/Mdl_Enemy04:bn_Spine_3/Mdl_Enemy04:eff_Spine
+        weight: 1
+      - path: Mdl_Enemy04:Mdl_Enemy04/Mdl_Enemy04:Rig/Mdl_Enemy04:rt_Spine/Mdl_Enemy04:bn_Spine_1/Mdl_Enemy04:bn_Spine_2/Mdl_Enemy04:bn_Spine_3/Mdl_Enemy04:rt_Arm_L
+        weight: 1
+      - path: Mdl_Enemy04:Mdl_Enemy04/Mdl_Enemy04:Rig/Mdl_Enemy04:rt_Spine/Mdl_Enemy04:bn_Spine_1/Mdl_Enemy04:bn_Spine_2/Mdl_Enemy04:bn_Spine_3/Mdl_Enemy04:rt_Arm_L/Mdl_Enemy04:bn_Arm_L_1
+        weight: 1
+      - path: Mdl_Enemy04:Mdl_Enemy04/Mdl_Enemy04:Rig/Mdl_Enemy04:rt_Spine/Mdl_Enemy04:bn_Spine_1/Mdl_Enemy04:bn_Spine_2/Mdl_Enemy04:bn_Spine_3/Mdl_Enemy04:rt_Arm_L/Mdl_Enemy04:bn_Arm_L_1/Mdl_Enemy04:bn_Arm_L_2
+        weight: 1
+      - path: Mdl_Enemy04:Mdl_Enemy04/Mdl_Enemy04:Rig/Mdl_Enemy04:rt_Spine/Mdl_Enemy04:bn_Spine_1/Mdl_Enemy04:bn_Spine_2/Mdl_Enemy04:bn_Spine_3/Mdl_Enemy04:rt_Arm_L/Mdl_Enemy04:bn_Arm_L_1/Mdl_Enemy04:bn_Arm_L_2/Mdl_Enemy04:eff_Arm_L
+        weight: 1
+      - path: Mdl_Enemy04:Mdl_Enemy04/Mdl_Enemy04:Rig/Mdl_Enemy04:rt_Spine/Mdl_Enemy04:bn_Spine_1/Mdl_Enemy04:bn_Spine_2/Mdl_Enemy04:bn_Spine_3/Mdl_Enemy04:rt_Arm_R
+        weight: 1
+      - path: Mdl_Enemy04:Mdl_Enemy04/Mdl_Enemy04:Rig/Mdl_Enemy04:rt_Spine/Mdl_Enemy04:bn_Spine_1/Mdl_Enemy04:bn_Spine_2/Mdl_Enemy04:bn_Spine_3/Mdl_Enemy04:rt_Arm_R/Mdl_Enemy04:bn_Arm_R_1
+        weight: 1
+      - path: Mdl_Enemy04:Mdl_Enemy04/Mdl_Enemy04:Rig/Mdl_Enemy04:rt_Spine/Mdl_Enemy04:bn_Spine_1/Mdl_Enemy04:bn_Spine_2/Mdl_Enemy04:bn_Spine_3/Mdl_Enemy04:rt_Arm_R/Mdl_Enemy04:bn_Arm_R_1/Mdl_Enemy04:bn_Arm_R_2
+        weight: 1
+      - path: Mdl_Enemy04:Mdl_Enemy04/Mdl_Enemy04:Rig/Mdl_Enemy04:rt_Spine/Mdl_Enemy04:bn_Spine_1/Mdl_Enemy04:bn_Spine_2/Mdl_Enemy04:bn_Spine_3/Mdl_Enemy04:rt_Arm_R/Mdl_Enemy04:bn_Arm_R_1/Mdl_Enemy04:bn_Arm_R_2/Mdl_Enemy04:eff_Arm_R
+        weight: 1
+      - path: Mdl_Enemy04:Mdl_Enemy04/Mdl_Enemy04:Rig/Mdl_Enemy04:rt_Spine/Mdl_Enemy04:bn_Spine_1/Mdl_Enemy04:bn_Spine_2/Mdl_Enemy04:bn_Spine_3/Mdl_Enemy04:rt_Head
+        weight: 1
+      - path: Mdl_Enemy04:Mdl_Enemy04/Mdl_Enemy04:Rig/Mdl_Enemy04:rt_Spine/Mdl_Enemy04:bn_Spine_1/Mdl_Enemy04:bn_Spine_2/Mdl_Enemy04:bn_Spine_3/Mdl_Enemy04:rt_Head/Mdl_Enemy04:bn_Neck
+        weight: 1
+      - path: Mdl_Enemy04:Mdl_Enemy04/Mdl_Enemy04:Rig/Mdl_Enemy04:rt_Spine/Mdl_Enemy04:bn_Spine_1/Mdl_Enemy04:bn_Spine_2/Mdl_Enemy04:bn_Spine_3/Mdl_Enemy04:rt_Head/Mdl_Enemy04:bn_Neck/Mdl_Enemy04:bn_Head
+        weight: 1
+      - path: Mdl_Enemy04:Mdl_Enemy04/Mdl_Enemy04:Rig/Mdl_Enemy04:rt_Spine/Mdl_Enemy04:bn_Spine_1/Mdl_Enemy04:bn_Spine_2/Mdl_Enemy04:bn_Spine_3/Mdl_Enemy04:rt_Head/Mdl_Enemy04:bn_Neck/Mdl_Enemy04:bn_Head/Mdl_Enemy04:eff_Head
+        weight: 1
+      - path: Mdl_Enemy04:Mdl_Enemy04/Mdl_Enemy04:Rig/Mdl_Enemy04:rt_Spine/Mdl_Enemy04:bn_Spine_1/Mdl_Enemy04:rt_Leg_L
+        weight: 1
+      - path: Mdl_Enemy04:Mdl_Enemy04/Mdl_Enemy04:Rig/Mdl_Enemy04:rt_Spine/Mdl_Enemy04:bn_Spine_1/Mdl_Enemy04:rt_Leg_L/Mdl_Enemy04:bn_Leg_L_1
+        weight: 1
+      - path: Mdl_Enemy04:Mdl_Enemy04/Mdl_Enemy04:Rig/Mdl_Enemy04:rt_Spine/Mdl_Enemy04:bn_Spine_1/Mdl_Enemy04:rt_Leg_L/Mdl_Enemy04:bn_Leg_L_1/Mdl_Enemy04:bn_Leg_L_2
+        weight: 1
+      - path: Mdl_Enemy04:Mdl_Enemy04/Mdl_Enemy04:Rig/Mdl_Enemy04:rt_Spine/Mdl_Enemy04:bn_Spine_1/Mdl_Enemy04:rt_Leg_L/Mdl_Enemy04:bn_Leg_L_1/Mdl_Enemy04:bn_Leg_L_2/Mdl_Enemy04:eff_Leg_L
+        weight: 1
+      - path: Mdl_Enemy04:Mdl_Enemy04/Mdl_Enemy04:Rig/Mdl_Enemy04:rt_Spine/Mdl_Enemy04:bn_Spine_1/Mdl_Enemy04:rt_Leg_L/Mdl_Enemy04:bn_Leg_L_1/Mdl_Enemy04:bn_Leg_L_2/Mdl_Enemy04:rt_Foot_L
+        weight: 1
+      - path: Mdl_Enemy04:Mdl_Enemy04/Mdl_Enemy04:Rig/Mdl_Enemy04:rt_Spine/Mdl_Enemy04:bn_Spine_1/Mdl_Enemy04:rt_Leg_L/Mdl_Enemy04:bn_Leg_L_1/Mdl_Enemy04:bn_Leg_L_2/Mdl_Enemy04:rt_Foot_L/Mdl_Enemy04:bn_Foot_L_1
+        weight: 1
+      - path: Mdl_Enemy04:Mdl_Enemy04/Mdl_Enemy04:Rig/Mdl_Enemy04:rt_Spine/Mdl_Enemy04:bn_Spine_1/Mdl_Enemy04:rt_Leg_L/Mdl_Enemy04:bn_Leg_L_1/Mdl_Enemy04:bn_Leg_L_2/Mdl_Enemy04:rt_Foot_L/Mdl_Enemy04:bn_Foot_L_1/Mdl_Enemy04:bn_Foot_L_2
+        weight: 1
+      - path: Mdl_Enemy04:Mdl_Enemy04/Mdl_Enemy04:Rig/Mdl_Enemy04:rt_Spine/Mdl_Enemy04:bn_Spine_1/Mdl_Enemy04:rt_Leg_L/Mdl_Enemy04:bn_Leg_L_1/Mdl_Enemy04:bn_Leg_L_2/Mdl_Enemy04:rt_Foot_L/Mdl_Enemy04:bn_Foot_L_1/Mdl_Enemy04:bn_Foot_L_2/Mdl_Enemy04:eff_Foot_L
+        weight: 1
+      - path: Mdl_Enemy04:Mdl_Enemy04/Mdl_Enemy04:Rig/Mdl_Enemy04:rt_Spine/Mdl_Enemy04:bn_Spine_1/Mdl_Enemy04:rt_Leg_R
+        weight: 1
+      - path: Mdl_Enemy04:Mdl_Enemy04/Mdl_Enemy04:Rig/Mdl_Enemy04:rt_Spine/Mdl_Enemy04:bn_Spine_1/Mdl_Enemy04:rt_Leg_R/Mdl_Enemy04:bn_Leg_R_1
+        weight: 1
+      - path: Mdl_Enemy04:Mdl_Enemy04/Mdl_Enemy04:Rig/Mdl_Enemy04:rt_Spine/Mdl_Enemy04:bn_Spine_1/Mdl_Enemy04:rt_Leg_R/Mdl_Enemy04:bn_Leg_R_1/Mdl_Enemy04:bn_Leg_R_2
+        weight: 1
+      - path: Mdl_Enemy04:Mdl_Enemy04/Mdl_Enemy04:Rig/Mdl_Enemy04:rt_Spine/Mdl_Enemy04:bn_Spine_1/Mdl_Enemy04:rt_Leg_R/Mdl_Enemy04:bn_Leg_R_1/Mdl_Enemy04:bn_Leg_R_2/Mdl_Enemy04:eff_Leg_R
+        weight: 1
+      - path: Mdl_Enemy04:Mdl_Enemy04/Mdl_Enemy04:Rig/Mdl_Enemy04:rt_Spine/Mdl_Enemy04:bn_Spine_1/Mdl_Enemy04:rt_Leg_R/Mdl_Enemy04:bn_Leg_R_1/Mdl_Enemy04:bn_Leg_R_2/Mdl_Enemy04:rt_Foot_R
+        weight: 1
+      - path: Mdl_Enemy04:Mdl_Enemy04/Mdl_Enemy04:Rig/Mdl_Enemy04:rt_Spine/Mdl_Enemy04:bn_Spine_1/Mdl_Enemy04:rt_Leg_R/Mdl_Enemy04:bn_Leg_R_1/Mdl_Enemy04:bn_Leg_R_2/Mdl_Enemy04:rt_Foot_R/Mdl_Enemy04:bn_Foot_R_1
+        weight: 1
+      - path: Mdl_Enemy04:Mdl_Enemy04/Mdl_Enemy04:Rig/Mdl_Enemy04:rt_Spine/Mdl_Enemy04:bn_Spine_1/Mdl_Enemy04:rt_Leg_R/Mdl_Enemy04:bn_Leg_R_1/Mdl_Enemy04:bn_Leg_R_2/Mdl_Enemy04:rt_Foot_R/Mdl_Enemy04:bn_Foot_R_1/Mdl_Enemy04:bn_Foot_R_2
+        weight: 1
+      - path: Mdl_Enemy04:Mdl_Enemy04/Mdl_Enemy04:Rig/Mdl_Enemy04:rt_Spine/Mdl_Enemy04:bn_Spine_1/Mdl_Enemy04:rt_Leg_R/Mdl_Enemy04:bn_Leg_R_1/Mdl_Enemy04:bn_Leg_R_2/Mdl_Enemy04:rt_Foot_R/Mdl_Enemy04:bn_Foot_R_1/Mdl_Enemy04:bn_Foot_R_2/Mdl_Enemy04:eff_Foot_R
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 1
+    - serializedVersion: 16
+      name: Enemy04_anRun
+      takeName: Take 001
+      firstFrame: 200
+      lastFrame: 259
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 1
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Enemy04
+        weight: 1
+      - path: Mdl_Enemy04:Mdl_Enemy04
+        weight: 1
+      - path: Mdl_Enemy04:Mdl_Enemy04/Mdl_Enemy04:Rig
+        weight: 1
+      - path: Mdl_Enemy04:Mdl_Enemy04/Mdl_Enemy04:Rig/Mdl_Enemy04:rt_Spine
+        weight: 1
+      - path: Mdl_Enemy04:Mdl_Enemy04/Mdl_Enemy04:Rig/Mdl_Enemy04:rt_Spine/Mdl_Enemy04:bn_Spine_1
+        weight: 1
+      - path: Mdl_Enemy04:Mdl_Enemy04/Mdl_Enemy04:Rig/Mdl_Enemy04:rt_Spine/Mdl_Enemy04:bn_Spine_1/Mdl_Enemy04:bn_Spine_2
+        weight: 1
+      - path: Mdl_Enemy04:Mdl_Enemy04/Mdl_Enemy04:Rig/Mdl_Enemy04:rt_Spine/Mdl_Enemy04:bn_Spine_1/Mdl_Enemy04:bn_Spine_2/Mdl_Enemy04:bn_Spine_3
+        weight: 1
+      - path: Mdl_Enemy04:Mdl_Enemy04/Mdl_Enemy04:Rig/Mdl_Enemy04:rt_Spine/Mdl_Enemy04:bn_Spine_1/Mdl_Enemy04:bn_Spine_2/Mdl_Enemy04:bn_Spine_3/Mdl_Enemy04:eff_Spine
+        weight: 1
+      - path: Mdl_Enemy04:Mdl_Enemy04/Mdl_Enemy04:Rig/Mdl_Enemy04:rt_Spine/Mdl_Enemy04:bn_Spine_1/Mdl_Enemy04:bn_Spine_2/Mdl_Enemy04:bn_Spine_3/Mdl_Enemy04:rt_Arm_L
+        weight: 1
+      - path: Mdl_Enemy04:Mdl_Enemy04/Mdl_Enemy04:Rig/Mdl_Enemy04:rt_Spine/Mdl_Enemy04:bn_Spine_1/Mdl_Enemy04:bn_Spine_2/Mdl_Enemy04:bn_Spine_3/Mdl_Enemy04:rt_Arm_L/Mdl_Enemy04:bn_Arm_L_1
+        weight: 1
+      - path: Mdl_Enemy04:Mdl_Enemy04/Mdl_Enemy04:Rig/Mdl_Enemy04:rt_Spine/Mdl_Enemy04:bn_Spine_1/Mdl_Enemy04:bn_Spine_2/Mdl_Enemy04:bn_Spine_3/Mdl_Enemy04:rt_Arm_L/Mdl_Enemy04:bn_Arm_L_1/Mdl_Enemy04:bn_Arm_L_2
+        weight: 1
+      - path: Mdl_Enemy04:Mdl_Enemy04/Mdl_Enemy04:Rig/Mdl_Enemy04:rt_Spine/Mdl_Enemy04:bn_Spine_1/Mdl_Enemy04:bn_Spine_2/Mdl_Enemy04:bn_Spine_3/Mdl_Enemy04:rt_Arm_L/Mdl_Enemy04:bn_Arm_L_1/Mdl_Enemy04:bn_Arm_L_2/Mdl_Enemy04:eff_Arm_L
+        weight: 1
+      - path: Mdl_Enemy04:Mdl_Enemy04/Mdl_Enemy04:Rig/Mdl_Enemy04:rt_Spine/Mdl_Enemy04:bn_Spine_1/Mdl_Enemy04:bn_Spine_2/Mdl_Enemy04:bn_Spine_3/Mdl_Enemy04:rt_Arm_R
+        weight: 1
+      - path: Mdl_Enemy04:Mdl_Enemy04/Mdl_Enemy04:Rig/Mdl_Enemy04:rt_Spine/Mdl_Enemy04:bn_Spine_1/Mdl_Enemy04:bn_Spine_2/Mdl_Enemy04:bn_Spine_3/Mdl_Enemy04:rt_Arm_R/Mdl_Enemy04:bn_Arm_R_1
+        weight: 1
+      - path: Mdl_Enemy04:Mdl_Enemy04/Mdl_Enemy04:Rig/Mdl_Enemy04:rt_Spine/Mdl_Enemy04:bn_Spine_1/Mdl_Enemy04:bn_Spine_2/Mdl_Enemy04:bn_Spine_3/Mdl_Enemy04:rt_Arm_R/Mdl_Enemy04:bn_Arm_R_1/Mdl_Enemy04:bn_Arm_R_2
+        weight: 1
+      - path: Mdl_Enemy04:Mdl_Enemy04/Mdl_Enemy04:Rig/Mdl_Enemy04:rt_Spine/Mdl_Enemy04:bn_Spine_1/Mdl_Enemy04:bn_Spine_2/Mdl_Enemy04:bn_Spine_3/Mdl_Enemy04:rt_Arm_R/Mdl_Enemy04:bn_Arm_R_1/Mdl_Enemy04:bn_Arm_R_2/Mdl_Enemy04:eff_Arm_R
+        weight: 1
+      - path: Mdl_Enemy04:Mdl_Enemy04/Mdl_Enemy04:Rig/Mdl_Enemy04:rt_Spine/Mdl_Enemy04:bn_Spine_1/Mdl_Enemy04:bn_Spine_2/Mdl_Enemy04:bn_Spine_3/Mdl_Enemy04:rt_Head
+        weight: 1
+      - path: Mdl_Enemy04:Mdl_Enemy04/Mdl_Enemy04:Rig/Mdl_Enemy04:rt_Spine/Mdl_Enemy04:bn_Spine_1/Mdl_Enemy04:bn_Spine_2/Mdl_Enemy04:bn_Spine_3/Mdl_Enemy04:rt_Head/Mdl_Enemy04:bn_Neck
+        weight: 1
+      - path: Mdl_Enemy04:Mdl_Enemy04/Mdl_Enemy04:Rig/Mdl_Enemy04:rt_Spine/Mdl_Enemy04:bn_Spine_1/Mdl_Enemy04:bn_Spine_2/Mdl_Enemy04:bn_Spine_3/Mdl_Enemy04:rt_Head/Mdl_Enemy04:bn_Neck/Mdl_Enemy04:bn_Head
+        weight: 1
+      - path: Mdl_Enemy04:Mdl_Enemy04/Mdl_Enemy04:Rig/Mdl_Enemy04:rt_Spine/Mdl_Enemy04:bn_Spine_1/Mdl_Enemy04:bn_Spine_2/Mdl_Enemy04:bn_Spine_3/Mdl_Enemy04:rt_Head/Mdl_Enemy04:bn_Neck/Mdl_Enemy04:bn_Head/Mdl_Enemy04:eff_Head
+        weight: 1
+      - path: Mdl_Enemy04:Mdl_Enemy04/Mdl_Enemy04:Rig/Mdl_Enemy04:rt_Spine/Mdl_Enemy04:bn_Spine_1/Mdl_Enemy04:rt_Leg_L
+        weight: 1
+      - path: Mdl_Enemy04:Mdl_Enemy04/Mdl_Enemy04:Rig/Mdl_Enemy04:rt_Spine/Mdl_Enemy04:bn_Spine_1/Mdl_Enemy04:rt_Leg_L/Mdl_Enemy04:bn_Leg_L_1
+        weight: 1
+      - path: Mdl_Enemy04:Mdl_Enemy04/Mdl_Enemy04:Rig/Mdl_Enemy04:rt_Spine/Mdl_Enemy04:bn_Spine_1/Mdl_Enemy04:rt_Leg_L/Mdl_Enemy04:bn_Leg_L_1/Mdl_Enemy04:bn_Leg_L_2
+        weight: 1
+      - path: Mdl_Enemy04:Mdl_Enemy04/Mdl_Enemy04:Rig/Mdl_Enemy04:rt_Spine/Mdl_Enemy04:bn_Spine_1/Mdl_Enemy04:rt_Leg_L/Mdl_Enemy04:bn_Leg_L_1/Mdl_Enemy04:bn_Leg_L_2/Mdl_Enemy04:eff_Leg_L
+        weight: 1
+      - path: Mdl_Enemy04:Mdl_Enemy04/Mdl_Enemy04:Rig/Mdl_Enemy04:rt_Spine/Mdl_Enemy04:bn_Spine_1/Mdl_Enemy04:rt_Leg_L/Mdl_Enemy04:bn_Leg_L_1/Mdl_Enemy04:bn_Leg_L_2/Mdl_Enemy04:rt_Foot_L
+        weight: 1
+      - path: Mdl_Enemy04:Mdl_Enemy04/Mdl_Enemy04:Rig/Mdl_Enemy04:rt_Spine/Mdl_Enemy04:bn_Spine_1/Mdl_Enemy04:rt_Leg_L/Mdl_Enemy04:bn_Leg_L_1/Mdl_Enemy04:bn_Leg_L_2/Mdl_Enemy04:rt_Foot_L/Mdl_Enemy04:bn_Foot_L_1
+        weight: 1
+      - path: Mdl_Enemy04:Mdl_Enemy04/Mdl_Enemy04:Rig/Mdl_Enemy04:rt_Spine/Mdl_Enemy04:bn_Spine_1/Mdl_Enemy04:rt_Leg_L/Mdl_Enemy04:bn_Leg_L_1/Mdl_Enemy04:bn_Leg_L_2/Mdl_Enemy04:rt_Foot_L/Mdl_Enemy04:bn_Foot_L_1/Mdl_Enemy04:bn_Foot_L_2
+        weight: 1
+      - path: Mdl_Enemy04:Mdl_Enemy04/Mdl_Enemy04:Rig/Mdl_Enemy04:rt_Spine/Mdl_Enemy04:bn_Spine_1/Mdl_Enemy04:rt_Leg_L/Mdl_Enemy04:bn_Leg_L_1/Mdl_Enemy04:bn_Leg_L_2/Mdl_Enemy04:rt_Foot_L/Mdl_Enemy04:bn_Foot_L_1/Mdl_Enemy04:bn_Foot_L_2/Mdl_Enemy04:eff_Foot_L
+        weight: 1
+      - path: Mdl_Enemy04:Mdl_Enemy04/Mdl_Enemy04:Rig/Mdl_Enemy04:rt_Spine/Mdl_Enemy04:bn_Spine_1/Mdl_Enemy04:rt_Leg_R
+        weight: 1
+      - path: Mdl_Enemy04:Mdl_Enemy04/Mdl_Enemy04:Rig/Mdl_Enemy04:rt_Spine/Mdl_Enemy04:bn_Spine_1/Mdl_Enemy04:rt_Leg_R/Mdl_Enemy04:bn_Leg_R_1
+        weight: 1
+      - path: Mdl_Enemy04:Mdl_Enemy04/Mdl_Enemy04:Rig/Mdl_Enemy04:rt_Spine/Mdl_Enemy04:bn_Spine_1/Mdl_Enemy04:rt_Leg_R/Mdl_Enemy04:bn_Leg_R_1/Mdl_Enemy04:bn_Leg_R_2
+        weight: 1
+      - path: Mdl_Enemy04:Mdl_Enemy04/Mdl_Enemy04:Rig/Mdl_Enemy04:rt_Spine/Mdl_Enemy04:bn_Spine_1/Mdl_Enemy04:rt_Leg_R/Mdl_Enemy04:bn_Leg_R_1/Mdl_Enemy04:bn_Leg_R_2/Mdl_Enemy04:eff_Leg_R
+        weight: 1
+      - path: Mdl_Enemy04:Mdl_Enemy04/Mdl_Enemy04:Rig/Mdl_Enemy04:rt_Spine/Mdl_Enemy04:bn_Spine_1/Mdl_Enemy04:rt_Leg_R/Mdl_Enemy04:bn_Leg_R_1/Mdl_Enemy04:bn_Leg_R_2/Mdl_Enemy04:rt_Foot_R
+        weight: 1
+      - path: Mdl_Enemy04:Mdl_Enemy04/Mdl_Enemy04:Rig/Mdl_Enemy04:rt_Spine/Mdl_Enemy04:bn_Spine_1/Mdl_Enemy04:rt_Leg_R/Mdl_Enemy04:bn_Leg_R_1/Mdl_Enemy04:bn_Leg_R_2/Mdl_Enemy04:rt_Foot_R/Mdl_Enemy04:bn_Foot_R_1
+        weight: 1
+      - path: Mdl_Enemy04:Mdl_Enemy04/Mdl_Enemy04:Rig/Mdl_Enemy04:rt_Spine/Mdl_Enemy04:bn_Spine_1/Mdl_Enemy04:rt_Leg_R/Mdl_Enemy04:bn_Leg_R_1/Mdl_Enemy04:bn_Leg_R_2/Mdl_Enemy04:rt_Foot_R/Mdl_Enemy04:bn_Foot_R_1/Mdl_Enemy04:bn_Foot_R_2
+        weight: 1
+      - path: Mdl_Enemy04:Mdl_Enemy04/Mdl_Enemy04:Rig/Mdl_Enemy04:rt_Spine/Mdl_Enemy04:bn_Spine_1/Mdl_Enemy04:rt_Leg_R/Mdl_Enemy04:bn_Leg_R_1/Mdl_Enemy04:bn_Leg_R_2/Mdl_Enemy04:rt_Foot_R/Mdl_Enemy04:bn_Foot_R_1/Mdl_Enemy04:bn_Foot_R_2/Mdl_Enemy04:eff_Foot_R
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 1
+    - serializedVersion: 16
+      name: Enemy04_anAttack
+      takeName: Take 001
+      firstFrame: 260
+      lastFrame: 339
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Enemy04
+        weight: 1
+      - path: Mdl_Enemy04:Mdl_Enemy04
+        weight: 1
+      - path: Mdl_Enemy04:Mdl_Enemy04/Mdl_Enemy04:Rig
+        weight: 1
+      - path: Mdl_Enemy04:Mdl_Enemy04/Mdl_Enemy04:Rig/Mdl_Enemy04:rt_Spine
+        weight: 1
+      - path: Mdl_Enemy04:Mdl_Enemy04/Mdl_Enemy04:Rig/Mdl_Enemy04:rt_Spine/Mdl_Enemy04:bn_Spine_1
+        weight: 1
+      - path: Mdl_Enemy04:Mdl_Enemy04/Mdl_Enemy04:Rig/Mdl_Enemy04:rt_Spine/Mdl_Enemy04:bn_Spine_1/Mdl_Enemy04:bn_Spine_2
+        weight: 1
+      - path: Mdl_Enemy04:Mdl_Enemy04/Mdl_Enemy04:Rig/Mdl_Enemy04:rt_Spine/Mdl_Enemy04:bn_Spine_1/Mdl_Enemy04:bn_Spine_2/Mdl_Enemy04:bn_Spine_3
+        weight: 1
+      - path: Mdl_Enemy04:Mdl_Enemy04/Mdl_Enemy04:Rig/Mdl_Enemy04:rt_Spine/Mdl_Enemy04:bn_Spine_1/Mdl_Enemy04:bn_Spine_2/Mdl_Enemy04:bn_Spine_3/Mdl_Enemy04:eff_Spine
+        weight: 1
+      - path: Mdl_Enemy04:Mdl_Enemy04/Mdl_Enemy04:Rig/Mdl_Enemy04:rt_Spine/Mdl_Enemy04:bn_Spine_1/Mdl_Enemy04:bn_Spine_2/Mdl_Enemy04:bn_Spine_3/Mdl_Enemy04:rt_Arm_L
+        weight: 1
+      - path: Mdl_Enemy04:Mdl_Enemy04/Mdl_Enemy04:Rig/Mdl_Enemy04:rt_Spine/Mdl_Enemy04:bn_Spine_1/Mdl_Enemy04:bn_Spine_2/Mdl_Enemy04:bn_Spine_3/Mdl_Enemy04:rt_Arm_L/Mdl_Enemy04:bn_Arm_L_1
+        weight: 1
+      - path: Mdl_Enemy04:Mdl_Enemy04/Mdl_Enemy04:Rig/Mdl_Enemy04:rt_Spine/Mdl_Enemy04:bn_Spine_1/Mdl_Enemy04:bn_Spine_2/Mdl_Enemy04:bn_Spine_3/Mdl_Enemy04:rt_Arm_L/Mdl_Enemy04:bn_Arm_L_1/Mdl_Enemy04:bn_Arm_L_2
+        weight: 1
+      - path: Mdl_Enemy04:Mdl_Enemy04/Mdl_Enemy04:Rig/Mdl_Enemy04:rt_Spine/Mdl_Enemy04:bn_Spine_1/Mdl_Enemy04:bn_Spine_2/Mdl_Enemy04:bn_Spine_3/Mdl_Enemy04:rt_Arm_L/Mdl_Enemy04:bn_Arm_L_1/Mdl_Enemy04:bn_Arm_L_2/Mdl_Enemy04:eff_Arm_L
+        weight: 1
+      - path: Mdl_Enemy04:Mdl_Enemy04/Mdl_Enemy04:Rig/Mdl_Enemy04:rt_Spine/Mdl_Enemy04:bn_Spine_1/Mdl_Enemy04:bn_Spine_2/Mdl_Enemy04:bn_Spine_3/Mdl_Enemy04:rt_Arm_R
+        weight: 1
+      - path: Mdl_Enemy04:Mdl_Enemy04/Mdl_Enemy04:Rig/Mdl_Enemy04:rt_Spine/Mdl_Enemy04:bn_Spine_1/Mdl_Enemy04:bn_Spine_2/Mdl_Enemy04:bn_Spine_3/Mdl_Enemy04:rt_Arm_R/Mdl_Enemy04:bn_Arm_R_1
+        weight: 1
+      - path: Mdl_Enemy04:Mdl_Enemy04/Mdl_Enemy04:Rig/Mdl_Enemy04:rt_Spine/Mdl_Enemy04:bn_Spine_1/Mdl_Enemy04:bn_Spine_2/Mdl_Enemy04:bn_Spine_3/Mdl_Enemy04:rt_Arm_R/Mdl_Enemy04:bn_Arm_R_1/Mdl_Enemy04:bn_Arm_R_2
+        weight: 1
+      - path: Mdl_Enemy04:Mdl_Enemy04/Mdl_Enemy04:Rig/Mdl_Enemy04:rt_Spine/Mdl_Enemy04:bn_Spine_1/Mdl_Enemy04:bn_Spine_2/Mdl_Enemy04:bn_Spine_3/Mdl_Enemy04:rt_Arm_R/Mdl_Enemy04:bn_Arm_R_1/Mdl_Enemy04:bn_Arm_R_2/Mdl_Enemy04:eff_Arm_R
+        weight: 1
+      - path: Mdl_Enemy04:Mdl_Enemy04/Mdl_Enemy04:Rig/Mdl_Enemy04:rt_Spine/Mdl_Enemy04:bn_Spine_1/Mdl_Enemy04:bn_Spine_2/Mdl_Enemy04:bn_Spine_3/Mdl_Enemy04:rt_Head
+        weight: 1
+      - path: Mdl_Enemy04:Mdl_Enemy04/Mdl_Enemy04:Rig/Mdl_Enemy04:rt_Spine/Mdl_Enemy04:bn_Spine_1/Mdl_Enemy04:bn_Spine_2/Mdl_Enemy04:bn_Spine_3/Mdl_Enemy04:rt_Head/Mdl_Enemy04:bn_Neck
+        weight: 1
+      - path: Mdl_Enemy04:Mdl_Enemy04/Mdl_Enemy04:Rig/Mdl_Enemy04:rt_Spine/Mdl_Enemy04:bn_Spine_1/Mdl_Enemy04:bn_Spine_2/Mdl_Enemy04:bn_Spine_3/Mdl_Enemy04:rt_Head/Mdl_Enemy04:bn_Neck/Mdl_Enemy04:bn_Head
+        weight: 1
+      - path: Mdl_Enemy04:Mdl_Enemy04/Mdl_Enemy04:Rig/Mdl_Enemy04:rt_Spine/Mdl_Enemy04:bn_Spine_1/Mdl_Enemy04:bn_Spine_2/Mdl_Enemy04:bn_Spine_3/Mdl_Enemy04:rt_Head/Mdl_Enemy04:bn_Neck/Mdl_Enemy04:bn_Head/Mdl_Enemy04:eff_Head
+        weight: 1
+      - path: Mdl_Enemy04:Mdl_Enemy04/Mdl_Enemy04:Rig/Mdl_Enemy04:rt_Spine/Mdl_Enemy04:bn_Spine_1/Mdl_Enemy04:rt_Leg_L
+        weight: 1
+      - path: Mdl_Enemy04:Mdl_Enemy04/Mdl_Enemy04:Rig/Mdl_Enemy04:rt_Spine/Mdl_Enemy04:bn_Spine_1/Mdl_Enemy04:rt_Leg_L/Mdl_Enemy04:bn_Leg_L_1
+        weight: 1
+      - path: Mdl_Enemy04:Mdl_Enemy04/Mdl_Enemy04:Rig/Mdl_Enemy04:rt_Spine/Mdl_Enemy04:bn_Spine_1/Mdl_Enemy04:rt_Leg_L/Mdl_Enemy04:bn_Leg_L_1/Mdl_Enemy04:bn_Leg_L_2
+        weight: 1
+      - path: Mdl_Enemy04:Mdl_Enemy04/Mdl_Enemy04:Rig/Mdl_Enemy04:rt_Spine/Mdl_Enemy04:bn_Spine_1/Mdl_Enemy04:rt_Leg_L/Mdl_Enemy04:bn_Leg_L_1/Mdl_Enemy04:bn_Leg_L_2/Mdl_Enemy04:eff_Leg_L
+        weight: 1
+      - path: Mdl_Enemy04:Mdl_Enemy04/Mdl_Enemy04:Rig/Mdl_Enemy04:rt_Spine/Mdl_Enemy04:bn_Spine_1/Mdl_Enemy04:rt_Leg_L/Mdl_Enemy04:bn_Leg_L_1/Mdl_Enemy04:bn_Leg_L_2/Mdl_Enemy04:rt_Foot_L
+        weight: 1
+      - path: Mdl_Enemy04:Mdl_Enemy04/Mdl_Enemy04:Rig/Mdl_Enemy04:rt_Spine/Mdl_Enemy04:bn_Spine_1/Mdl_Enemy04:rt_Leg_L/Mdl_Enemy04:bn_Leg_L_1/Mdl_Enemy04:bn_Leg_L_2/Mdl_Enemy04:rt_Foot_L/Mdl_Enemy04:bn_Foot_L_1
+        weight: 1
+      - path: Mdl_Enemy04:Mdl_Enemy04/Mdl_Enemy04:Rig/Mdl_Enemy04:rt_Spine/Mdl_Enemy04:bn_Spine_1/Mdl_Enemy04:rt_Leg_L/Mdl_Enemy04:bn_Leg_L_1/Mdl_Enemy04:bn_Leg_L_2/Mdl_Enemy04:rt_Foot_L/Mdl_Enemy04:bn_Foot_L_1/Mdl_Enemy04:bn_Foot_L_2
+        weight: 1
+      - path: Mdl_Enemy04:Mdl_Enemy04/Mdl_Enemy04:Rig/Mdl_Enemy04:rt_Spine/Mdl_Enemy04:bn_Spine_1/Mdl_Enemy04:rt_Leg_L/Mdl_Enemy04:bn_Leg_L_1/Mdl_Enemy04:bn_Leg_L_2/Mdl_Enemy04:rt_Foot_L/Mdl_Enemy04:bn_Foot_L_1/Mdl_Enemy04:bn_Foot_L_2/Mdl_Enemy04:eff_Foot_L
+        weight: 1
+      - path: Mdl_Enemy04:Mdl_Enemy04/Mdl_Enemy04:Rig/Mdl_Enemy04:rt_Spine/Mdl_Enemy04:bn_Spine_1/Mdl_Enemy04:rt_Leg_R
+        weight: 1
+      - path: Mdl_Enemy04:Mdl_Enemy04/Mdl_Enemy04:Rig/Mdl_Enemy04:rt_Spine/Mdl_Enemy04:bn_Spine_1/Mdl_Enemy04:rt_Leg_R/Mdl_Enemy04:bn_Leg_R_1
+        weight: 1
+      - path: Mdl_Enemy04:Mdl_Enemy04/Mdl_Enemy04:Rig/Mdl_Enemy04:rt_Spine/Mdl_Enemy04:bn_Spine_1/Mdl_Enemy04:rt_Leg_R/Mdl_Enemy04:bn_Leg_R_1/Mdl_Enemy04:bn_Leg_R_2
+        weight: 1
+      - path: Mdl_Enemy04:Mdl_Enemy04/Mdl_Enemy04:Rig/Mdl_Enemy04:rt_Spine/Mdl_Enemy04:bn_Spine_1/Mdl_Enemy04:rt_Leg_R/Mdl_Enemy04:bn_Leg_R_1/Mdl_Enemy04:bn_Leg_R_2/Mdl_Enemy04:eff_Leg_R
+        weight: 1
+      - path: Mdl_Enemy04:Mdl_Enemy04/Mdl_Enemy04:Rig/Mdl_Enemy04:rt_Spine/Mdl_Enemy04:bn_Spine_1/Mdl_Enemy04:rt_Leg_R/Mdl_Enemy04:bn_Leg_R_1/Mdl_Enemy04:bn_Leg_R_2/Mdl_Enemy04:rt_Foot_R
+        weight: 1
+      - path: Mdl_Enemy04:Mdl_Enemy04/Mdl_Enemy04:Rig/Mdl_Enemy04:rt_Spine/Mdl_Enemy04:bn_Spine_1/Mdl_Enemy04:rt_Leg_R/Mdl_Enemy04:bn_Leg_R_1/Mdl_Enemy04:bn_Leg_R_2/Mdl_Enemy04:rt_Foot_R/Mdl_Enemy04:bn_Foot_R_1
+        weight: 1
+      - path: Mdl_Enemy04:Mdl_Enemy04/Mdl_Enemy04:Rig/Mdl_Enemy04:rt_Spine/Mdl_Enemy04:bn_Spine_1/Mdl_Enemy04:rt_Leg_R/Mdl_Enemy04:bn_Leg_R_1/Mdl_Enemy04:bn_Leg_R_2/Mdl_Enemy04:rt_Foot_R/Mdl_Enemy04:bn_Foot_R_1/Mdl_Enemy04:bn_Foot_R_2
+        weight: 1
+      - path: Mdl_Enemy04:Mdl_Enemy04/Mdl_Enemy04:Rig/Mdl_Enemy04:rt_Spine/Mdl_Enemy04:bn_Spine_1/Mdl_Enemy04:rt_Leg_R/Mdl_Enemy04:bn_Leg_R_1/Mdl_Enemy04:bn_Leg_R_2/Mdl_Enemy04:rt_Foot_R/Mdl_Enemy04:bn_Foot_R_1/Mdl_Enemy04:bn_Foot_R_2/Mdl_Enemy04:eff_Foot_R
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 1
+    - serializedVersion: 16
+      name: Enemy04_anDie
+      takeName: Take 001
+      firstFrame: 340
+      lastFrame: 390
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Enemy04
+        weight: 1
+      - path: Mdl_Enemy04:Mdl_Enemy04
+        weight: 1
+      - path: Mdl_Enemy04:Mdl_Enemy04/Mdl_Enemy04:Rig
+        weight: 1
+      - path: Mdl_Enemy04:Mdl_Enemy04/Mdl_Enemy04:Rig/Mdl_Enemy04:rt_Spine
+        weight: 1
+      - path: Mdl_Enemy04:Mdl_Enemy04/Mdl_Enemy04:Rig/Mdl_Enemy04:rt_Spine/Mdl_Enemy04:bn_Spine_1
+        weight: 1
+      - path: Mdl_Enemy04:Mdl_Enemy04/Mdl_Enemy04:Rig/Mdl_Enemy04:rt_Spine/Mdl_Enemy04:bn_Spine_1/Mdl_Enemy04:bn_Spine_2
+        weight: 1
+      - path: Mdl_Enemy04:Mdl_Enemy04/Mdl_Enemy04:Rig/Mdl_Enemy04:rt_Spine/Mdl_Enemy04:bn_Spine_1/Mdl_Enemy04:bn_Spine_2/Mdl_Enemy04:bn_Spine_3
+        weight: 1
+      - path: Mdl_Enemy04:Mdl_Enemy04/Mdl_Enemy04:Rig/Mdl_Enemy04:rt_Spine/Mdl_Enemy04:bn_Spine_1/Mdl_Enemy04:bn_Spine_2/Mdl_Enemy04:bn_Spine_3/Mdl_Enemy04:eff_Spine
+        weight: 1
+      - path: Mdl_Enemy04:Mdl_Enemy04/Mdl_Enemy04:Rig/Mdl_Enemy04:rt_Spine/Mdl_Enemy04:bn_Spine_1/Mdl_Enemy04:bn_Spine_2/Mdl_Enemy04:bn_Spine_3/Mdl_Enemy04:rt_Arm_L
+        weight: 1
+      - path: Mdl_Enemy04:Mdl_Enemy04/Mdl_Enemy04:Rig/Mdl_Enemy04:rt_Spine/Mdl_Enemy04:bn_Spine_1/Mdl_Enemy04:bn_Spine_2/Mdl_Enemy04:bn_Spine_3/Mdl_Enemy04:rt_Arm_L/Mdl_Enemy04:bn_Arm_L_1
+        weight: 1
+      - path: Mdl_Enemy04:Mdl_Enemy04/Mdl_Enemy04:Rig/Mdl_Enemy04:rt_Spine/Mdl_Enemy04:bn_Spine_1/Mdl_Enemy04:bn_Spine_2/Mdl_Enemy04:bn_Spine_3/Mdl_Enemy04:rt_Arm_L/Mdl_Enemy04:bn_Arm_L_1/Mdl_Enemy04:bn_Arm_L_2
+        weight: 1
+      - path: Mdl_Enemy04:Mdl_Enemy04/Mdl_Enemy04:Rig/Mdl_Enemy04:rt_Spine/Mdl_Enemy04:bn_Spine_1/Mdl_Enemy04:bn_Spine_2/Mdl_Enemy04:bn_Spine_3/Mdl_Enemy04:rt_Arm_L/Mdl_Enemy04:bn_Arm_L_1/Mdl_Enemy04:bn_Arm_L_2/Mdl_Enemy04:eff_Arm_L
+        weight: 1
+      - path: Mdl_Enemy04:Mdl_Enemy04/Mdl_Enemy04:Rig/Mdl_Enemy04:rt_Spine/Mdl_Enemy04:bn_Spine_1/Mdl_Enemy04:bn_Spine_2/Mdl_Enemy04:bn_Spine_3/Mdl_Enemy04:rt_Arm_R
+        weight: 1
+      - path: Mdl_Enemy04:Mdl_Enemy04/Mdl_Enemy04:Rig/Mdl_Enemy04:rt_Spine/Mdl_Enemy04:bn_Spine_1/Mdl_Enemy04:bn_Spine_2/Mdl_Enemy04:bn_Spine_3/Mdl_Enemy04:rt_Arm_R/Mdl_Enemy04:bn_Arm_R_1
+        weight: 1
+      - path: Mdl_Enemy04:Mdl_Enemy04/Mdl_Enemy04:Rig/Mdl_Enemy04:rt_Spine/Mdl_Enemy04:bn_Spine_1/Mdl_Enemy04:bn_Spine_2/Mdl_Enemy04:bn_Spine_3/Mdl_Enemy04:rt_Arm_R/Mdl_Enemy04:bn_Arm_R_1/Mdl_Enemy04:bn_Arm_R_2
+        weight: 1
+      - path: Mdl_Enemy04:Mdl_Enemy04/Mdl_Enemy04:Rig/Mdl_Enemy04:rt_Spine/Mdl_Enemy04:bn_Spine_1/Mdl_Enemy04:bn_Spine_2/Mdl_Enemy04:bn_Spine_3/Mdl_Enemy04:rt_Arm_R/Mdl_Enemy04:bn_Arm_R_1/Mdl_Enemy04:bn_Arm_R_2/Mdl_Enemy04:eff_Arm_R
+        weight: 1
+      - path: Mdl_Enemy04:Mdl_Enemy04/Mdl_Enemy04:Rig/Mdl_Enemy04:rt_Spine/Mdl_Enemy04:bn_Spine_1/Mdl_Enemy04:bn_Spine_2/Mdl_Enemy04:bn_Spine_3/Mdl_Enemy04:rt_Head
+        weight: 1
+      - path: Mdl_Enemy04:Mdl_Enemy04/Mdl_Enemy04:Rig/Mdl_Enemy04:rt_Spine/Mdl_Enemy04:bn_Spine_1/Mdl_Enemy04:bn_Spine_2/Mdl_Enemy04:bn_Spine_3/Mdl_Enemy04:rt_Head/Mdl_Enemy04:bn_Neck
+        weight: 1
+      - path: Mdl_Enemy04:Mdl_Enemy04/Mdl_Enemy04:Rig/Mdl_Enemy04:rt_Spine/Mdl_Enemy04:bn_Spine_1/Mdl_Enemy04:bn_Spine_2/Mdl_Enemy04:bn_Spine_3/Mdl_Enemy04:rt_Head/Mdl_Enemy04:bn_Neck/Mdl_Enemy04:bn_Head
+        weight: 1
+      - path: Mdl_Enemy04:Mdl_Enemy04/Mdl_Enemy04:Rig/Mdl_Enemy04:rt_Spine/Mdl_Enemy04:bn_Spine_1/Mdl_Enemy04:bn_Spine_2/Mdl_Enemy04:bn_Spine_3/Mdl_Enemy04:rt_Head/Mdl_Enemy04:bn_Neck/Mdl_Enemy04:bn_Head/Mdl_Enemy04:eff_Head
+        weight: 1
+      - path: Mdl_Enemy04:Mdl_Enemy04/Mdl_Enemy04:Rig/Mdl_Enemy04:rt_Spine/Mdl_Enemy04:bn_Spine_1/Mdl_Enemy04:rt_Leg_L
+        weight: 1
+      - path: Mdl_Enemy04:Mdl_Enemy04/Mdl_Enemy04:Rig/Mdl_Enemy04:rt_Spine/Mdl_Enemy04:bn_Spine_1/Mdl_Enemy04:rt_Leg_L/Mdl_Enemy04:bn_Leg_L_1
+        weight: 1
+      - path: Mdl_Enemy04:Mdl_Enemy04/Mdl_Enemy04:Rig/Mdl_Enemy04:rt_Spine/Mdl_Enemy04:bn_Spine_1/Mdl_Enemy04:rt_Leg_L/Mdl_Enemy04:bn_Leg_L_1/Mdl_Enemy04:bn_Leg_L_2
+        weight: 1
+      - path: Mdl_Enemy04:Mdl_Enemy04/Mdl_Enemy04:Rig/Mdl_Enemy04:rt_Spine/Mdl_Enemy04:bn_Spine_1/Mdl_Enemy04:rt_Leg_L/Mdl_Enemy04:bn_Leg_L_1/Mdl_Enemy04:bn_Leg_L_2/Mdl_Enemy04:eff_Leg_L
+        weight: 1
+      - path: Mdl_Enemy04:Mdl_Enemy04/Mdl_Enemy04:Rig/Mdl_Enemy04:rt_Spine/Mdl_Enemy04:bn_Spine_1/Mdl_Enemy04:rt_Leg_L/Mdl_Enemy04:bn_Leg_L_1/Mdl_Enemy04:bn_Leg_L_2/Mdl_Enemy04:rt_Foot_L
+        weight: 1
+      - path: Mdl_Enemy04:Mdl_Enemy04/Mdl_Enemy04:Rig/Mdl_Enemy04:rt_Spine/Mdl_Enemy04:bn_Spine_1/Mdl_Enemy04:rt_Leg_L/Mdl_Enemy04:bn_Leg_L_1/Mdl_Enemy04:bn_Leg_L_2/Mdl_Enemy04:rt_Foot_L/Mdl_Enemy04:bn_Foot_L_1
+        weight: 1
+      - path: Mdl_Enemy04:Mdl_Enemy04/Mdl_Enemy04:Rig/Mdl_Enemy04:rt_Spine/Mdl_Enemy04:bn_Spine_1/Mdl_Enemy04:rt_Leg_L/Mdl_Enemy04:bn_Leg_L_1/Mdl_Enemy04:bn_Leg_L_2/Mdl_Enemy04:rt_Foot_L/Mdl_Enemy04:bn_Foot_L_1/Mdl_Enemy04:bn_Foot_L_2
+        weight: 1
+      - path: Mdl_Enemy04:Mdl_Enemy04/Mdl_Enemy04:Rig/Mdl_Enemy04:rt_Spine/Mdl_Enemy04:bn_Spine_1/Mdl_Enemy04:rt_Leg_L/Mdl_Enemy04:bn_Leg_L_1/Mdl_Enemy04:bn_Leg_L_2/Mdl_Enemy04:rt_Foot_L/Mdl_Enemy04:bn_Foot_L_1/Mdl_Enemy04:bn_Foot_L_2/Mdl_Enemy04:eff_Foot_L
+        weight: 1
+      - path: Mdl_Enemy04:Mdl_Enemy04/Mdl_Enemy04:Rig/Mdl_Enemy04:rt_Spine/Mdl_Enemy04:bn_Spine_1/Mdl_Enemy04:rt_Leg_R
+        weight: 1
+      - path: Mdl_Enemy04:Mdl_Enemy04/Mdl_Enemy04:Rig/Mdl_Enemy04:rt_Spine/Mdl_Enemy04:bn_Spine_1/Mdl_Enemy04:rt_Leg_R/Mdl_Enemy04:bn_Leg_R_1
+        weight: 1
+      - path: Mdl_Enemy04:Mdl_Enemy04/Mdl_Enemy04:Rig/Mdl_Enemy04:rt_Spine/Mdl_Enemy04:bn_Spine_1/Mdl_Enemy04:rt_Leg_R/Mdl_Enemy04:bn_Leg_R_1/Mdl_Enemy04:bn_Leg_R_2
+        weight: 1
+      - path: Mdl_Enemy04:Mdl_Enemy04/Mdl_Enemy04:Rig/Mdl_Enemy04:rt_Spine/Mdl_Enemy04:bn_Spine_1/Mdl_Enemy04:rt_Leg_R/Mdl_Enemy04:bn_Leg_R_1/Mdl_Enemy04:bn_Leg_R_2/Mdl_Enemy04:eff_Leg_R
+        weight: 1
+      - path: Mdl_Enemy04:Mdl_Enemy04/Mdl_Enemy04:Rig/Mdl_Enemy04:rt_Spine/Mdl_Enemy04:bn_Spine_1/Mdl_Enemy04:rt_Leg_R/Mdl_Enemy04:bn_Leg_R_1/Mdl_Enemy04:bn_Leg_R_2/Mdl_Enemy04:rt_Foot_R
+        weight: 1
+      - path: Mdl_Enemy04:Mdl_Enemy04/Mdl_Enemy04:Rig/Mdl_Enemy04:rt_Spine/Mdl_Enemy04:bn_Spine_1/Mdl_Enemy04:rt_Leg_R/Mdl_Enemy04:bn_Leg_R_1/Mdl_Enemy04:bn_Leg_R_2/Mdl_Enemy04:rt_Foot_R/Mdl_Enemy04:bn_Foot_R_1
+        weight: 1
+      - path: Mdl_Enemy04:Mdl_Enemy04/Mdl_Enemy04:Rig/Mdl_Enemy04:rt_Spine/Mdl_Enemy04:bn_Spine_1/Mdl_Enemy04:rt_Leg_R/Mdl_Enemy04:bn_Leg_R_1/Mdl_Enemy04:bn_Leg_R_2/Mdl_Enemy04:rt_Foot_R/Mdl_Enemy04:bn_Foot_R_1/Mdl_Enemy04:bn_Foot_R_2
+        weight: 1
+      - path: Mdl_Enemy04:Mdl_Enemy04/Mdl_Enemy04:Rig/Mdl_Enemy04:rt_Spine/Mdl_Enemy04:bn_Spine_1/Mdl_Enemy04:rt_Leg_R/Mdl_Enemy04:bn_Leg_R_1/Mdl_Enemy04:bn_Leg_R_2/Mdl_Enemy04:rt_Foot_R/Mdl_Enemy04:bn_Foot_R_1/Mdl_Enemy04:bn_Foot_R_2/Mdl_Enemy04:eff_Foot_R
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 1
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 100
+    meshCompression: 0
+    addColliders: 0
+    importBlendShapes: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    hasTranslationDoF: 0
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 2
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

@@ -312,6 +312,7 @@
     <Compile Include="Assets\YourCommonTools\Screens\View\Utils\ItemStringView.cs" />
     <Compile Include="Assets\YourCommonTools\Screens\View\Utils\ScreenBaseView.cs" />
     <Compile Include="Assets\YourCommonTools\Screens\View\Utils\SelectableButtonView.cs" />
+    <Compile Include="Assets\YourCommonTools\Utilities\AutoRotate.cs" />
     <Compile Include="Assets\YourCommonTools\Utilities\CardboardLoaderVR.cs" />
     <Compile Include="Assets\YourCommonTools\Utilities\ClearLocalStore.cs" />
     <Compile Include="Assets\YourCommonTools\Utilities\CollisionTriggerEvent.cs" />
@@ -347,6 +348,7 @@
     <None Include="Assets\Submodules\NetworkTools\ARCore\Resources\Materials\Shaders\MobileDiffuseWithLightEstimation.shader" />
     <None Include="Assets\8BricksDefense\Game\InGame\Resources\XMLs\Waves\waves_0.xml" />
     <None Include="Assets\8BricksDefense\Game\InGame\Resources\XMLs\Waves\waves_1.xml" />
+    <None Include="Assets\YourVRUI\screens\NewSurfaceShader.shader" />
     <None Include="Assets\GoogleVR\Shaders\GvrUIOverlayFont.shader" />
     <None Include="Assets\Submodules\NetworkTools\Menus\Resources\Languages\TextsMenus.xml" />
     <None Include="Assets\Submodules\LICENSE.txt" />
@@ -358,7 +360,6 @@
     <None Include="Assets\8BricksDefense\Game\InGame\Resources\XMLs\Waves\waves_2.xml" />
     <None Include="Assets\GoogleVR\Shaders\GvrUnlitTransparentOverlay.shader" />
     <None Include="Assets\GoogleVR\Shaders\GvrUnlitTransparentOverlayColor.shader" />
-    <None Include="Assets\YourVRUI\screens\NewSurfaceShader.shader" />
     <None Include="Assets\GoogleVR\Plugins\Android\AndroidManifest-6DOF.xml" />
     <None Include="Assets\GoogleVR\Demos\Shaders\GVRDemo\GVRDemoAmbientOcclusion.shader" />
     <None Include="Assets\GoogleVR\Shaders\Video\VideoUnlitShader.shader" />

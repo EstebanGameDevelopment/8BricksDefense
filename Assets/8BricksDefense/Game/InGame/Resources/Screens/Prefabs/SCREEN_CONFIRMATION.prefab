@@ -92,7 +92,7 @@ GameObject:
   - component: {fileID: 223389233741675230}
   - component: {fileID: 114433037243645018}
   - component: {fileID: 114165712404236534}
-  - component: {fileID: 114780270228265846}
+  - component: {fileID: 114354408961706842}
   m_Layer: 5
   m_Name: SCREEN_CONFIRMATION
   m_TagString: Untagged
@@ -272,6 +272,18 @@ MonoBehaviour:
   m_BlockingMask:
     serializedVersion: 2
     m_Bits: 4294967295
+--- !u!114 &114354408961706842
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1517474092474842}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: dd5cd12fc56c193449170aa22e4a4a14, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  SelectorGraphic: {fileID: 21300000, guid: eb679b6d8bf6b7b48ad64dd08f2ea493, type: 3}
 --- !u!114 &114416740613458040
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -450,18 +462,6 @@ MonoBehaviour:
   m_FillAmount: 1
   m_FillClockwise: 1
   m_FillOrigin: 0
---- !u!114 &114780270228265846
-MonoBehaviour:
-  m_ObjectHideFlags: 1
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 100100000}
-  m_GameObject: {fileID: 1517474092474842}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: dc7b3f33de044fe4fa1e8f9079860509, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  SelectorGraphic: {fileID: 0}
 --- !u!114 &114823334110038436
 MonoBehaviour:
   m_ObjectHideFlags: 1
