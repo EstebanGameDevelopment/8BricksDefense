@@ -199,8 +199,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 84010e19291b5ef4384e0b047e3cf051, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  ForceActivation: 1
-  DefaultDeviceName: Cardboard
 --- !u!1001 &608339018
 Prefab:
   m_ObjectHideFlags: 0
@@ -492,6 +490,7 @@ MonoBehaviour:
   DefaultConfiguration: 0
   MainCamera: {fileID: 821326437}
   MaterialDrawOnTop: {fileID: 2100000, guid: a6e60bbddfd059f4e8bc206388c7b2ae, type: 2}
+  MaterialRedDrawOnTop: {fileID: 0}
   GlobalScaleScreens: 2
   EnableDesktopMode: 0
   EnableMoveCamera: 1
@@ -946,7 +945,7 @@ MonoBehaviour:
   MaxPlayers: 4
   ForceFixedPlayers: -1
   ScreenGameOptions: SCREEN_GAME_OPTIONS
-  ServerIPAdress: 46.101.241.31
+  ServerIPAdress: localhost
   ServerPortNumber: 6249
   ScanImageARCore: {fileID: 0}
   MainCamera2D: {fileID: 666405604}
