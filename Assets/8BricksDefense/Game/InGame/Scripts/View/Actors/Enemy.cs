@@ -74,7 +74,20 @@ namespace EightBricksDefense
 		{
 			set { this.gameObject.GetComponent<ActorNetwork>().EventNameObjectCreated = value; }
 		}
-		public bool IsMine()
+
+        public string Name
+        {
+            get { return this.gameObject.name; }
+            set { }
+        }
+
+        public string ModelState
+        {
+            get { return ""; }
+            set { }
+        }
+
+        public bool IsMine()
 		{
 			return this.gameObject.GetComponent<ActorNetwork>().IsMine();
 		}
@@ -194,32 +207,36 @@ namespace EightBricksDefense
 			}
 		}
 
-		// -------------------------------------------
-		/* 
+        // -------------------------------------------
+        /* 
 		 * Release resources
 		 */
-		public void Destroy()
-		{
-			RemoveListeners();
-			if (GameEventController.Instance.IsGameMaster())
-			{
-				NetworkEventController.Instance.DispatchLocalEvent(YourNetworkTools.EVENT_YOURNETWORKTOOLS_DESTROYED_GAMEOBJECT, this.gameObject, NetworkID.NetID, NetworkID.UID);
-			}
-			if (this.gameObject != null)
-			{
-				GameObject.Destroy(this.gameObject);
-			}
-			else
-			{
-				Debug.LogError("ENEMY::THE OBJECT WAS ALREADY NULL");
-			}
-		}
+        public override bool Destroy()
+        {
+            if (base.Destroy()) return true;
 
-		// -------------------------------------------
-		/* 
+            RemoveListeners();
+            if (GameEventController.Instance.IsGameMaster())
+            {
+                NetworkEventController.Instance.DispatchLocalEvent(YourNetworkTools.EVENT_YOURNETWORKTOOLS_DESTROYED_GAMEOBJECT, this.gameObject, NetworkID.NetID, NetworkID.UID);
+            }
+            if (this.gameObject != null)
+            {
+                GameObject.Destroy(this.gameObject);
+            }
+            else
+            {
+                Debug.LogError("ENEMY::THE OBJECT WAS ALREADY NULL");
+            }
+
+            return false;
+        }
+
+        // -------------------------------------------
+        /* 
 		 * Apply damage on the enemy's life
 		 */
-		public void Damage(float _value, Vector3 _positionImpact)
+        public void Damage(float _value, Vector3 _positionImpact)
 		{
 			NetworkEventController.Instance.DispatchNetworkEvent(EVENT_ENEMY_LIFE_UPDATED, NetworkID.GetID(), (m_life - _value).ToString());
 			FXController.Instance.NewFXImpact(_positionImpact);

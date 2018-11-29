@@ -935,6 +935,7 @@ MonoBehaviour:
   - {fileID: 1258369354176874, guid: 701611aa3c230f24c9ccf59652bfd1cb, type: 2}
   - {fileID: 1277936312230108, guid: b524a0f735c52144fa1189c191c498b3, type: 2}
   - {fileID: 1920688569593262, guid: ca22f918232177542933f0b3d89ba9e7, type: 2}
+  FadeScreen: {fileID: 0}
   TargetGameScene: InGame
   Instructions:
   - {fileID: 21300000, guid: a83041a02bfa51541ba4239bca109d1b, type: 3}
@@ -950,6 +951,7 @@ MonoBehaviour:
   ScanImageARCore: {fileID: 0}
   MainCamera2D: {fileID: 666405604}
   VRComponents: {fileID: 1814487640}
+  AskToEnableBackgroundARCore: 0
   IconApp: {fileID: 21300000, guid: 9dc688def9300db42984bab24adb4093, type: 3}
   LogoApp: {fileID: 21300000, guid: ceb18cc1249b8e04dbc2bf9c1b88bdf0, type: 3}
 --- !u!4 &1518358347

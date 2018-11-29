@@ -25,15 +25,29 @@ namespace EightBricksDefense
 		public const float DISTANCE_TO_SHOOT = GameConfiguration.CELL_SIZE * 3;
 		public const float TIMEOUT_TO_SHOOT = 3;
 
-		// ----------------------------------------------
-		// PRIVATE MEMBERS
-		// ----------------------------------------------	
+        // ----------------------------------------------
+        // PRIVATE MEMBERS
+        // ----------------------------------------------	
+        // ----------------------------------------------
+        // GETTERS/SETTERS
+        // ----------------------------------------------	
+        public string Name
+        {
+            get { return this.gameObject.name; }
+            set { }
+        }
 
-		// -------------------------------------------
-		/* 
+        public string ModelState
+        {
+            get { return ""; }
+            set { }
+        }
+
+        // -------------------------------------------
+        /* 
 		 * Initialization of the shoot
 		 */
-		public override void Initialize(params object[] _list)
+        public override void Initialize(params object[] _list)
 		{
 			base.Initialize(_list);
 			transform.position = (Vector3)_list[1];
@@ -41,20 +55,24 @@ namespace EightBricksDefense
 			SoundsConstants.PlayFXBuildTower();
 		}
 
-		// -------------------------------------------
-		/* 
+        // -------------------------------------------
+        /* 
 		 * Release resources
 		 */
-		public void Destroy()
-		{
-			GameObject.Destroy(this.gameObject);
-		}
+        public override bool Destroy()
+        {
+            if (base.Destroy()) return true;
 
-		// -------------------------------------------
-		/* 
+            GameObject.Destroy(this.gameObject);
+
+            return false;
+        }
+
+        // -------------------------------------------
+        /* 
 		 * Get the closest enemy and shoot him
 		 */
-		public override void Logic()
+        public override void Logic()
 		{
 			Enemy enemy = EnemiesController.Instance.GetClosestEnemy(transform.position);
 

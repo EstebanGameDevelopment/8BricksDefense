@@ -54,12 +54,22 @@ namespace EightBricksDefense
 				
 			}
 		}
+        public int Layer
+        {
+            get { return 0; }
+            set { }
+        }
+        public bool IsMarkedToBeDestroyed
+        {
+            get { return false; }
+            set { }
+        }
 
-		// -------------------------------------------
-		/* 
+        // -------------------------------------------
+        /* 
 		 * Constructor
 		 */
-		public void Initialize(params object[] _list)
+        public void Initialize(params object[] _list)
 		{
 			m_container = this.gameObject.transform.Find("Content");
 

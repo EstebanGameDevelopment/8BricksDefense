@@ -40,11 +40,26 @@ namespace EightBricksDefense
 		private float m_timeAlive = 0;
 		protected int m_networkIDOwner = -1;
 
-		// -------------------------------------------
-		/* 
+        // ----------------------------------------------
+        // GETTERS/SETTERS
+        // ----------------------------------------------	
+        public string Name
+        {
+            get { return this.gameObject.name; }
+            set { }
+        }
+
+        public string ModelState
+        {
+            get { return ""; }
+            set { }
+        }
+
+        // -------------------------------------------
+        /* 
 		 * Initialization of the shoot
 		 */
-		public override void Initialize(params object[] _list)
+        public override void Initialize(params object[] _list)
 		{
 			base.Initialize(_list);
 
@@ -60,9 +75,14 @@ namespace EightBricksDefense
 		/* 
 		 * Release resources
 		 */
-		public void Destroy()
+		public override bool Destroy()
 		{
-			GameObject.Destroy(this.gameObject);
+            if (base.Destroy()) return true;
+
+            GameEventController.Instance.DispatchGameEvent(EVENT_SHOOT_DESTROY, this.gameObject);
+            GameObject.Destroy(this.gameObject);
+
+            return false;
 		}
 
 		// -------------------------------------------
@@ -74,7 +94,7 @@ namespace EightBricksDefense
 			m_timeAlive += Time.deltaTime;
 			if (m_timeAlive > TIME_MAXIMUM_ALIVE)
 			{
-				GameEventController.Instance.DispatchGameEvent(EVENT_SHOOT_DESTROY, this.gameObject);
+                Destroy();
 			}
 		}
 
@@ -101,7 +121,8 @@ namespace EightBricksDefense
 						if (_collided.GetComponent<Enemy>() != null)
 						{
 							_collided.GetComponent<Enemy>().Damage(_damage, transform.position);
-							return _collided.tag;
+                            Destroy();
+                            return _collided.tag;
 						}
 					}
 				}

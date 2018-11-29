@@ -46,11 +46,26 @@ namespace EightBricksDefense
 		// ----------------------------------------------	
 		private int m_type;
 
-		// -------------------------------------------
-		/* 
+        // ----------------------------------------------
+        // GETTERS/SETTERS
+        // ----------------------------------------------	
+        public string Name
+        {
+            get { return this.gameObject.name; }
+            set { }
+        }
+
+        public string ModelState
+        {
+            get { return ""; }
+            set { }
+        }
+
+        // -------------------------------------------
+        /* 
 		 * Initialization of the element
 		 */
-		public override void Initialize(params object[] _list)
+        public override void Initialize(params object[] _list)
 		{
 			base.Initialize(_list);
 
@@ -79,20 +94,24 @@ namespace EightBricksDefense
 			ChangeState(STATE_IDLE);
 		}
 
-		// -------------------------------------------
-		/* 
+        // -------------------------------------------
+        /* 
 		 * Release resources
 		 */
-		public void Destroy()
-		{
-			GameObject.Destroy(this.gameObject);
-		}
+        public override bool Destroy()
+        {
+            if (base.Destroy()) return true;
 
-		// -------------------------------------------
-		/* 
+            GameObject.Destroy(this.gameObject);
+
+            return false;
+        }
+
+        // -------------------------------------------
+        /* 
 		 * Collision of the bullet with an element
 		 */
-		void OnTriggerEnter(Collider _collision)
+        void OnTriggerEnter(Collider _collision)
 		{
 			if (_collision.gameObject.tag == LocalPlayerController.Instance.GetTag())
 			{

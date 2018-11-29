@@ -51,12 +51,23 @@ namespace EightBricksDefense
 		{
 			return this.gameObject.GetComponent<ActorNetwork>().IsMine();
 		}
+        public string Name
+        {
+            get { return this.gameObject.name; }
+            set { }
+        }
 
-		// -------------------------------------------
-		/* 
+        public string ModelState
+        {
+            get { return ""; }
+            set { }
+        }
+
+        // -------------------------------------------
+        /* 
 		 * Constructor
 		 */
-		public void Awake()
+        public void Awake()
 		{
 			EventNameObjectCreated = EVENT_PLAYER_CREATED_NEW;
 		}
@@ -104,21 +115,25 @@ namespace EightBricksDefense
 			}
 		}
 
-		// -------------------------------------------
-		/* 
-		* Release resources
-		*/
-		public void Destroy()
-		{
-			NetworkEventController.Instance.NetworkEvent -= OnNetworkEvent;
-			GameObject.Destroy(this.gameObject);
-		}
+        // -------------------------------------------
+        /* 
+		 * Release resources
+		 */
+        public override bool Destroy()
+        {
+            if (base.Destroy()) return true;
 
-		// -------------------------------------------
-		/* 
+            NetworkEventController.Instance.NetworkEvent -= OnNetworkEvent;
+            GameObject.Destroy(this.gameObject);
+
+            return false;
+        }
+
+        // -------------------------------------------
+        /* 
 		 * Set up the position
 		 */
-		public void SetPosition(Vector3 _position)
+        public void SetPosition(Vector3 _position)
 		{
 			transform.position = _position;
 		}
