@@ -65,6 +65,14 @@ namespace EightBricksDefense
             set { }
         }
 
+        public bool MustBeDestroyed
+        {
+            get
+            {
+                return false;
+            }
+        }
+
         // -------------------------------------------
         /* 
 		 * Constructor
@@ -163,5 +171,13 @@ namespace EightBricksDefense
 				}
 			}
 		}
-	}
+
+        public void ApplyCentered()
+        {
+        }
+
+        public void SetLayer(int _layer)
+        {
+        }
+    }
 }

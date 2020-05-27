@@ -64,6 +64,7 @@ namespace EightBricksDefense
 		private int m_cellwidth;
 		private int m_cellheight;
 		private int[][][] m_map;
+		private int[][][] m_pathfindingMap;
 
 		private List<Vector3> m_portalEnterPositions = new List<Vector3>();
 		private List<Vector3> m_portalExitPositions = new List<Vector3>();
@@ -165,7 +166,36 @@ namespace EightBricksDefense
 				}
 			}
 
-			BuildBlocks();
+            m_pathfindingMap = new int[m_layers][][];
+            for (int z = 0; z < m_layers; z++)
+            {
+                XmlNode matrixData = matrix.ChildNodes[z];
+                string[] buffer = matrixData.InnerText.Split(',');
+                m_pathfindingMap[z] = new int[m_width][];
+                for (int i = 0; i < m_width; i++)
+                {
+                    // m_pathfindingMap[z][i] = new int[m_height];
+                    m_pathfindingMap[z][m_width - (i + 1)] = new int[m_height];
+                    for (int j = 0; j < m_height; j++)
+                    {
+                        // int valueBlock = int.Parse(buffer[((m_width - (i + 1)) * m_height) + (m_height - (j + 1))]);
+                        int valueBlock = int.Parse(buffer[((m_width - (i + 1)) * m_height) + j]);
+                        if (valueBlock >= PLAYER_ENTER_POSITION)
+                        {
+                            m_playerInitialPosition.Add(new Vector3(i, z - 1, j));
+                            // m_pathfindingMap[z][i][j] = 0;
+                            m_pathfindingMap[z][m_width - (i + 1)][j] = 0;
+                        }
+                        else
+                        {
+                            // m_pathfindingMap[z][i][j] = valueBlock;
+                            m_pathfindingMap[z][m_width - (i + 1)][j] = valueBlock;
+                        }
+                    }
+                }
+            }
+
+            BuildBlocks();
 
 			// PORTALS
 			m_portalEnterPositions = new List<Vector3>();
@@ -188,6 +218,8 @@ namespace EightBricksDefense
 			}
 
 			float sizePortal = GameConfiguration.CELL_SIZE / 2;
+			float incrementPos = GameConfiguration.CELL_SIZE;
+			float incrementPosY = GameConfiguration.CELL_SIZE / 2;
 
 			// PORTAL ENTER
 			if (m_portalEnterPositions.Count > 0)
@@ -198,7 +230,7 @@ namespace EightBricksDefense
 					GameObject portalEnter = Utilities.AddChild(_instance.gameObject.transform, Portals[0]);
 					portalEnter.tag = GameConfiguration.WALL_TAG;
 					portalEnter.transform.localScale = new Vector3(sizePortal, sizePortal, sizePortal);
-					portalEnter.transform.position = new Vector3(portalEnterPosition.x * GameConfiguration.CELL_SIZE, portalEnterPosition.y * GameConfiguration.CELL_SIZE, portalEnterPosition.z * GameConfiguration.CELL_SIZE);
+					portalEnter.transform.position = new Vector3((portalEnterPosition.x * GameConfiguration.CELL_SIZE) - incrementPos, (portalEnterPosition.y * GameConfiguration.CELL_SIZE) + incrementPosY, (portalEnterPosition.z * GameConfiguration.CELL_SIZE) - incrementPos);
 					m_objects.Add(portalEnter);
 				}
 			}
@@ -217,7 +249,7 @@ namespace EightBricksDefense
 					GameObject portalExit = Utilities.AddChild(_instance.gameObject.transform, Portals[1]);
 					portalExit.tag = GameConfiguration.WALL_TAG;
 					portalExit.transform.localScale = new Vector3(sizePortal, sizePortal, sizePortal);
-					portalExit.transform.position = new Vector3(portalExitPosition.x * GameConfiguration.CELL_SIZE, portalExitPosition.y * GameConfiguration.CELL_SIZE, portalExitPosition.z * GameConfiguration.CELL_SIZE);
+					portalExit.transform.position = new Vector3((portalExitPosition.x * GameConfiguration.CELL_SIZE) - incrementPos, (portalExitPosition.y * GameConfiguration.CELL_SIZE) + incrementPosY, (portalExitPosition.z * GameConfiguration.CELL_SIZE) - incrementPos);
 					m_objects.Add(portalExit);
 				}
 			}
@@ -237,7 +269,7 @@ namespace EightBricksDefense
 		public void CalculateAIMatrix()
 		{
 			// ALLOCATE MEMORY FOR PATHFINDING
-			PathFindingController.Instance.AllocateMemoryMatrix(m_width, m_height, m_layers, GameConfiguration.CELL_SIZE, 0, 0, 0, m_map);
+			PathFindingController.Instance.AllocateMemoryMatrix(m_width, m_height, m_layers, GameConfiguration.CELL_SIZE, -GameConfiguration.CELL_SIZE, 0, -GameConfiguration.CELL_SIZE, m_pathfindingMap);
 
 			// ALLOCATE MEMORY FOR PATHFINDING
 			GameEventController.Instance.DispatchGameEvent(EnemiesController.EVENT_ENEMIESCONTROLLER_CALCULATE_PATH_ENEMIES, m_portalEnterPositions, m_portalExitPositions);
@@ -250,19 +282,20 @@ namespace EightBricksDefense
 		public void BuildBlocks()
 		{
 			Vector3 posIni = Vector3.zero;
+            float incrementPos = GameConfiguration.CELL_SIZE / 2;
 
-			// FLOOR
-			for (int i = 0; i < m_width; i++)
+            // FLOOR
+            for (int i = 0; i < m_width; i++)
 			{
 				for (int j = 0; j < m_height; j++)
 				{
-					float xPos = i * GameConfiguration.CELL_SIZE;
-					float zPos = j * GameConfiguration.CELL_SIZE;
+					float xPos = (i * GameConfiguration.CELL_SIZE) - (GameConfiguration.CELL_SIZE/2);
+					float zPos = (j * GameConfiguration.CELL_SIZE) - (GameConfiguration.CELL_SIZE / 2);
 					float yPos = (-1 * GameConfiguration.CELL_SIZE);
 					GameObject block = Utilities.AddChild(_instance.gameObject.transform, Blocks[0]);
 					block.tag = GameConfiguration.FLOOR_TAG;
 					block.transform.localScale = new Vector3(GameConfiguration.CELL_SIZE, GameConfiguration.CELL_SIZE, GameConfiguration.CELL_SIZE);
-					block.transform.position = new Vector3(xPos, yPos, zPos);
+					block.transform.position = new Vector3(xPos - incrementPos, yPos + incrementPos, zPos - incrementPos);
 					m_floor.Add(block);
 				}
 			}
@@ -277,13 +310,13 @@ namespace EightBricksDefense
 						int blockType = m_map[u][i][j];
 						if ((blockType > 0) && (blockType < 16))
 						{
-							float xPos = i * GameConfiguration.CELL_SIZE;
-							float zPos = j * GameConfiguration.CELL_SIZE;
+							float xPos = (i * GameConfiguration.CELL_SIZE) - (GameConfiguration.CELL_SIZE / 2);
+							float zPos = (j * GameConfiguration.CELL_SIZE) - (GameConfiguration.CELL_SIZE / 2);
 							float yPos = ((u - 1) * GameConfiguration.CELL_SIZE);
 							GameObject block = Utilities.AddChild(_instance.gameObject.transform, Blocks[blockType]);
 							block.tag = GameConfiguration.WALL_TAG;
 							block.transform.localScale = new Vector3(GameConfiguration.CELL_SIZE, GameConfiguration.CELL_SIZE, GameConfiguration.CELL_SIZE);
-							block.transform.position = new Vector3(xPos, yPos, zPos);
+							block.transform.position = new Vector3(xPos - incrementPos, yPos + incrementPos, zPos - incrementPos);
 							m_walls.Add(block);
 						}
 					}
@@ -371,11 +404,43 @@ namespace EightBricksDefense
 			}
 		}
 
-		// -------------------------------------------
-		/* 
+
+        // ---------------------------------------------------
+        /**
+		* Check the cell just up a defined position
+		*/
+        public Vector3 GetCustomMatrixUpCell(float _x, float _y, float _z)
+        {
+            float cellSize = GameConfiguration.CELL_SIZE;
+            int x = (int)(_x / cellSize) + 1;
+            int y = (int)(_y / cellSize) + 1;
+            int z = (int)(_z / cellSize);
+
+            int currentCell = m_pathfindingMap[y][m_width - (x + 1)][z];
+            int nextCell = -1;
+            if (y + 1 < m_pathfindingMap.Length)
+            {
+                nextCell = m_pathfindingMap[y + 1][m_width - (x + 1)][z];
+                if (nextCell == 0)
+                {
+                    return new Vector3((x - 1) * cellSize, y * cellSize, z * cellSize);
+                }
+                else
+                {
+                    return Vector3.zero;
+                }
+            }
+            else
+            {
+                return Vector3.zero;
+            }
+        }
+
+        // -------------------------------------------
+        /* 
 		 * Will get a random position that is above the floor
 		 */
-		public Vector3 GetRandomPositionWall()
+        public Vector3 GetRandomPositionWall()
 		{
 			Vector3 output = new Vector3();
 			bool isWall = false;

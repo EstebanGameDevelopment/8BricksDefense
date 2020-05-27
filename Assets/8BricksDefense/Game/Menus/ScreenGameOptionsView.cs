@@ -66,7 +66,7 @@ namespace EightBricksDefense
 		*/
         public void Load8BricksGameScene()
         {
-            CardboardLoaderVR.SaveEnableCardboard(true);
+            CardboardLoaderVR.Instance.SaveEnableCardboard(true);
             MenuScreenController.Instance.CreateOrJoinRoomInServer(false);
             Destroy();
         }
@@ -101,7 +101,7 @@ namespace EightBricksDefense
 		private void PlayInVRPressed()
 		{
 			SoundsController.Instance.PlaySingleSound(SoundsConfiguration.SOUND_SELECTION_FX);
-			CardboardLoaderVR.SaveEnableCardboard(true);
+			CardboardLoaderVR.Instance.SaveEnableCardboard(true);
 			MenuScreenController.Instance.CreateOrJoinRoomInServer(false);
 			Destroy();
 			UIEventController.Instance.DispatchUIEvent(UIEventController.EVENT_SCREENMANAGER_OPEN_GENERIC_SCREEN,ScreenLoadingView.SCREEN_NAME, UIScreenTypePreviousAction.KEEP_CURRENT_SCREEN, false, null);
@@ -114,7 +114,7 @@ namespace EightBricksDefense
 		private void PlayWithGyroscopePressed()
 		{
 			SoundsController.Instance.PlaySingleSound(SoundsConfiguration.SOUND_SELECTION_FX);
-			CardboardLoaderVR.SaveEnableCardboard(false);
+			CardboardLoaderVR.Instance.SaveEnableCardboard(false);
 			MenuScreenController.Instance.CreateOrJoinRoomInServer(false);
 			Destroy();
 			UIEventController.Instance.DispatchUIEvent(UIEventController.EVENT_SCREENMANAGER_OPEN_GENERIC_SCREEN,ScreenLoadingView.SCREEN_NAME, UIScreenTypePreviousAction.KEEP_CURRENT_SCREEN, false, null);

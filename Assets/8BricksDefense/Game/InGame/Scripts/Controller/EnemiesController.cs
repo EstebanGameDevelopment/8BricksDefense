@@ -348,12 +348,12 @@ namespace EightBricksDefense
 				m_waypointsEnemies = new Dictionary<Vector2, List<Vector3>>();
 				for (int i = 0; i < m_startingPositions.Count; i++)
 				{
-					Vector3 origin = new Vector3(m_startingPositions[i].x, m_startingPositions[i].z, m_startingPositions[i].y + 1);
+					Vector3 origin = (new Vector3(m_startingPositions[i].x, m_startingPositions[i].y + 2, m_startingPositions[i].z) * PathFindingController.Instance.GetCellSize()) - (Vector3.one * PathFindingController.Instance.GetCellSize()/2);
 					for (int j = 0; j < m_startingPositions.Count; j++)
 					{
-						Vector3 destination = new Vector3(m_endingPositions[j].x, m_endingPositions[j].z, m_endingPositions[j].y + 1);
-						List<Vector3> waypointsEnemiesForOrigin = new List<Vector3>();
-						PathFindingController.Instance.SearchAStar(origin, destination, waypointsEnemiesForOrigin, true);
+						Vector3 destination = (new Vector3(m_endingPositions[j].x, m_endingPositions[j].y + 2, m_endingPositions[j].z) * PathFindingController.Instance.GetCellSize()) - (Vector3.one * PathFindingController.Instance.GetCellSize() / 2);
+                        List<Vector3> waypointsEnemiesForOrigin = new List<Vector3>();
+						PathFindingController.Instance.GetPath(origin, destination, waypointsEnemiesForOrigin, 1, false);
 						m_waypointsEnemies.Add(new Vector2(i, j), waypointsEnemiesForOrigin);
 					}
 				}

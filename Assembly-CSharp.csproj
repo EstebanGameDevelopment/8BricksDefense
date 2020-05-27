@@ -1,20 +1,19 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
   <PropertyGroup>
-    <LangVersion>4</LangVersion>
+    <LangVersion>6</LangVersion>
   </PropertyGroup>
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
     <ProductVersion>10.0.20506</ProductVersion>
     <SchemaVersion>2.0</SchemaVersion>
-    <RootNamespace>
-    </RootNamespace>
+    <RootNamespace></RootNamespace>
     <ProjectGuid>{E6E36557-5E53-8011-C02F-4ECDE6A69C2C}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
     <AssemblyName>Assembly-CSharp</AssemblyName>
-    <TargetFrameworkVersion>v3.5</TargetFrameworkVersion>
+    <TargetFrameworkVersion>v4.7.1</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <BaseDirectory>.</BaseDirectory>
   </PropertyGroup>
@@ -23,7 +22,7 @@
     <DebugType>full</DebugType>
     <Optimize>false</Optimize>
     <OutputPath>Temp\bin\Debug\</OutputPath>
-    <DefineConstants>DEBUG;TRACE;UNITY_5_3_OR_NEWER;UNITY_5_4_OR_NEWER;UNITY_5_5_OR_NEWER;UNITY_5_6_OR_NEWER;UNITY_2017_1_OR_NEWER;UNITY_2017_2_OR_NEWER;UNITY_2017_3_OR_NEWER;UNITY_2018_1_OR_NEWER;UNITY_2018_1_6;UNITY_2018_1;UNITY_2018;UNITY_ANALYTICS;ENABLE_AUDIO;ENABLE_CACHING;ENABLE_CLOTH;ENABLE_MICROPHONE;ENABLE_MULTIPLE_DISPLAYS;ENABLE_PHYSICS;ENABLE_SPRITERENDERER_FLIPPING;ENABLE_SPRITES;ENABLE_GRID;ENABLE_TILEMAP;ENABLE_TERRAIN;ENABLE_RAKNET;ENABLE_DIRECTOR;ENABLE_UNET;ENABLE_LZMA;ENABLE_UNITYEVENTS;ENABLE_WEBCAM;ENABLE_WWW;ENABLE_CLOUD_SERVICES_COLLAB;ENABLE_CLOUD_SERVICES_COLLAB_SOFTLOCKS;ENABLE_CLOUD_SERVICES_ADS;ENABLE_CLOUD_HUB;ENABLE_CLOUD_PROJECT_ID;ENABLE_CLOUD_SERVICES_USE_WEBREQUEST;ENABLE_CLOUD_SERVICES_UNET;ENABLE_CLOUD_SERVICES_BUILD;ENABLE_CLOUD_LICENSE;ENABLE_EDITOR_HUB;ENABLE_EDITOR_HUB_LICENSE;ENABLE_WEBSOCKET_CLIENT;ENABLE_DIRECTOR_AUDIO;ENABLE_DIRECTOR_TEXTURE;ENABLE_TIMELINE;ENABLE_EDITOR_METRICS;ENABLE_EDITOR_METRICS_CACHING;ENABLE_MANAGED_JOBS;ENABLE_MANAGED_TRANSFORM_JOBS;INCLUDE_DYNAMIC_GI;INCLUDE_GI;ENABLE_MONO_BDWGC;PLATFORM_SUPPORTS_MONO;INCLUDE_PUBNUB;ENABLE_PLAYMODE_TESTS_RUNNER;ENABLE_VIDEO;ENABLE_PACKMAN;ENABLE_CUSTOM_RENDER_TEXTURE;ENABLE_LOCALIZATION;PLATFORM_ANDROID;UNITY_ANDROID;UNITY_ANDROID_API;ENABLE_SUBSTANCE;ENABLE_EGL;ENABLE_NETWORK;ENABLE_RUNTIME_GI;ENABLE_CRUNCH_TEXTURE_COMPRESSION;ENABLE_UNITYWEBREQUEST;ENABLE_CLOUD_SERVICES;ENABLE_CLOUD_SERVICES_ANALYTICS;ENABLE_EVENT_QUEUE;ENABLE_CLOUD_SERVICES_PURCHASING;ENABLE_CLOUD_SERVICES_CRASH_REPORTING;ENABLE_CLOUD_SERVICES_NATIVE_CRASH_REPORTING;PLATFORM_SUPPORTS_ADS_ID;UNITY_CAN_SHOW_SPLASH_SCREEN;ENABLE_VR;ENABLE_AR;ENABLE_SPATIALTRACKING;ENABLE_UNITYADS_RUNTIME;UNITY_UNITYADS_API;ENABLE_MONO;NET_2_0_SUBSET;ENABLE_PROFILER;UNITY_ASSERTIONS;UNITY_EDITOR;UNITY_EDITOR_64;UNITY_EDITOR_WIN;ENABLE_UNITY_COLLECTIONS_CHECKS;UNITY_TEAM_LICENSE;ENABLE_VSTU;ENABLE_YOURVRUI;UNITY_HAS_GOOGLEVR;UNITY_HAS_TANGO</DefineConstants>
+    <DefineConstants>DEBUG;TRACE;UNITY_5_3_OR_NEWER;UNITY_5_4_OR_NEWER;UNITY_5_5_OR_NEWER;UNITY_5_6_OR_NEWER;UNITY_2017_1_OR_NEWER;UNITY_2017_2_OR_NEWER;UNITY_2017_3_OR_NEWER;UNITY_2018_1_OR_NEWER;UNITY_2018_1_6;UNITY_2018_1;UNITY_2018;UNITY_ANALYTICS;ENABLE_AUDIO;ENABLE_CACHING;ENABLE_CLOTH;ENABLE_MICROPHONE;ENABLE_MULTIPLE_DISPLAYS;ENABLE_PHYSICS;ENABLE_SPRITERENDERER_FLIPPING;ENABLE_SPRITES;ENABLE_GRID;ENABLE_TILEMAP;ENABLE_TERRAIN;ENABLE_RAKNET;ENABLE_DIRECTOR;ENABLE_UNET;ENABLE_LZMA;ENABLE_UNITYEVENTS;ENABLE_WEBCAM;ENABLE_WWW;ENABLE_CLOUD_SERVICES_COLLAB;ENABLE_CLOUD_SERVICES_COLLAB_SOFTLOCKS;ENABLE_CLOUD_SERVICES_ADS;ENABLE_CLOUD_HUB;ENABLE_CLOUD_PROJECT_ID;ENABLE_CLOUD_SERVICES_USE_WEBREQUEST;ENABLE_CLOUD_SERVICES_UNET;ENABLE_CLOUD_SERVICES_BUILD;ENABLE_CLOUD_LICENSE;ENABLE_EDITOR_HUB;ENABLE_EDITOR_HUB_LICENSE;ENABLE_WEBSOCKET_CLIENT;ENABLE_DIRECTOR_AUDIO;ENABLE_DIRECTOR_TEXTURE;ENABLE_TIMELINE;ENABLE_EDITOR_METRICS;ENABLE_EDITOR_METRICS_CACHING;ENABLE_MANAGED_JOBS;ENABLE_MANAGED_TRANSFORM_JOBS;INCLUDE_DYNAMIC_GI;INCLUDE_GI;ENABLE_MONO_BDWGC;PLATFORM_SUPPORTS_MONO;INCLUDE_PUBNUB;ENABLE_PLAYMODE_TESTS_RUNNER;ENABLE_VIDEO;ENABLE_PACKMAN;ENABLE_CUSTOM_RENDER_TEXTURE;ENABLE_LOCALIZATION;PLATFORM_ANDROID;UNITY_ANDROID;UNITY_ANDROID_API;ENABLE_SUBSTANCE;ENABLE_EGL;ENABLE_NETWORK;ENABLE_RUNTIME_GI;ENABLE_CRUNCH_TEXTURE_COMPRESSION;ENABLE_UNITYWEBREQUEST;ENABLE_CLOUD_SERVICES;ENABLE_CLOUD_SERVICES_ANALYTICS;ENABLE_EVENT_QUEUE;ENABLE_CLOUD_SERVICES_PURCHASING;ENABLE_CLOUD_SERVICES_CRASH_REPORTING;ENABLE_CLOUD_SERVICES_NATIVE_CRASH_REPORTING;PLATFORM_SUPPORTS_ADS_ID;UNITY_CAN_SHOW_SPLASH_SCREEN;ENABLE_VR;ENABLE_AR;ENABLE_SPATIALTRACKING;ENABLE_UNITYADS_RUNTIME;UNITY_UNITYADS_API;ENABLE_MONO;NET_4_6;ENABLE_PROFILER;UNITY_ASSERTIONS;UNITY_EDITOR;UNITY_EDITOR_64;UNITY_EDITOR_WIN;ENABLE_UNITY_COLLECTIONS_CHECKS;UNITY_TEAM_LICENSE;ENABLE_VSTU;UNITY_PRO_LICENSE;ENABLE_YOURVRUI;UNITY_HAS_GOOGLEVR;UNITY_HAS_TANGO</DefineConstants>
     <ErrorReport>prompt</ErrorReport>
     <WarningLevel>4</WarningLevel>
     <NoWarn>0169</NoWarn>
@@ -209,7 +208,9 @@
     <Compile Include="Assets\Submodules\NetworkTools\ARCore\Scripts\CloudGameAnchorController.cs" />
     <Compile Include="Assets\Submodules\NetworkTools\ARCore\Scripts\Utils\DetectedPlaneGenerator.cs" />
     <Compile Include="Assets\Submodules\NetworkTools\ARCore\Scripts\Utils\DetectedPlaneVisualizer.cs" />
+    <Compile Include="Assets\Submodules\NetworkTools\ARCore\Scripts\Utils\LoadLevel6DOF.cs" />
     <Compile Include="Assets\Submodules\NetworkTools\ARCore\Scripts\Utils\PointcloudVisualizer.cs" />
+    <Compile Include="Assets\Submodules\NetworkTools\ARCore\Scripts\Utils\ScaleMovement6DOFXZ.cs" />
     <Compile Include="Assets\Submodules\NetworkTools\Menus\Scripts\Controller\MenuScreenController.cs" />
     <Compile Include="Assets\Submodules\NetworkTools\Menus\Scripts\View\FacebookScreens\ScreenFacebookConnectView.cs" />
     <Compile Include="Assets\Submodules\NetworkTools\Menus\Scripts\View\FacebookScreens\ScreenFacebookCreateInvitationView.cs" />
@@ -220,6 +221,7 @@
     <Compile Include="Assets\Submodules\NetworkTools\Menus\Scripts\View\LobbyScreens\ScreenListRoomsView.cs" />
     <Compile Include="Assets\Submodules\NetworkTools\Menus\Scripts\View\LobbyScreens\ScreenMainLobbyView.cs" />
     <Compile Include="Assets\Submodules\NetworkTools\Menus\Scripts\View\LobbyScreens\ScreenRemoteModeView.cs" />
+    <Compile Include="Assets\Submodules\NetworkTools\Menus\Scripts\View\LobbyScreens\ScreenSetUpAddressView.cs" />
     <Compile Include="Assets\Submodules\NetworkTools\Menus\Scripts\View\MainMenuScreens\ScreenMenuLocalGameView.cs" />
     <Compile Include="Assets\Submodules\NetworkTools\Menus\Scripts\View\MainMenuScreens\ScreenMenuMainView.cs" />
     <Compile Include="Assets\Submodules\NetworkTools\Menus\Scripts\View\MainMenuScreens\ScreenMenuNumberPlayersView.cs" />
@@ -230,6 +232,7 @@
     <Compile Include="Assets\Submodules\NetworkTools\Menus\Scripts\View\Utils\ItemFriendView.cs" />
     <Compile Include="Assets\Submodules\NetworkTools\Menus\Scripts\View\Utils\ItemLobbyRoomView.cs" />
     <Compile Include="Assets\Submodules\NetworkTools\Menus\Scripts\View\Utils\ItemRoomView.cs" />
+    <Compile Include="Assets\Submodules\NetworkTools\Networking\Scripts\Controller\ActorTimeline.cs" />
     <Compile Include="Assets\Submodules\NetworkTools\Networking\Scripts\Controller\ClientTCPEventsController.cs" />
     <Compile Include="Assets\Submodules\NetworkTools\Networking\Scripts\Controller\CommunicationsController.cs" />
     <Compile Include="Assets\Submodules\NetworkTools\Networking\Scripts\Controller\GenericNetworkTransmitter.cs" />
@@ -244,8 +247,10 @@
     <Compile Include="Assets\Submodules\NetworkTools\Networking\Scripts\Example\ExampleNetworkEvent.cs" />
     <Compile Include="Assets\Submodules\NetworkTools\Networking\Scripts\Model\ClientEventsDefinition.cs" />
     <Compile Include="Assets\Submodules\NetworkTools\Networking\Scripts\Model\ClientInstalledApps.cs" />
+    <Compile Include="Assets\Submodules\NetworkTools\Networking\Scripts\Model\GrabNetworkObject.cs" />
     <Compile Include="Assets\Submodules\NetworkTools\Networking\Scripts\Model\INetworkResources.cs" />
     <Compile Include="Assets\Submodules\NetworkTools\Networking\Scripts\Model\JSONData.cs" />
+    <Compile Include="Assets\Submodules\NetworkTools\Networking\Scripts\Model\NetworkedObject.cs" />
     <Compile Include="Assets\Submodules\NetworkTools\Networking\Scripts\Model\NetworkID.cs" />
     <Compile Include="Assets\Submodules\NetworkTools\Networking\Scripts\Model\NetworkTypes\Data\INetworkObject.cs" />
     <Compile Include="Assets\Submodules\NetworkTools\Networking\Scripts\Model\NetworkTypes\Data\NetworkObjectData.cs" />
@@ -272,6 +277,7 @@
     <Compile Include="Assets\Submodules\NetworkTools\System\Scripts\Model\MultiplayerConfiguration.cs" />
     <Compile Include="Assets\Submodules\NetworkTools\System\Scripts\Model\SoundsConfiguration.cs" />
     <Compile Include="Assets\YourCommonTools\Actor\Actor.cs" />
+    <Compile Include="Assets\YourCommonTools\Actor\ActorPatrol.cs" />
     <Compile Include="Assets\YourCommonTools\Actor\IGameActor.cs" />
     <Compile Include="Assets\YourCommonTools\AssetBundle\AssetBundleController.cs" />
     <Compile Include="Assets\YourCommonTools\AssetBundle\AssetBundleCreator.cs" />
@@ -283,12 +289,16 @@
     <Compile Include="Assets\YourCommonTools\Controllers\Scripts\TimedEventData.cs" />
     <Compile Include="Assets\YourCommonTools\DroneKit\Scripts\DroneKitAndroidController.cs" />
     <Compile Include="Assets\YourCommonTools\DroneKit\Scripts\DroneKitPythonController.cs" />
+    <Compile Include="Assets\YourCommonTools\DroneKit\Scripts\DroneUDPReceiveController.cs" />
+    <Compile Include="Assets\YourCommonTools\DroneKit\Scripts\DroneUDPSendController.cs" />
+    <Compile Include="Assets\YourCommonTools\DroneKit\Scripts\WebSocketDroneKitController.cs" />
     <Compile Include="Assets\YourCommonTools\Encryption\RJEncryptor.cs" />
     <Compile Include="Assets\YourCommonTools\Facebook\FacebookController.cs" />
     <Compile Include="Assets\YourCommonTools\FileBrowser\Scripts\FileItemView.cs" />
     <Compile Include="Assets\YourCommonTools\FileBrowser\Scripts\FileManagerView.cs" />
     <Compile Include="Assets\YourCommonTools\FileBrowser\Scripts\FileSystemController.cs" />
     <Compile Include="Assets\YourCommonTools\GoogleMaps\GoogleMap.cs" />
+    <Compile Include="Assets\YourCommonTools\GooglePlay\GooglePlayController.cs" />
     <Compile Include="Assets\YourCommonTools\HTTPComms\BaseDataHTTP.cs" />
     <Compile Include="Assets\YourCommonTools\HTTPComms\CommController.cs" />
     <Compile Include="Assets\YourCommonTools\HTTPComms\CommEventData.cs" />
@@ -299,68 +309,107 @@
     <Compile Include="Assets\YourCommonTools\Image\ImageUtils.cs" />
     <Compile Include="Assets\YourCommonTools\Image\ThumbnailRequestedInfo.cs" />
     <Compile Include="Assets\YourCommonTools\Inputs\KeysEventInputController.cs" />
+    <Compile Include="Assets\YourCommonTools\Inputs\OculusHandTriggerAction.cs" />
     <Compile Include="Assets\YourCommonTools\Interpolator\AlphaController.cs" />
     <Compile Include="Assets\YourCommonTools\Interpolator\AlphaData.cs" />
+    <Compile Include="Assets\YourCommonTools\Interpolator\IInterpolateData.cs" />
     <Compile Include="Assets\YourCommonTools\Interpolator\InterpolateData.cs" />
+    <Compile Include="Assets\YourCommonTools\Interpolator\InterpolateForwardData.cs" />
+    <Compile Include="Assets\YourCommonTools\Interpolator\InterpolatePositionData.cs" />
+    <Compile Include="Assets\YourCommonTools\Interpolator\InterpolateRotationData.cs" />
+    <Compile Include="Assets\YourCommonTools\Interpolator\InterpolateScaleData.cs" />
     <Compile Include="Assets\YourCommonTools\Interpolator\InterpolatorController.cs" />
+    <Compile Include="Assets\YourCommonTools\Interpolator\RotatorController.cs" />
+    <Compile Include="Assets\YourCommonTools\Interpolator\RotatorData.cs" />
     <Compile Include="Assets\YourCommonTools\JSON\SimpleJSON.cs" />
+    <Compile Include="Assets\YourCommonTools\Oculus\Scripts\HandRayToolView.cs" />
+    <Compile Include="Assets\YourCommonTools\Oculus\Scripts\InteractableOculusHandsCreator.cs" />
+    <Compile Include="Assets\YourCommonTools\Oculus\Scripts\PinchInteractionTool.cs" />
+    <Compile Include="Assets\YourCommonTools\Oculus\Scripts\PinchStateCustom.cs" />
+    <Compile Include="Assets\YourCommonTools\Oculus\Scripts\ScreenOculusControlSelectionView.cs" />
+    <Compile Include="Assets\YourCommonTools\Parabola\ProjectileShooter.cs" />
+    <Compile Include="Assets\YourCommonTools\Parabola\ProjectileShooterManager.cs" />
+    <Compile Include="Assets\YourCommonTools\Pathfinding\Scripts\CustomVector3.cs" />
     <Compile Include="Assets\YourCommonTools\Pathfinding\Scripts\NodePathMatrix.cs" />
     <Compile Include="Assets\YourCommonTools\Pathfinding\Scripts\PathFindingController.cs" />
+    <Compile Include="Assets\YourCommonTools\Pathfinding\Scripts\PathFindingInstance.cs" />
+    <Compile Include="Assets\YourCommonTools\Pathfinding\Scripts\PrecalculatedData.cs" />
     <Compile Include="Assets\YourCommonTools\Screens\Scripts\Controller\ScreenController.cs" />
     <Compile Include="Assets\YourCommonTools\Screens\Scripts\Controller\UIEventController.cs" />
     <Compile Include="Assets\YourCommonTools\Screens\Scripts\Interface\IBasicItemView.cs" />
     <Compile Include="Assets\YourCommonTools\Screens\Scripts\Interface\IBasicView.cs" />
     <Compile Include="Assets\YourCommonTools\Screens\Scripts\Model\AppEventData.cs" />
+    <Compile Include="Assets\YourCommonTools\Screens\Scripts\View\Information\ScreenDebugLogView.cs" />
     <Compile Include="Assets\YourCommonTools\Screens\Scripts\View\Information\ScreenInformationView.cs" />
     <Compile Include="Assets\YourCommonTools\Screens\Scripts\View\Information\ScreenLoadingView.cs" />
+    <Compile Include="Assets\YourCommonTools\Screens\Scripts\View\Information\ScreenNumberInputView.cs" />
     <Compile Include="Assets\YourCommonTools\Screens\Scripts\View\Information\ScreenSingleImageView.cs" />
     <Compile Include="Assets\YourCommonTools\Screens\Scripts\View\List\ScreenListItemsView.cs" />
     <Compile Include="Assets\YourCommonTools\Screens\Scripts\View\Options\ScreenMultipleOptionsView.cs" />
     <Compile Include="Assets\YourCommonTools\Screens\Scripts\View\Slots\ISlotView.cs" />
     <Compile Include="Assets\YourCommonTools\Screens\Scripts\View\Slots\ItemImageView.cs" />
     <Compile Include="Assets\YourCommonTools\Screens\Scripts\View\Slots\ItemTextView.cs" />
+    <Compile Include="Assets\YourCommonTools\Screens\Scripts\View\Slots\ScrollRectSnap.cs" />
     <Compile Include="Assets\YourCommonTools\Screens\Scripts\View\Slots\SlotManagerView.cs" />
     <Compile Include="Assets\YourCommonTools\Screens\Scripts\View\Utils\BaseItemView.cs" />
     <Compile Include="Assets\YourCommonTools\Screens\Scripts\View\Utils\ItemStringView.cs" />
     <Compile Include="Assets\YourCommonTools\Screens\Scripts\View\Utils\ScreenBaseView.cs" />
     <Compile Include="Assets\YourCommonTools\Screens\Scripts\View\Utils\SelectableButtonView.cs" />
+    <Compile Include="Assets\YourCommonTools\Shaders\Scripts\GreyCameraFilter.cs" />
+    <Compile Include="Assets\YourCommonTools\Utilities\ActivateLocalModel.cs" />
     <Compile Include="Assets\YourCommonTools\Utilities\AutoRotate.cs" />
     <Compile Include="Assets\YourCommonTools\Utilities\CardboardLoaderVR.cs" />
     <Compile Include="Assets\YourCommonTools\Utilities\ClassFinder.cs" />
     <Compile Include="Assets\YourCommonTools\Utilities\ClearLocalStore.cs" />
+    <Compile Include="Assets\YourCommonTools\Utilities\CollisionColliderEvent.cs" />
     <Compile Include="Assets\YourCommonTools\Utilities\CollisionTriggerEvent.cs" />
+    <Compile Include="Assets\YourCommonTools\Utilities\CommonEditor.cs" />
     <Compile Include="Assets\YourCommonTools\Utilities\CustomButton.cs" />
     <Compile Include="Assets\YourCommonTools\Utilities\DateConverter.cs" />
     <Compile Include="Assets\YourCommonTools\Utilities\DrawSimpleLine.cs" />
     <Compile Include="Assets\YourCommonTools\Utilities\EncodingForBase64.cs" />
+    <Compile Include="Assets\YourCommonTools\Utilities\FPSDisplay.cs" />
+    <Compile Include="Assets\YourCommonTools\Utilities\ICustomButton.cs" />
     <Compile Include="Assets\YourCommonTools\Utilities\IpManager.cs" />
     <Compile Include="Assets\YourCommonTools\Utilities\ItemMultiObjectEntry.cs" />
     <Compile Include="Assets\YourCommonTools\Utilities\ItemMultiTextEntry.cs" />
+    <Compile Include="Assets\YourCommonTools\Utilities\LineEquation.cs" />
     <Compile Include="Assets\YourCommonTools\Utilities\LoadSceneOnClick.cs" />
+    <Compile Include="Assets\YourCommonTools\Utilities\MoveCameraWithMouse.cs" />
     <Compile Include="Assets\YourCommonTools\Utilities\PageInformation.cs" />
     <Compile Include="Assets\YourCommonTools\Utilities\PassengerObject.cs" />
     <Compile Include="Assets\YourCommonTools\Utilities\PlaneFromPoly.cs" />
+    <Compile Include="Assets\YourCommonTools\Utilities\SetTriggersOnStart.cs" />
     <Compile Include="Assets\YourCommonTools\Utilities\SoundNameButton.cs" />
     <Compile Include="Assets\YourCommonTools\Utilities\StateManager.cs" />
     <Compile Include="Assets\YourCommonTools\Utilities\StateManagerNoMono.cs" />
+    <Compile Include="Assets\YourCommonTools\Utilities\SubmodelSelector.cs" />
     <Compile Include="Assets\YourCommonTools\Utilities\Utilities.cs" />
     <Compile Include="Assets\YourCommonTools\VR\ButtonVRView.cs" />
     <Compile Include="Assets\YourCommonTools\VR\ScrollRectVR.cs" />
+    <Compile Include="Assets\YourVRUI\external\VRKeyboard\Scripts\KeyboardManager.cs" />
+    <Compile Include="Assets\YourVRUI\external\VRKeyboard\Scripts\Keys\Alphabet.cs" />
+    <Compile Include="Assets\YourVRUI\external\VRKeyboard\Scripts\Keys\Key.cs" />
+    <Compile Include="Assets\YourVRUI\external\VRKeyboard\Scripts\Keys\Number.cs" />
+    <Compile Include="Assets\YourVRUI\external\VRKeyboard\Scripts\Keys\Shift.cs" />
+    <Compile Include="Assets\YourVRUI\external\VRKeyboard\Scripts\Keys\Symbol.cs" />
     <Compile Include="Assets\YourVRUI\scripts\controllers\EventSystemController.cs" />
     <Compile Include="Assets\YourVRUI\scripts\controllers\InteractionController.cs" />
     <Compile Include="Assets\YourVRUI\scripts\controllers\PlayerMovementController.cs" />
     <Compile Include="Assets\YourVRUI\scripts\controllers\PlayerRaycasterController.cs" />
+    <Compile Include="Assets\YourVRUI\scripts\controllers\TeleportController.cs" />
     <Compile Include="Assets\YourVRUI\scripts\controllers\utils\AlignWithCamera.cs" />
     <Compile Include="Assets\YourVRUI\scripts\controllers\utils\AutoGameDestroy.cs" />
     <Compile Include="Assets\YourVRUI\scripts\controllers\utils\AutoProjectile.cs" />
+    <Compile Include="Assets\YourVRUI\scripts\controllers\utils\CustomLaser.cs" />
     <Compile Include="Assets\YourVRUI\scripts\controllers\YourVRUIScreenController.cs" />
     <Compile Include="Assets\YourVRUI\scripts\screens\BaseVRItemView.cs" />
     <Compile Include="Assets\YourVRUI\scripts\screens\BaseVRScreenView.cs" />
     <Compile Include="Assets\YourVRUI\scripts\screens\CodeNumber\ScreenCodeNumberView.cs" />
     <Compile Include="Assets\YourVRUI\scripts\screens\Inventory\ItemView.cs" />
     <Compile Include="Assets\YourVRUI\scripts\screens\Inventory\ScreenItemInventoryView.cs" />
+    <Compile Include="Assets\YourVRUI\scripts\screens\VRKeyboard\ScreenVRKeyboardView.cs" />
     <None Include="Assets\8BricksDefense\Game\Resources\Languages\TextsGame.xml" />
-    <None Include="Assets\Submodules\NetworkTools\SOCKET_SERVER\README.txt" />
     <None Include="Assets\8BricksDefense\Game\InGame\Resources\XMLs\Levels\level_2.xml" />
     <None Include="Assets\8BricksDefense\Game\InGame\Resources\XMLs\Levels\level_1.xml" />
     <None Include="Assets\8BricksDefense\Game\InGame\Resources\XMLs\Levels\level_0.xml" />
@@ -371,6 +420,7 @@
     <None Include="Assets\GoogleVR\Shaders\GvrUIOverlayFont.shader" />
     <None Include="Assets\Submodules\NetworkTools\Menus\Resources\Languages\TextsMenus.xml" />
     <None Include="Assets\Submodules\LICENSE.txt" />
+    <None Include="Assets\YourVRUI\external\VRKeyboard\README.txt" />
     <None Include="Assets\GoogleVR\Shaders\GvrAdditiveOverlay.shader" />
     <None Include="Assets\Submodules\NetworkTools\ARCore\Resources\Materials\Shaders\MobileSpecularWithLightEstimation.shader" />
     <None Include="Assets\Submodules\NetworkTools\ARCore\Resources\Materials\Shaders\PlaneGrid.shader" />
@@ -389,12 +439,14 @@
     <None Include="Assets\FacebookSDK\link.xml" />
     <None Include="Assets\GoogleVR\Demos\Shaders\GVRDemo\GVRDemoUnlitGrayscaleToColor.shader" />
     <None Include="Assets\8BricksDefense\Game\InGame\Resources\FX\GeometryFXParticles\Scripts\ParticleAlphaBlendStroke.shader" />
+    <None Include="Assets\YourCommonTools\Shaders\grayscalecam.shader" />
     <None Include="Assets\GoogleVR\Shaders\GvrReticleShader.shader" />
     <None Include="Assets\GoogleVR\Shaders\GvrUIOverlay.shader" />
     <None Include="Assets\GoogleVR\Plugins\Android\proguard-gvr.txt" />
     <None Include="Assets\8BricksDefense\Game\InGame\Resources\FX\Particles\ParticleAdd_Vortex.shader" />
     <None Include="Assets\GoogleVR\Plugins\Android\AndroidManifest-Cardboard.xml" />
     <None Include="Assets\Submodules\NetworkTools\ARCore\Resources\Materials\Shaders\PointCloud.shader" />
+    <None Include="Assets\YourCommonTools\DroneKit\Resources\dronekit_basics.txt" />
     <Reference Include="UnityEditor.StandardEvents">
       <HintPath>D:/YourVRExperience/8BricksDefense/Library/ScriptAssemblies/UnityEditor.StandardEvents.dll</HintPath>
     </Reference>
@@ -590,6 +642,9 @@
     <Reference Include="UnityEngine.SpatialTracking">
       <HintPath>C:/Program Files/Unity_2018_1_6/Editor/Data/UnityExtensions/Unity/UnitySpatialTracking/RuntimeEditor/UnityEngine.SpatialTracking.dll</HintPath>
     </Reference>
+    <Reference Include="Vuforia.UnityExtensions">
+      <HintPath>C:/Program Files/Unity_2018_1_6/Editor/Data/PlaybackEngines/VuforiaSupport/Managed/Runtime/Vuforia.UnityExtensions.dll</HintPath>
+    </Reference>
     <Reference Include="Facebook.Unity">
       <HintPath>D:/YourVRExperience/8BricksDefense/Assets/FacebookSDK/Plugins/Facebook.Unity.dll</HintPath>
     </Reference>
@@ -615,31 +670,349 @@
       <HintPath>C:/Users/esteb/AppData/Local/Unity/cache/packages/packages.unity.com/com.unity.standardevents@1.0.13/UnityEngine.StandardEvents.dll</HintPath>
     </Reference>
     <Reference Include="mscorlib">
-      <HintPath>C:/Program Files/Unity_2018_1_6/Editor/Data/MonoBleedingEdge/lib/mono/unity/mscorlib.dll</HintPath>
+      <HintPath>C:/Program Files/Unity_2018_1_6/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/mscorlib.dll</HintPath>
     </Reference>
     <Reference Include="System">
-      <HintPath>C:/Program Files/Unity_2018_1_6/Editor/Data/MonoBleedingEdge/lib/mono/unity/System.dll</HintPath>
+      <HintPath>C:/Program Files/Unity_2018_1_6/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/System.dll</HintPath>
     </Reference>
     <Reference Include="System.Core">
-      <HintPath>C:/Program Files/Unity_2018_1_6/Editor/Data/MonoBleedingEdge/lib/mono/unity/System.Core.dll</HintPath>
+      <HintPath>C:/Program Files/Unity_2018_1_6/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/System.Core.dll</HintPath>
     </Reference>
     <Reference Include="System.Runtime.Serialization">
-      <HintPath>C:/Program Files/Unity_2018_1_6/Editor/Data/MonoBleedingEdge/lib/mono/unity/System.Runtime.Serialization.dll</HintPath>
+      <HintPath>C:/Program Files/Unity_2018_1_6/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/System.Runtime.Serialization.dll</HintPath>
     </Reference>
     <Reference Include="System.Xml">
-      <HintPath>C:/Program Files/Unity_2018_1_6/Editor/Data/MonoBleedingEdge/lib/mono/unity/System.Xml.dll</HintPath>
+      <HintPath>C:/Program Files/Unity_2018_1_6/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/System.Xml.dll</HintPath>
     </Reference>
     <Reference Include="System.Xml.Linq">
-      <HintPath>C:/Program Files/Unity_2018_1_6/Editor/Data/MonoBleedingEdge/lib/mono/unity/System.Xml.Linq.dll</HintPath>
+      <HintPath>C:/Program Files/Unity_2018_1_6/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/System.Xml.Linq.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Numerics">
+      <HintPath>C:/Program Files/Unity_2018_1_6/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/System.Numerics.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Numerics.Vectors">
+      <HintPath>C:/Program Files/Unity_2018_1_6/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/System.Numerics.Vectors.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.Win32.Primitives">
+      <HintPath>C:/Program Files/Unity_2018_1_6/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/Microsoft.Win32.Primitives.dll</HintPath>
+    </Reference>
+    <Reference Include="netstandard">
+      <HintPath>C:/Program Files/Unity_2018_1_6/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/netstandard.dll</HintPath>
+    </Reference>
+    <Reference Include="System.AppContext">
+      <HintPath>C:/Program Files/Unity_2018_1_6/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.AppContext.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Collections.Concurrent">
+      <HintPath>C:/Program Files/Unity_2018_1_6/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Collections.Concurrent.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Collections">
+      <HintPath>C:/Program Files/Unity_2018_1_6/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Collections.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Collections.NonGeneric">
+      <HintPath>C:/Program Files/Unity_2018_1_6/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Collections.NonGeneric.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Collections.Specialized">
+      <HintPath>C:/Program Files/Unity_2018_1_6/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Collections.Specialized.dll</HintPath>
+    </Reference>
+    <Reference Include="System.ComponentModel.Annotations">
+      <HintPath>C:/Program Files/Unity_2018_1_6/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.ComponentModel.Annotations.dll</HintPath>
+    </Reference>
+    <Reference Include="System.ComponentModel">
+      <HintPath>C:/Program Files/Unity_2018_1_6/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.ComponentModel.dll</HintPath>
+    </Reference>
+    <Reference Include="System.ComponentModel.EventBasedAsync">
+      <HintPath>C:/Program Files/Unity_2018_1_6/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.ComponentModel.EventBasedAsync.dll</HintPath>
+    </Reference>
+    <Reference Include="System.ComponentModel.Primitives">
+      <HintPath>C:/Program Files/Unity_2018_1_6/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.ComponentModel.Primitives.dll</HintPath>
+    </Reference>
+    <Reference Include="System.ComponentModel.TypeConverter">
+      <HintPath>C:/Program Files/Unity_2018_1_6/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.ComponentModel.TypeConverter.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Console">
+      <HintPath>C:/Program Files/Unity_2018_1_6/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Console.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Data.Common">
+      <HintPath>C:/Program Files/Unity_2018_1_6/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Data.Common.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Diagnostics.Contracts">
+      <HintPath>C:/Program Files/Unity_2018_1_6/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Diagnostics.Contracts.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Diagnostics.Debug">
+      <HintPath>C:/Program Files/Unity_2018_1_6/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Diagnostics.Debug.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Diagnostics.FileVersionInfo">
+      <HintPath>C:/Program Files/Unity_2018_1_6/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Diagnostics.FileVersionInfo.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Diagnostics.Process">
+      <HintPath>C:/Program Files/Unity_2018_1_6/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Diagnostics.Process.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Diagnostics.StackTrace">
+      <HintPath>C:/Program Files/Unity_2018_1_6/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Diagnostics.StackTrace.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Diagnostics.TextWriterTraceListener">
+      <HintPath>C:/Program Files/Unity_2018_1_6/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Diagnostics.TextWriterTraceListener.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Diagnostics.Tools">
+      <HintPath>C:/Program Files/Unity_2018_1_6/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Diagnostics.Tools.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Diagnostics.TraceSource">
+      <HintPath>C:/Program Files/Unity_2018_1_6/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Diagnostics.TraceSource.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Drawing.Primitives">
+      <HintPath>C:/Program Files/Unity_2018_1_6/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Drawing.Primitives.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Dynamic.Runtime">
+      <HintPath>C:/Program Files/Unity_2018_1_6/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Dynamic.Runtime.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Globalization.Calendars">
+      <HintPath>C:/Program Files/Unity_2018_1_6/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Globalization.Calendars.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Globalization">
+      <HintPath>C:/Program Files/Unity_2018_1_6/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Globalization.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Globalization.Extensions">
+      <HintPath>C:/Program Files/Unity_2018_1_6/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Globalization.Extensions.dll</HintPath>
+    </Reference>
+    <Reference Include="System.IO.Compression.ZipFile">
+      <HintPath>C:/Program Files/Unity_2018_1_6/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.IO.Compression.ZipFile.dll</HintPath>
+    </Reference>
+    <Reference Include="System.IO">
+      <HintPath>C:/Program Files/Unity_2018_1_6/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.IO.dll</HintPath>
+    </Reference>
+    <Reference Include="System.IO.FileSystem">
+      <HintPath>C:/Program Files/Unity_2018_1_6/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.IO.FileSystem.dll</HintPath>
+    </Reference>
+    <Reference Include="System.IO.FileSystem.DriveInfo">
+      <HintPath>C:/Program Files/Unity_2018_1_6/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.IO.FileSystem.DriveInfo.dll</HintPath>
+    </Reference>
+    <Reference Include="System.IO.FileSystem.Primitives">
+      <HintPath>C:/Program Files/Unity_2018_1_6/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.IO.FileSystem.Primitives.dll</HintPath>
+    </Reference>
+    <Reference Include="System.IO.FileSystem.Watcher">
+      <HintPath>C:/Program Files/Unity_2018_1_6/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.IO.FileSystem.Watcher.dll</HintPath>
+    </Reference>
+    <Reference Include="System.IO.IsolatedStorage">
+      <HintPath>C:/Program Files/Unity_2018_1_6/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.IO.IsolatedStorage.dll</HintPath>
+    </Reference>
+    <Reference Include="System.IO.MemoryMappedFiles">
+      <HintPath>C:/Program Files/Unity_2018_1_6/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.IO.MemoryMappedFiles.dll</HintPath>
+    </Reference>
+    <Reference Include="System.IO.Pipes">
+      <HintPath>C:/Program Files/Unity_2018_1_6/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.IO.Pipes.dll</HintPath>
+    </Reference>
+    <Reference Include="System.IO.UnmanagedMemoryStream">
+      <HintPath>C:/Program Files/Unity_2018_1_6/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.IO.UnmanagedMemoryStream.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Linq">
+      <HintPath>C:/Program Files/Unity_2018_1_6/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Linq.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Linq.Expressions">
+      <HintPath>C:/Program Files/Unity_2018_1_6/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Linq.Expressions.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Linq.Parallel">
+      <HintPath>C:/Program Files/Unity_2018_1_6/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Linq.Parallel.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Linq.Queryable">
+      <HintPath>C:/Program Files/Unity_2018_1_6/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Linq.Queryable.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Net.Http.Rtc">
+      <HintPath>C:/Program Files/Unity_2018_1_6/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Net.Http.Rtc.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Net.NameResolution">
+      <HintPath>C:/Program Files/Unity_2018_1_6/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Net.NameResolution.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Net.NetworkInformation">
+      <HintPath>C:/Program Files/Unity_2018_1_6/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Net.NetworkInformation.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Net.Ping">
+      <HintPath>C:/Program Files/Unity_2018_1_6/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Net.Ping.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Net.Primitives">
+      <HintPath>C:/Program Files/Unity_2018_1_6/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Net.Primitives.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Net.Requests">
+      <HintPath>C:/Program Files/Unity_2018_1_6/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Net.Requests.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Net.Security">
+      <HintPath>C:/Program Files/Unity_2018_1_6/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Net.Security.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Net.Sockets">
+      <HintPath>C:/Program Files/Unity_2018_1_6/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Net.Sockets.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Net.WebHeaderCollection">
+      <HintPath>C:/Program Files/Unity_2018_1_6/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Net.WebHeaderCollection.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Net.WebSockets.Client">
+      <HintPath>C:/Program Files/Unity_2018_1_6/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Net.WebSockets.Client.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Net.WebSockets">
+      <HintPath>C:/Program Files/Unity_2018_1_6/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Net.WebSockets.dll</HintPath>
+    </Reference>
+    <Reference Include="System.ObjectModel">
+      <HintPath>C:/Program Files/Unity_2018_1_6/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.ObjectModel.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Reflection">
+      <HintPath>C:/Program Files/Unity_2018_1_6/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Reflection.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Reflection.Emit">
+      <HintPath>C:/Program Files/Unity_2018_1_6/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Reflection.Emit.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Reflection.Emit.ILGeneration">
+      <HintPath>C:/Program Files/Unity_2018_1_6/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Reflection.Emit.ILGeneration.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Reflection.Emit.Lightweight">
+      <HintPath>C:/Program Files/Unity_2018_1_6/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Reflection.Emit.Lightweight.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Reflection.Extensions">
+      <HintPath>C:/Program Files/Unity_2018_1_6/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Reflection.Extensions.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Reflection.Primitives">
+      <HintPath>C:/Program Files/Unity_2018_1_6/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Reflection.Primitives.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Resources.Reader">
+      <HintPath>C:/Program Files/Unity_2018_1_6/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Resources.Reader.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Resources.ResourceManager">
+      <HintPath>C:/Program Files/Unity_2018_1_6/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Resources.ResourceManager.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Resources.Writer">
+      <HintPath>C:/Program Files/Unity_2018_1_6/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Resources.Writer.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Runtime.CompilerServices.VisualC">
+      <HintPath>C:/Program Files/Unity_2018_1_6/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Runtime.CompilerServices.VisualC.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Runtime">
+      <HintPath>C:/Program Files/Unity_2018_1_6/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Runtime.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Runtime.Extensions">
+      <HintPath>C:/Program Files/Unity_2018_1_6/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Runtime.Extensions.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Runtime.Handles">
+      <HintPath>C:/Program Files/Unity_2018_1_6/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Runtime.Handles.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Runtime.InteropServices">
+      <HintPath>C:/Program Files/Unity_2018_1_6/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Runtime.InteropServices.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Runtime.InteropServices.RuntimeInformation">
+      <HintPath>C:/Program Files/Unity_2018_1_6/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Runtime.InteropServices.RuntimeInformation.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Runtime.InteropServices.WindowsRuntime">
+      <HintPath>C:/Program Files/Unity_2018_1_6/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Runtime.InteropServices.WindowsRuntime.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Runtime.Numerics">
+      <HintPath>C:/Program Files/Unity_2018_1_6/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Runtime.Numerics.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Runtime.Serialization.Formatters">
+      <HintPath>C:/Program Files/Unity_2018_1_6/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Runtime.Serialization.Formatters.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Runtime.Serialization.Json">
+      <HintPath>C:/Program Files/Unity_2018_1_6/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Runtime.Serialization.Json.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Runtime.Serialization.Primitives">
+      <HintPath>C:/Program Files/Unity_2018_1_6/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Runtime.Serialization.Primitives.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Runtime.Serialization.Xml">
+      <HintPath>C:/Program Files/Unity_2018_1_6/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Runtime.Serialization.Xml.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Security.Claims">
+      <HintPath>C:/Program Files/Unity_2018_1_6/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Security.Claims.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Security.Cryptography.Algorithms">
+      <HintPath>C:/Program Files/Unity_2018_1_6/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Security.Cryptography.Algorithms.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Security.Cryptography.Csp">
+      <HintPath>C:/Program Files/Unity_2018_1_6/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Security.Cryptography.Csp.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Security.Cryptography.Encoding">
+      <HintPath>C:/Program Files/Unity_2018_1_6/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Security.Cryptography.Encoding.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Security.Cryptography.Primitives">
+      <HintPath>C:/Program Files/Unity_2018_1_6/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Security.Cryptography.Primitives.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Security.Cryptography.X509Certificates">
+      <HintPath>C:/Program Files/Unity_2018_1_6/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Security.Cryptography.X509Certificates.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Security.Principal">
+      <HintPath>C:/Program Files/Unity_2018_1_6/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Security.Principal.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Security.SecureString">
+      <HintPath>C:/Program Files/Unity_2018_1_6/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Security.SecureString.dll</HintPath>
+    </Reference>
+    <Reference Include="System.ServiceModel.Duplex">
+      <HintPath>C:/Program Files/Unity_2018_1_6/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.ServiceModel.Duplex.dll</HintPath>
+    </Reference>
+    <Reference Include="System.ServiceModel.Http">
+      <HintPath>C:/Program Files/Unity_2018_1_6/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.ServiceModel.Http.dll</HintPath>
+    </Reference>
+    <Reference Include="System.ServiceModel.NetTcp">
+      <HintPath>C:/Program Files/Unity_2018_1_6/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.ServiceModel.NetTcp.dll</HintPath>
+    </Reference>
+    <Reference Include="System.ServiceModel.Primitives">
+      <HintPath>C:/Program Files/Unity_2018_1_6/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.ServiceModel.Primitives.dll</HintPath>
+    </Reference>
+    <Reference Include="System.ServiceModel.Security">
+      <HintPath>C:/Program Files/Unity_2018_1_6/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.ServiceModel.Security.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Text.Encoding">
+      <HintPath>C:/Program Files/Unity_2018_1_6/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Text.Encoding.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Text.Encoding.Extensions">
+      <HintPath>C:/Program Files/Unity_2018_1_6/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Text.Encoding.Extensions.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Text.RegularExpressions">
+      <HintPath>C:/Program Files/Unity_2018_1_6/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Text.RegularExpressions.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Threading">
+      <HintPath>C:/Program Files/Unity_2018_1_6/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Threading.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Threading.Overlapped">
+      <HintPath>C:/Program Files/Unity_2018_1_6/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Threading.Overlapped.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Threading.Tasks">
+      <HintPath>C:/Program Files/Unity_2018_1_6/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Threading.Tasks.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Threading.Tasks.Parallel">
+      <HintPath>C:/Program Files/Unity_2018_1_6/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Threading.Tasks.Parallel.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Threading.Thread">
+      <HintPath>C:/Program Files/Unity_2018_1_6/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Threading.Thread.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Threading.ThreadPool">
+      <HintPath>C:/Program Files/Unity_2018_1_6/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Threading.ThreadPool.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Threading.Timer">
+      <HintPath>C:/Program Files/Unity_2018_1_6/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Threading.Timer.dll</HintPath>
+    </Reference>
+    <Reference Include="System.ValueTuple">
+      <HintPath>C:/Program Files/Unity_2018_1_6/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.ValueTuple.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Xml.ReaderWriter">
+      <HintPath>C:/Program Files/Unity_2018_1_6/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Xml.ReaderWriter.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Xml.XDocument">
+      <HintPath>C:/Program Files/Unity_2018_1_6/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Xml.XDocument.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Xml.XmlDocument">
+      <HintPath>C:/Program Files/Unity_2018_1_6/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Xml.XmlDocument.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Xml.XmlSerializer">
+      <HintPath>C:/Program Files/Unity_2018_1_6/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Xml.XmlSerializer.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Xml.XPath">
+      <HintPath>C:/Program Files/Unity_2018_1_6/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Xml.XPath.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Xml.XPath.XDocument">
+      <HintPath>C:/Program Files/Unity_2018_1_6/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Xml.XPath.XDocument.dll</HintPath>
     </Reference>
     <Reference Include="UnityScript">
-      <HintPath>C:/Program Files/Unity_2018_1_6/Editor/Data/MonoBleedingEdge/lib/mono/unity/UnityScript.dll</HintPath>
+      <HintPath>C:/Program Files/Unity_2018_1_6/Editor/Data/MonoBleedingEdge/lib/mono/unityscript/UnityScript.dll</HintPath>
     </Reference>
     <Reference Include="UnityScript.Lang">
-      <HintPath>C:/Program Files/Unity_2018_1_6/Editor/Data/MonoBleedingEdge/lib/mono/unity/UnityScript.Lang.dll</HintPath>
+      <HintPath>C:/Program Files/Unity_2018_1_6/Editor/Data/MonoBleedingEdge/lib/mono/unityscript/UnityScript.Lang.dll</HintPath>
     </Reference>
     <Reference Include="Boo.Lang">
-      <HintPath>C:/Program Files/Unity_2018_1_6/Editor/Data/MonoBleedingEdge/lib/mono/unity/Boo.Lang.dll</HintPath>
+      <HintPath>C:/Program Files/Unity_2018_1_6/Editor/Data/MonoBleedingEdge/lib/mono/unityscript/Boo.Lang.dll</HintPath>
     </Reference>
   </ItemGroup>
   <ItemGroup>

@@ -494,6 +494,7 @@ MonoBehaviour:
   GlobalScaleScreens: 2
   EnableDesktopMode: 0
   EnableMoveCamera: 1
+  EnableGVREmulator: 1
   TagPlayerDetectionCollision: Player
   EnableCollisionDetection: 0
   EnableRaycastDetection: 1
@@ -514,6 +515,9 @@ MonoBehaviour:
   DotPointerMovementPrefab: {fileID: 1058284059697024, guid: 781b53b670964c24099c23e4914970c8,
     type: 2}
   SkinYourVRUI: {fileID: 11400000, guid: 76dc03a7f4069b64cb673f5775872d2e, type: 2}
+  LayersToRaycast: []
+  EnableSetResolutionUIVR: 0
+  VRKeyboard: {fileID: 0}
 --- !u!1 &1029208272
 GameObject:
   m_ObjectHideFlags: 0
@@ -936,6 +940,8 @@ MonoBehaviour:
   - {fileID: 1277936312230108, guid: b524a0f735c52144fa1189c191c498b3, type: 2}
   - {fileID: 1920688569593262, guid: ca22f918232177542933f0b3d89ba9e7, type: 2}
   FadeScreen: {fileID: 0}
+  PushAnimationTime: 0.3
+  TotalStackedScreensAllowed: 5
   TargetGameScene: InGame
   Instructions:
   - {fileID: 21300000, guid: a83041a02bfa51541ba4239bca109d1b, type: 3}
@@ -947,7 +953,7 @@ MonoBehaviour:
   ForceFixedPlayers: -1
   ScreenGameOptions: SCREEN_GAME_OPTIONS
   ServerIPAdress: localhost
-  ServerPortNumber: 6249
+  ServerPortNumber: 8933
   ScanImageARCore: {fileID: 0}
   MainCamera2D: {fileID: 666405604}
   VRComponents: {fileID: 1814487640}

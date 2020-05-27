@@ -711,8 +711,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1453b5af077028d45a2eaabad45af601, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  ForceActivation: 0
   DefaultDeviceName: Cardboard
+  ForceActivation: 0
+  CoockieName: CARDBOARD_ENABLE_COOCKIE
 --- !u!1 &978336647
 GameObject:
   m_ObjectHideFlags: 0
@@ -1247,8 +1248,15 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 33948d0f3d1f7b840abfa58dd338bb09, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  PathFindingPrefab: {fileID: 1566666292694774, guid: 4579cacb863ee9e4e82ee3d34b9172f4,
+    type: 2}
   DotReference: {fileID: 1717696713984498, guid: c7201d1a9bd52954abbe4c4c17c8206f,
     type: 2}
+  DotReferenceEmtpy: {fileID: 1717696713984498, guid: da548500680f93643a3013b9ed608a20,
+    type: 2}
+  DotReferenceWay: {fileID: 1268744054767684, guid: ac4293ee2b1d7f9438ba3a9d2a3f98ad,
+    type: 2}
+  DebugPathPoints: 1
 --- !u!1 &1649532759
 GameObject:
   m_ObjectHideFlags: 0

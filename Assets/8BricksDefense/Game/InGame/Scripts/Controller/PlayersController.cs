@@ -200,7 +200,9 @@ namespace EightBricksDefense
 				positionIndexStart = _player.NetworkID.NetID;
 			}
 			Vector3 positionInitial = LevelBuilderController.Instance.PlayerInitialPosition[(int)(positionIndexStart % totalPositions)];
-			positionInitial = new Vector3(positionInitial.x * GameConfiguration.CELL_SIZE, positionInitial.y * GameConfiguration.CELL_SIZE, positionInitial.z * GameConfiguration.CELL_SIZE);
+            float incrementPos = GameConfiguration.CELL_SIZE;
+            float incrementPosY = GameConfiguration.CELL_SIZE / 2;
+            positionInitial = new Vector3((positionInitial.x * GameConfiguration.CELL_SIZE) - incrementPos, (positionInitial.y * GameConfiguration.CELL_SIZE) + incrementPosY, (positionInitial.z * GameConfiguration.CELL_SIZE) - incrementPos);
 			_player.SetPosition(positionInitial);
 			if (_player.IsMine())
 			{

@@ -178,7 +178,7 @@ namespace EightBricksDefense
 			this.gameObject.tag = YourVRUIScreenController.Instance.TagPlayerDetectionCollision;
 
 #if UNITY_ANDROID || UNITY_IOS
-			if (!CardboardLoaderVR.LoadEnableCardboard())
+			if (!CardboardLoaderVR.Instance.LoadEnableCardboard())
 			{
 				m_enableGyroscope = true;
 			}
@@ -420,12 +420,13 @@ namespace EightBricksDefense
 						{
 							if (distanceToCenter.y < -GameConfiguration.CELL_SIZE / 4)
 							{
-								// Debug.LogError("DISTANCE TO CENTER=" + distanceToCenter.ToString() + " OF CELLSIZE=" + GameLevelManager.Instance.CellSize);
-								Vector3 posUpConfirmed = LevelBuilderController.Instance.GetUpCell(posObjectCollided.x, posObjectCollided.y, posObjectCollided.z);
+                                float increment = 0;
+                                // Debug.LogError("DISTANCE TO CENTER=" + distanceToCenter.ToString() + " OF CELLSIZE=" + GameLevelManager.Instance.CellSize);
+                                Vector3 posUpConfirmed = LevelBuilderController.Instance.GetCustomMatrixUpCell(posObjectCollided.x - increment, posObjectCollided.y, posObjectCollided.z - increment);
 								if (posUpConfirmed != Vector3.zero)
 								{
 									posUpConfirmed -= new Vector3(0, GameConfiguration.CELL_SIZE * 0.45f, 0);
-									target = new Vector3(posUpConfirmed.x, posUpConfirmed.y, posUpConfirmed.z);
+									target = new Vector3(posUpConfirmed.x, posUpConfirmed.y  + (GameConfiguration.CELL_SIZE/2), posUpConfirmed.z);
 									finalCollision = TeleportController.COLLISION_NOTHING;
 								}
 							}
