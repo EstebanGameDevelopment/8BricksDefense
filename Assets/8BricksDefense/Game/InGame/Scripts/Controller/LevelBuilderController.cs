@@ -458,9 +458,9 @@ namespace EightBricksDefense
 							if (l > 0)
 							{
 								isWall = true;
-								float xPos = x * GameConfiguration.CELL_SIZE;
-								float zPos = z * GameConfiguration.CELL_SIZE;
-								float yPos = l * GameConfiguration.CELL_SIZE;
+								float xPos = (x - 1) * GameConfiguration.CELL_SIZE;
+								float zPos = (z - 1) * GameConfiguration.CELL_SIZE;
+								float yPos = (l * GameConfiguration.CELL_SIZE) + (GameConfiguration.CELL_SIZE/2);
 								output = new Vector3(xPos, yPos, zPos);
 							}
 						}
