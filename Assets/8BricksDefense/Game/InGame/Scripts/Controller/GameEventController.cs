@@ -117,12 +117,16 @@ namespace EightBricksDefense
 			get { return m_totalPlayersInGame; }
 			set { m_totalPlayersInGame = value; }
 		}
+        public int TotalPlayersConfigurated
+        {
+            get { return m_totalPlayersConfigurated; }
+        }
 
-		// -------------------------------------------
-		/* 
+        // -------------------------------------------
+        /* 
 		* Constructor
 		*/
-		void Start()
+        void Start()
 		{
 			GameEventController.Instance.GameEvent += new GameEventHandler(OnGameEvent);
 			UIEventController.Instance.UIEvent += new UIEventHandler(OnScreenVREvent);

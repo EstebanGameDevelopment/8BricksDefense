@@ -218,8 +218,16 @@ namespace EightBricksDefense
 		{
 			if (_nameEvent == NetworkEventController.EVENT_SYSTEM_INITIALITZATION_LOCAL_COMPLETED)
 			{
-				YourNetworkTools.Instance.CreateLocalNetworkObject(PlayersAssets[CounterPlayers].name, CounterPlayers, false);
-				CounterPlayers++;
+                if (GameEventController.Instance.TotalPlayersConfigurated != 1)
+                {
+                    YourNetworkTools.Instance.CreateLocalNetworkObject(PlayersAssets[CounterPlayers].name, CounterPlayers, false);
+                }
+                else
+                {
+                    GameObject myOwnPlayer = Instantiate(PlayersAssets[CounterPlayers]);
+                    if (myOwnPlayer.GetComponent<IGameNetworkActor>() != null) myOwnPlayer.GetComponent<IGameNetworkActor>().Initialize(new object[1] { CounterPlayers });
+                }
+                CounterPlayers++;
 			}
 			if (_nameEvent == Player.EVENT_PLAYER_CREATED_NEW)
 			{				

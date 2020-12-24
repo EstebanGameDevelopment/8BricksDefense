@@ -236,8 +236,16 @@ namespace EightBricksDefense
 			if (GameEventController.Instance.IsGameMaster())
 			{
 				ItemMultiObjectEntry initialData = new ItemMultiObjectEntry(_type, _enter, _exit, _animation, _speed, _life);
-				YourNetworkTools.Instance.CreateLocalNetworkObject(EnemyAssets[_type].name, initialData.ToString(), true);
-			}
+                if (GameEventController.Instance.TotalPlayersConfigurated != 1)
+                {
+                    YourNetworkTools.Instance.CreateLocalNetworkObject(EnemyAssets[_type].name, initialData.ToString(), true);
+                }
+                else
+                {
+                    GameObject newZombie = Instantiate(EnemyAssets[_type]);
+                    newZombie.GetComponent<IGameNetworkActor>().Initialize(initialData.ToString());
+                }
+            }
 		}
 
 		// -------------------------------------------

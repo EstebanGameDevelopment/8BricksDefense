@@ -1,11 +1,11 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 15
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "8BricksDefense", "Assembly-CSharp.csproj", "{E6E36557-5E53-8011-C02F-4ECDE6A69C2C}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Assembly-CSharp", "Assembly-CSharp.csproj", "{E6E36557-5E53-8011-C02F-4ECDE6A69C2C}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "8BricksDefense", "Assembly-CSharp-firstpass.csproj", "{C1A7D07F-1A7F-C68C-B3C0-07947CE5482C}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Assembly-CSharp-firstpass", "Assembly-CSharp-firstpass.csproj", "{C1A7D07F-1A7F-C68C-B3C0-07947CE5482C}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "8BricksDefense", "Assembly-CSharp-Editor.csproj", "{1AF76047-D880-B6D4-157B-51E507AEBD1B}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Assembly-CSharp-Editor", "Assembly-CSharp-Editor.csproj", "{1AF76047-D880-B6D4-157B-51E507AEBD1B}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
