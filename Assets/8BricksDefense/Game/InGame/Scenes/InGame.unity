@@ -112,152 +112,6 @@ NavMeshSettings:
     debug:
       m_Flags: 0
   m_NavMeshData: {fileID: 0}
---- !u!1001 &41945520
-PrefabInstance:
-  m_ObjectHideFlags: 0
-  serializedVersion: 2
-  m_Modification:
-    m_TransformParent: {fileID: 978336648}
-    m_Modifications:
-    - target: {fileID: 114916356670048232, guid: 23663a207157b704aae0c4b18932b62c,
-        type: 3}
-      propertyPath: ScreensPrefabs.Array.size
-      value: 4
-      objectReference: {fileID: 0}
-    - target: {fileID: 114916356670048232, guid: 23663a207157b704aae0c4b18932b62c,
-        type: 3}
-      propertyPath: EnableMoveCamera
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 114916356670048232, guid: 23663a207157b704aae0c4b18932b62c,
-        type: 3}
-      propertyPath: ScreensPrefabs.Array.data[0]
-      value: 
-      objectReference: {fileID: 1517474092474842, guid: 47d39b59c8110dd4987147357789c311,
-        type: 3}
-    - target: {fileID: 114916356670048232, guid: 23663a207157b704aae0c4b18932b62c,
-        type: 3}
-      propertyPath: EnableDesktopMode
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 114916356670048232, guid: 23663a207157b704aae0c4b18932b62c,
-        type: 3}
-      propertyPath: ScreensPrefabs.Array.data[1]
-      value: 
-      objectReference: {fileID: 1637184342995844, guid: 03112023bd9b7ae45a07d3e63f0bb97d,
-        type: 3}
-    - target: {fileID: 114916356670048232, guid: 23663a207157b704aae0c4b18932b62c,
-        type: 3}
-      propertyPath: ScreensPrefabs.Array.data[2]
-      value: 
-      objectReference: {fileID: 1931296812456756, guid: 2eeead609e8e8ef4dac39c17817fc7a4,
-        type: 3}
-    - target: {fileID: 114916356670048232, guid: 23663a207157b704aae0c4b18932b62c,
-        type: 3}
-      propertyPath: ScreensPrefabs.Array.data[3]
-      value: 
-      objectReference: {fileID: 1252596763800122, guid: b00fc451ed1fa284a8cdd82da1771a4b,
-        type: 3}
-    - target: {fileID: 114916356670048232, guid: 23663a207157b704aae0c4b18932b62c,
-        type: 3}
-      propertyPath: ForceScreensInWindow
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 114916356670048232, guid: 23663a207157b704aae0c4b18932b62c,
-        type: 3}
-      propertyPath: ScreensPrefabs.Array.data[4]
-      value: 
-      objectReference: {fileID: 148000, guid: 47bab9dcd189dd64e9154179966fd00a, type: 3}
-    - target: {fileID: 114916356670048232, guid: 23663a207157b704aae0c4b18932b62c,
-        type: 3}
-      propertyPath: ScreensPrefabs.Array.data[5]
-      value: 
-      objectReference: {fileID: 1990445370115840, guid: 7b5bcdbbbf5783b478543a04bc847c98,
-        type: 3}
-    - target: {fileID: 114916356670048232, guid: 23663a207157b704aae0c4b18932b62c,
-        type: 3}
-      propertyPath: ScreensPrefabs.Array.data[6]
-      value: 
-      objectReference: {fileID: 174312, guid: 4b2142e070c70c64ea6cd29fa2c079ad, type: 3}
-    - target: {fileID: 114916356670048232, guid: 23663a207157b704aae0c4b18932b62c,
-        type: 3}
-      propertyPath: ReadMeFile
-      value: 
-      objectReference: {fileID: 0}
-    - target: {fileID: 114916356670048232, guid: 23663a207157b704aae0c4b18932b62c,
-        type: 3}
-      propertyPath: MaterialDrawOnTop
-      value: 
-      objectReference: {fileID: 2100000, guid: 473e65877713c65418ac7776f9b41b2f, type: 2}
-    - target: {fileID: 114916356670048232, guid: 23663a207157b704aae0c4b18932b62c,
-        type: 3}
-      propertyPath: SelectorGraphic
-      value: 
-      objectReference: {fileID: 21300000, guid: d67e53480ef5cda48928e61cf2993d8f,
-        type: 3}
-    - target: {fileID: 114916356670048232, guid: 23663a207157b704aae0c4b18932b62c,
-        type: 3}
-      propertyPath: DotReferencePrefab
-      value: 
-      objectReference: {fileID: 1546886254619010, guid: 3e2da874bb910a64c96574787320399d,
-        type: 3}
-    - target: {fileID: 114916356670048232, guid: 23663a207157b704aae0c4b18932b62c,
-        type: 3}
-      propertyPath: DotTriggererPrefab
-      value: 
-      objectReference: {fileID: 1174075371424524, guid: ba891c9e201fe394da0f2a0b80f60865,
-        type: 3}
-    - target: {fileID: 114916356670048232, guid: 23663a207157b704aae0c4b18932b62c,
-        type: 3}
-      propertyPath: DotPointerMovementPrefab
-      value: 
-      objectReference: {fileID: 1058284059697024, guid: 781b53b670964c24099c23e4914970c8,
-        type: 3}
-    - target: {fileID: 114916356670048232, guid: 23663a207157b704aae0c4b18932b62c,
-        type: 3}
-      propertyPath: SkinYourVRUI
-      value: 
-      objectReference: {fileID: 11400000, guid: 76dc03a7f4069b64cb673f5775872d2e,
-        type: 2}
-    - target: {fileID: 114916356670048232, guid: 23663a207157b704aae0c4b18932b62c,
-        type: 3}
-      propertyPath: MainCamera
-      value: 
-      objectReference: {fileID: 1469619639}
-    - target: {fileID: 4225590200167502, guid: 23663a207157b704aae0c4b18932b62c, type: 3}
-      propertyPath: m_LocalPosition.x
-      value: 0.09247029
-      objectReference: {fileID: 0}
-    - target: {fileID: 4225590200167502, guid: 23663a207157b704aae0c4b18932b62c, type: 3}
-      propertyPath: m_LocalPosition.y
-      value: -0.9315374
-      objectReference: {fileID: 0}
-    - target: {fileID: 4225590200167502, guid: 23663a207157b704aae0c4b18932b62c, type: 3}
-      propertyPath: m_LocalPosition.z
-      value: 0.12398201
-      objectReference: {fileID: 0}
-    - target: {fileID: 4225590200167502, guid: 23663a207157b704aae0c4b18932b62c, type: 3}
-      propertyPath: m_LocalRotation.x
-      value: -0
-      objectReference: {fileID: 0}
-    - target: {fileID: 4225590200167502, guid: 23663a207157b704aae0c4b18932b62c, type: 3}
-      propertyPath: m_LocalRotation.y
-      value: -0
-      objectReference: {fileID: 0}
-    - target: {fileID: 4225590200167502, guid: 23663a207157b704aae0c4b18932b62c, type: 3}
-      propertyPath: m_LocalRotation.z
-      value: -0
-      objectReference: {fileID: 0}
-    - target: {fileID: 4225590200167502, guid: 23663a207157b704aae0c4b18932b62c, type: 3}
-      propertyPath: m_LocalRotation.w
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 4225590200167502, guid: 23663a207157b704aae0c4b18932b62c, type: 3}
-      propertyPath: m_RootOrder
-      value: 1
-      objectReference: {fileID: 0}
-    m_RemovedComponents: []
-  m_SourcePrefab: {fileID: 100100000, guid: 23663a207157b704aae0c4b18932b62c, type: 3}
 --- !u!1 &122322104
 GameObject:
   m_ObjectHideFlags: 0
@@ -763,7 +617,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 650364204}
-  - {fileID: 1137116469}
+  - {fileID: 4225590158222846}
   - {fileID: 1958974601}
   - {fileID: 860321732}
   m_Father: {fileID: 0}
@@ -889,12 +743,6 @@ MonoBehaviour:
   m_FirstSelected: {fileID: 0}
   m_sendNavigationEvents: 1
   m_DragThreshold: 20
---- !u!4 &1137116469 stripped
-Transform:
-  m_CorrespondingSourceObject: {fileID: 4225590200167502, guid: 23663a207157b704aae0c4b18932b62c,
-    type: 3}
-  m_PrefabInstance: {fileID: 41945520}
-  m_PrefabAsset: {fileID: 0}
 --- !u!1 &1138578714
 GameObject:
   m_ObjectHideFlags: 0
@@ -1635,6 +1483,23 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2121966540}
   m_Mesh: {fileID: 4300000, guid: 2919e4facf9e9ff479499eadb8b66cdc, type: 3}
+--- !u!1 &1011282208685506
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 4225590158222846}
+  - component: {fileID: 114916356644884056}
+  m_Layer: 0
+  m_Name: YourVRUIScreenController
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
 --- !u!1 &1185805023891004
 GameObject:
   m_ObjectHideFlags: 0
@@ -1669,6 +1534,20 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
+--- !u!4 &4225590158222846
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1011282208685506}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0.09247029, y: -0.9315374, z: 0.12398201}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 978336648}
+  m_RootOrder: 1
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!4 &4460225248488798
 Transform:
   m_ObjectHideFlags: 0
@@ -1738,3 +1617,62 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 143c116ed972cf8498394ae807da01d1, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+--- !u!114 &114916356644884056
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1011282208685506}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fb3215e59d5165e4c84f6cf35bc8ec8e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  ReadMeFile: {fileID: 0}
+  DebugMode: 0
+  DebugThrowProjectile: 0
+  DefaultConfiguration: 0
+  MainCamera: {fileID: 1469619639}
+  MaterialDrawOnTop: {fileID: 2100000, guid: 473e65877713c65418ac7776f9b41b2f, type: 2}
+  MaterialRedDrawOnTop: {fileID: 0}
+  GlobalScaleScreens: 2
+  EnableDesktopMode: 0
+  EnableMoveCamera: 1
+  EnableGVREmulator: 1
+  TagPlayerDetectionCollision: Player
+  EnableCollisionDetection: 0
+  EnableRaycastDetection: 1
+  ForceScreensInWindow: 0
+  ForceScreensAlignedToPlayer: 0
+  ForceScreensInCenterObject: 0
+  ForceNotLinkedToObject: 0
+  ForceNotHighlightElements: 0
+  ForceScreensDistanceObject: -1
+  ForceUseZDepth: 0
+  EnableDaydreamController: 0
+  ScreensPrefabs:
+  - {fileID: 1517474092474842, guid: 47d39b59c8110dd4987147357789c311, type: 3}
+  - {fileID: 1637184342995844, guid: 03112023bd9b7ae45a07d3e63f0bb97d, type: 3}
+  - {fileID: 1931296812456756, guid: 2eeead609e8e8ef4dac39c17817fc7a4, type: 3}
+  - {fileID: 1252596763800122, guid: b00fc451ed1fa284a8cdd82da1771a4b, type: 3}
+  SelectorGraphic: {fileID: 21300000, guid: d67e53480ef5cda48928e61cf2993d8f, type: 3}
+  DotReferencePrefab: {fileID: 1546886254619010, guid: 3e2da874bb910a64c96574787320399d,
+    type: 3}
+  DotTriggererPrefab: {fileID: 1174075371424524, guid: ba891c9e201fe394da0f2a0b80f60865,
+    type: 3}
+  DotPointerMovementPrefab: {fileID: 1058284059697024, guid: 781b53b670964c24099c23e4914970c8,
+    type: 3}
+  SkinYourVRUI: {fileID: 11400000, guid: 76dc03a7f4069b64cb673f5775872d2e, type: 2}
+  LayersToRaycast: []
+  EnableSetResolutionUIVR: 0
+  ResolutionUIVRWidth: 350
+  ResolutionUIVRHeight: 720
+  VRKeyboard: {fileID: 0}
+  VRKeyboardInputMaxCharacters: 30
+  DisplayHighlightedItemInList: 1
+  EnableProjectionDot: 1
+  DotProjectionUI: {fileID: 0}
+  DefaultInitialAlpha: 1
+  DefaultFinalAlpha: 1
+  DefaultTimeoutToAlpha: 0.5
