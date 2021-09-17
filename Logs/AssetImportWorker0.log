@@ -15,11 +15,11 @@ D:/YourVRExperience/8BricksDefense
 -logFile
 Logs/AssetImportWorker0.log
 -srvPort
-63460
+56680
 Successfully changed project path to: D:/YourVRExperience/8BricksDefense
 D:/YourVRExperience/8BricksDefense
 Using Asset Import Pipeline V2.
-Refreshing native plugins compatible for Editor in 46.69 ms, found 0 plugins.
+Refreshing native plugins compatible for Editor in 48.09 ms, found 0 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 2020.2.1f1 (270dd8c3da1c)
 [Subsystems] Discovering subsystems at path C:/Program Files/Unity/Editor/Data/Resources/UnitySubsystems
@@ -35,24 +35,158 @@ Initialize mono
 Mono path[0] = 'C:/Program Files/Unity/Editor/Data/Managed'
 Mono path[1] = 'C:/Program Files/Unity/Editor/Data/MonoBleedingEdge/lib/mono/unityjit'
 Mono config path = 'C:/Program Files/Unity/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56544
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56584
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: C:/Program Files/Unity/Editor/Data/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll
 Register platform support module: C:/Program Files/Unity/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
-Registered in 0.003052 seconds.
+Registered in 0.002072 seconds.
 Native extension for WindowsStandalone target not found
 Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 40.33 ms, found 0 plugins.
+Refreshing native plugins compatible for Editor in 40.47 ms, found 0 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Invoked RoslynAnalysisRunner static constructor.
 RoslynAnalysisRunner will not be running.
 RoslynAnalysisRunner has terminated.
 Mono: successfully reloaded assembly
-- Completed reload, in  1.220 seconds
+- Completed reload, in  1.132 seconds
 Platform modules already initialized, skipping
 Registering precompiled user dll's ...
-Registered in 0.003052 seconds.
+Registered in 0.004197 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.82 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Find all reader and writers took 156 milliseconds
+Script Module: UnityEngine.UI.dll
+Weave behaviours and messages took114 milliseconds
+Find all reader and writers took 180 milliseconds
+Script Module: PhotonUnityNetworking.Utilities.dll
+Weave behaviours and messages took29 milliseconds
+Find all reader and writers took 132 milliseconds
+Script Module: UnityEngine.TestRunner.dll
+Weave behaviours and messages took45 milliseconds
+Find all reader and writers took 123 milliseconds
+Script Module: UnityEngine.XR.LegacyInputHelpers.dll
+Weave behaviours and messages took5 milliseconds
+Find all reader and writers took 156 milliseconds
+Script Module: SimpleWebTransport.dll
+Weave behaviours and messages took14 milliseconds
+Find all reader and writers took 123 milliseconds
+Script Module: Unity.Timeline.dll
+Weave behaviours and messages took47 milliseconds
+Find all reader and writers took 120 milliseconds
+Script Module: PhotonUnityNetworking.Demos.dll
+Weave behaviours and messages took61 milliseconds
+Find all reader and writers took 117 milliseconds
+Script Module: PhotonUnityNetworking.dll
+Weave behaviours and messages took42 milliseconds
+Find all reader and writers took 118 milliseconds
+Script Module: UnityEngine.Monetization.dll
+Weave behaviours and messages took14 milliseconds
+Find all reader and writers took 142 milliseconds
+Script Module: Unity.TextMeshPro.dll
+Weave behaviours and messages took132 milliseconds
+Find all reader and writers took 106 milliseconds
+Script Module: UnityEngine.Purchasing.dll
+Weave behaviours and messages took7 milliseconds
+Find all reader and writers took 129 milliseconds
+Script Module: UnityEngine.Advertisements.dll
+Weave behaviours and messages took19 milliseconds
+Find all reader and writers took 115 milliseconds
+Script Module: PhotonChat.dll
+Weave behaviours and messages took6 milliseconds
+Find all reader and writers took 145 milliseconds
+Script Module: PhotonRealtime.dll
+Weave behaviours and messages took34 milliseconds
+Find all reader and writers took 109 milliseconds
+Script Module: kcp2k.dll
+Weave behaviours and messages took9 milliseconds
+Find all reader and writers took 120 milliseconds
+Script Module: Telepathy.dll
+Weave behaviours and messages took4 milliseconds
+Find all reader and writers took 118 milliseconds
+Script Module: Assembly-CSharp-firstpass.dll
+Weave behaviours and messages took22 milliseconds
+Find all reader and writers took 116 milliseconds
+Script Module: UnityEngine.SpatialTracking.dll
+Weave behaviours and messages took2 milliseconds
+Find all reader and writers took 121 milliseconds
+Script Module: Unity.Analytics.DataPrivacy.dll
+Weave behaviours and messages took0 milliseconds
+Find all reader and writers took 162 milliseconds
+Script Module: UnityEditor.TestRunner.dll
+Weave behaviours and messages took64 milliseconds
+Find all reader and writers took 153 milliseconds
+Script Module: UnityEditor.UI.dll
+Weave behaviours and messages took21 milliseconds
+Find all reader and writers took 154 milliseconds
+Script Module: UnityEditor.XR.LegacyInputHelpers.dll
+Weave behaviours and messages took5 milliseconds
+Find all reader and writers took 139 milliseconds
+Script Module: Mirror.CompilerSymbols.dll
+Weave behaviours and messages took0 milliseconds
+Find all reader and writers took 150 milliseconds
+Script Module: UnityEditor.SpatialTracking.dll
+Weave behaviours and messages took0 milliseconds
+Find all reader and writers took 154 milliseconds
+Script Module: UnityEditor.Purchasing.dll
+Weave behaviours and messages took2 milliseconds
+Find all reader and writers took 127 milliseconds
+Script Module: Analytics.dll
+Weave behaviours and messages took0 milliseconds
+Find all reader and writers took 155 milliseconds
+Script Module: PunDemos.DemoSlotcarEditor.dll
+Weave behaviours and messages took1 milliseconds
+Find all reader and writers took 136 milliseconds
+Script Module: PunDemos.DemoHubEditor.dll
+Weave behaviours and messages took0 milliseconds
+Mono: successfully reloaded assembly
+- Completed reload, in 12.125 seconds
+Platform modules already initialized, skipping
+========================================================================
+Worker process is ready to serve import requests
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.04 seconds
+Refreshing native plugins compatible for Editor in 0.67 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2165 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 90.2 MB.
+System memory in use after: 90.3 MB.
+
+Unloading 61 unused Assets to reduce memory usage. Loaded Objects now: 2579.
+Total: 2.627200 ms (FindLiveObjects: 0.247300 ms CreateObjectMapping: 0.107800 ms MarkObjects: 2.217800 ms  DeleteObjects: 0.053500 ms)
+
+========================================================================
+Received Import Request.
+  path: Assets/Photon/PhotonUnityNetworking/Resources/PhotonServerSettings.asset
+  artifactKey: Guid(f3c9dd7f5a657c846bb6ed0f4e3b159f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Photon/PhotonUnityNetworking/Resources/PhotonServerSettings.asset using Guid(f3c9dd7f5a657c846bb6ed0f4e3b159f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4815c4b1cce0e25911fdfbb832f4b128') in 0.033807 seconds
+  Import took 0.037167 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 98.834586 seconds.
+  path: Assets/8BricksDefense/Game/InGame/Scenes/InGame.unity
+  artifactKey: Guid(cdda7f297a155f341b307319919bec7d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/8BricksDefense/Game/InGame/Scenes/InGame.unity using Guid(cdda7f297a155f341b307319919bec7d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4c2628e11b31adc955b395eae38629ac') in 0.007300 seconds
+  Import took 0.011009 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 47.790128 seconds.
+  path: Assets/8BricksDefense/Game/InGame/Scenes/MenusGame.unity
+  artifactKey: Guid(bf99e228d3c280343b56931604d9185f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/8BricksDefense/Game/InGame/Scenes/MenusGame.unity using Guid(bf99e228d3c280343b56931604d9185f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '76b27a854fe072e755ae272bd2b3007d') in 0.006989 seconds
+  Import took 0.010133 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.004269 seconds.
 Begin MonoManager ReloadAssembly
 Native extension for WindowsStandalone target not found
 Native extension for WebGL target not found
@@ -61,113 +195,984 @@ Preloading 0 native plugins for Editor in 0.00 ms.
 Invoked RoslynAnalysisRunner static constructor.
 RoslynAnalysisRunner will not be running.
 RoslynAnalysisRunner has terminated.
-Find all reader and writers took 246 milliseconds
-Script Module: UnityEngine.UI.dll
-Weave behaviours and messages took217 milliseconds
-Find all reader and writers took 111 milliseconds
-Script Module: UnityEngine.TestRunner.dll
-Weave behaviours and messages took38 milliseconds
-Find all reader and writers took 135 milliseconds
-Script Module: UnityEngine.XR.LegacyInputHelpers.dll
-Weave behaviours and messages took6 milliseconds
-Find all reader and writers took 122 milliseconds
-Script Module: SimpleWebTransport.dll
-Weave behaviours and messages took12 milliseconds
-Find all reader and writers took 152 milliseconds
-Script Module: Unity.Timeline.dll
-Weave behaviours and messages took66 milliseconds
-Find all reader and writers took 119 milliseconds
-Script Module: UnityEngine.Monetization.dll
-Weave behaviours and messages took13 milliseconds
-Find all reader and writers took 141 milliseconds
-Script Module: Unity.TextMeshPro.dll
-Weave behaviours and messages took144 milliseconds
-Find all reader and writers took 111 milliseconds
-Script Module: UnityEngine.Purchasing.dll
-Weave behaviours and messages took8 milliseconds
-Find all reader and writers took 110 milliseconds
-Script Module: UnityEngine.Advertisements.dll
-Weave behaviours and messages took15 milliseconds
-Find all reader and writers took 122 milliseconds
-Script Module: kcp2k.dll
-Weave behaviours and messages took10 milliseconds
-Find all reader and writers took 113 milliseconds
-Script Module: Telepathy.dll
-Weave behaviours and messages took4 milliseconds
-Find all reader and writers took 114 milliseconds
-Script Module: Assembly-CSharp-firstpass.dll
-Weave behaviours and messages took24 milliseconds
-Find all reader and writers took 113 milliseconds
-Script Module: UnityEngine.SpatialTracking.dll
-Weave behaviours and messages took1 milliseconds
-Find all reader and writers took 117 milliseconds
-Script Module: Unity.Analytics.DataPrivacy.dll
-Weave behaviours and messages took1 milliseconds
-Find all reader and writers took 161 milliseconds
-Script Module: UnityEditor.TestRunner.dll
-Weave behaviours and messages took70 milliseconds
-Find all reader and writers took 177 milliseconds
-Script Module: UnityEditor.UI.dll
-Weave behaviours and messages took27 milliseconds
-Find all reader and writers took 152 milliseconds
-Script Module: UnityEditor.XR.LegacyInputHelpers.dll
-Weave behaviours and messages took3 milliseconds
-Find all reader and writers took 129 milliseconds
-Script Module: Mirror.CompilerSymbols.dll
-Weave behaviours and messages took0 milliseconds
-Find all reader and writers took 157 milliseconds
-Script Module: UnityEditor.SpatialTracking.dll
-Weave behaviours and messages took0 milliseconds
-Find all reader and writers took 152 milliseconds
-Script Module: UnityEditor.Purchasing.dll
-Weave behaviours and messages took2 milliseconds
-Find all reader and writers took 122 milliseconds
-Script Module: Analytics.dll
-Weave behaviours and messages took0 milliseconds
 Mono: successfully reloaded assembly
-- Completed reload, in 11.216 seconds
+- Completed reload, in  1.234 seconds
 Platform modules already initialized, skipping
-========================================================================
-Worker process is ready to serve import requests
-Launched and connected shader compiler UnityShaderCompiler.exe after 0.03 seconds
-Refreshing native plugins compatible for Editor in 0.65 ms, found 0 plugins.
+Refreshing native plugins compatible for Editor in 0.71 ms, found 0 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 1943 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 83.4 MB.
-System memory in use after: 83.5 MB.
+Unloading 2151 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 89.2 MB.
+System memory in use after: 89.3 MB.
 
-Unloading 55 unused Assets to reduce memory usage. Loaded Objects now: 2362.
-Total: 2.659100 ms (FindLiveObjects: 0.221600 ms CreateObjectMapping: 0.086400 ms MarkObjects: 2.261800 ms  DeleteObjects: 0.088600 ms)
+Unloading 52 unused Assets to reduce memory usage. Loaded Objects now: 2581.
+Total: 2.062500 ms (FindLiveObjects: 0.219700 ms CreateObjectMapping: 0.097500 ms MarkObjects: 1.714200 ms  DeleteObjects: 0.030000 ms)
 
 ========================================================================
 Received Import Request.
-  path: Assets/8BricksDefense/_ROBOCOPY.bat
-  artifactKey: Guid(a9f6ed6cf23cdf24d9ee8a0597fe4b5d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/8BricksDefense/_ROBOCOPY.bat using Guid(a9f6ed6cf23cdf24d9ee8a0597fe4b5d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5a6b530159ea3c5611fc5818043b076b') in 0.033154 seconds
-  Import took 0.036152 seconds .
+  Time since last request: 319.462996 seconds.
+  path: Assets/8BricksDefense/Game/InGame/Scenes/InGame.unity
+  artifactKey: Guid(cdda7f297a155f341b307319919bec7d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/8BricksDefense/Game/InGame/Scenes/InGame.unity using Guid(cdda7f297a155f341b307319919bec7d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '65a1675c3787d09646246070fedc6c2e') in 0.014198 seconds
+  Import took 0.018054 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.001217 seconds.
+  path: Assets/8BricksDefense/Game/InGame/Scenes/InGame.unity
+  artifactKey: Guid(cdda7f297a155f341b307319919bec7d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/8BricksDefense/Game/InGame/Scenes/InGame.unity using Guid(cdda7f297a155f341b307319919bec7d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '65a1675c3787d09646246070fedc6c2e') in 0.003693 seconds
+  Import took 0.007761 seconds .
 
 ========================================================================
 Received Prepare
 Registering precompiled user dll's ...
-Registered in 0.002859 seconds.
+Registered in 0.004428 seconds.
 Begin MonoManager ReloadAssembly
 Native extension for WindowsStandalone target not found
 Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 0.64 ms, found 0 plugins.
+Refreshing native plugins compatible for Editor in 0.72 ms, found 0 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Invoked RoslynAnalysisRunner static constructor.
 RoslynAnalysisRunner will not be running.
 RoslynAnalysisRunner has terminated.
 Mono: successfully reloaded assembly
-- Completed reload, in  1.069 seconds
+- Completed reload, in  1.129 seconds
 Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.73 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2152 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 89.3 MB.
+System memory in use after: 89.5 MB.
+
+Unloading 52 unused Assets to reduce memory usage. Loaded Objects now: 2583.
+Total: 2.048000 ms (FindLiveObjects: 0.244500 ms CreateObjectMapping: 0.095400 ms MarkObjects: 1.683200 ms  DeleteObjects: 0.023500 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.004142 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.67 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.167 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.72 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2152 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 89.5 MB.
+System memory in use after: 89.6 MB.
+
+Unloading 52 unused Assets to reduce memory usage. Loaded Objects now: 2585.
+Total: 1.778300 ms (FindLiveObjects: 0.243600 ms CreateObjectMapping: 0.096700 ms MarkObjects: 1.415300 ms  DeleteObjects: 0.021800 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.005232 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.76 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.163 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.74 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2152 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 89.6 MB.
+System memory in use after: 89.7 MB.
+
+Unloading 52 unused Assets to reduce memory usage. Loaded Objects now: 2587.
+Total: 2.001200 ms (FindLiveObjects: 0.233100 ms CreateObjectMapping: 0.086200 ms MarkObjects: 1.616000 ms  DeleteObjects: 0.065000 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.003936 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.67 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.124 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.69 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2152 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 89.6 MB.
+System memory in use after: 89.7 MB.
+
+Unloading 52 unused Assets to reduce memory usage. Loaded Objects now: 2589.
+Total: 2.147300 ms (FindLiveObjects: 0.233000 ms CreateObjectMapping: 0.085100 ms MarkObjects: 1.778400 ms  DeleteObjects: 0.050000 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.003644 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
 Refreshing native plugins compatible for Editor in 0.65 ms, found 0 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 1930 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 82.4 MB.
-System memory in use after: 82.5 MB.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.189 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.74 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2152 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 89.7 MB.
+System memory in use after: 89.9 MB.
 
-Unloading 46 unused Assets to reduce memory usage. Loaded Objects now: 2364.
-Total: 1.889500 ms (FindLiveObjects: 0.188900 ms CreateObjectMapping: 0.064400 ms MarkObjects: 1.615100 ms  DeleteObjects: 0.019700 ms)
+Unloading 52 unused Assets to reduce memory usage. Loaded Objects now: 2591.
+Total: 2.306600 ms (FindLiveObjects: 0.216700 ms CreateObjectMapping: 0.091300 ms MarkObjects: 1.972100 ms  DeleteObjects: 0.025400 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.004341 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.68 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.175 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.78 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2152 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 89.8 MB.
+System memory in use after: 90.0 MB.
+
+Unloading 52 unused Assets to reduce memory usage. Loaded Objects now: 2593.
+Total: 1.871500 ms (FindLiveObjects: 0.235200 ms CreateObjectMapping: 0.096800 ms MarkObjects: 1.514400 ms  DeleteObjects: 0.024000 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.004031 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.66 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.275 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.83 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2152 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 89.9 MB.
+System memory in use after: 90.1 MB.
+
+Unloading 52 unused Assets to reduce memory usage. Loaded Objects now: 2595.
+Total: 2.452000 ms (FindLiveObjects: 0.422500 ms CreateObjectMapping: 0.224700 ms MarkObjects: 1.773500 ms  DeleteObjects: 0.029900 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 502.423722 seconds.
+  path: Assets/_ROBOCOPY.bat
+  artifactKey: Guid(345e30d75cd6dbe40a877441be12c577) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_ROBOCOPY.bat using Guid(345e30d75cd6dbe40a877441be12c577) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5fb2e42f389cc74e9ec5e1d78856528f') in 0.021018 seconds
+  Import took 0.024411 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.004137 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.83 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.203 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.71 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2152 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 90.0 MB.
+System memory in use after: 90.2 MB.
+
+Unloading 52 unused Assets to reduce memory usage. Loaded Objects now: 2597.
+Total: 1.858800 ms (FindLiveObjects: 0.211600 ms CreateObjectMapping: 0.073600 ms MarkObjects: 1.551200 ms  DeleteObjects: 0.021700 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.004589 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.73 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.356 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.79 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2152 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 90.0 MB.
+System memory in use after: 90.1 MB.
+
+Unloading 52 unused Assets to reduce memory usage. Loaded Objects now: 2599.
+Total: 1.839400 ms (FindLiveObjects: 0.209300 ms CreateObjectMapping: 0.090400 ms MarkObjects: 1.510100 ms  DeleteObjects: 0.028800 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.004011 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.83 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.233 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.76 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2152 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 90.2 MB.
+System memory in use after: 90.3 MB.
+
+Unloading 52 unused Assets to reduce memory usage. Loaded Objects now: 2601.
+Total: 1.935800 ms (FindLiveObjects: 0.219000 ms CreateObjectMapping: 0.094800 ms MarkObjects: 1.594300 ms  DeleteObjects: 0.026500 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.004327 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.66 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.190 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.69 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2152 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 90.3 MB.
+System memory in use after: 90.4 MB.
+
+Unloading 52 unused Assets to reduce memory usage. Loaded Objects now: 2603.
+Total: 2.056000 ms (FindLiveObjects: 0.268500 ms CreateObjectMapping: 0.092600 ms MarkObjects: 1.650900 ms  DeleteObjects: 0.025100 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 365.396781 seconds.
+  path: Assets/8BricksDefense/Game/InGame/Resources/Network/Photon/Player2Photon.prefab
+  artifactKey: Guid(3c05abe62dcd7a64eaee88a625f1ceca) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/8BricksDefense/Game/InGame/Resources/Network/Photon/Player2Photon.prefab using Guid(3c05abe62dcd7a64eaee88a625f1ceca) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5a1ebd72cb00b8da2df4862a392d892d') in 0.418071 seconds
+  Import took 0.423109 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 88.434171 seconds.
+  path: Assets/8BricksDefense/Game/InGame/Resources/Network/Photon/Enemy0Photon.prefab
+  artifactKey: Guid(f6946823d5b49b841af9370eb08227f5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/8BricksDefense/Game/InGame/Resources/Network/Photon/Enemy0Photon.prefab using Guid(f6946823d5b49b841af9370eb08227f5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5d7437977d6f1e9142a327e27761d8cc') in 0.205473 seconds
+  Import took 0.210138 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 6.784597 seconds.
+  path: Assets/8BricksDefense/Game/InGame/Resources/Network/Photon/Enemy0Photon.prefab
+  artifactKey: Guid(f6946823d5b49b841af9370eb08227f5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/8BricksDefense/Game/InGame/Resources/Network/Photon/Enemy0Photon.prefab using Guid(f6946823d5b49b841af9370eb08227f5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '755fffc2a664801958a210a25ff81276') in 0.185983 seconds
+  Import took 0.189713 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 5.656428 seconds.
+  path: Assets/8BricksDefense/Game/InGame/Resources/Network/Photon/Enemy0Photon.prefab
+  artifactKey: Guid(f6946823d5b49b841af9370eb08227f5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/8BricksDefense/Game/InGame/Resources/Network/Photon/Enemy0Photon.prefab using Guid(f6946823d5b49b841af9370eb08227f5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '26752fafaf48ef825597fbea31113fcb') in 0.185937 seconds
+  Import took 0.189662 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 44.758033 seconds.
+  path: Assets/8BricksDefense/Game/InGame/Resources/Network/Photon/Enemy0Photon.prefab
+  artifactKey: Guid(f6946823d5b49b841af9370eb08227f5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/8BricksDefense/Game/InGame/Resources/Network/Photon/Enemy0Photon.prefab using Guid(f6946823d5b49b841af9370eb08227f5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ee56ad750496bae60e9f7df3dcd309aa') in 0.170453 seconds
+  Import took 0.174635 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 5.467136 seconds.
+  path: Assets/8BricksDefense/Game/InGame/Resources/Network/Photon/Enemy0Photon.prefab
+  artifactKey: Guid(f6946823d5b49b841af9370eb08227f5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/8BricksDefense/Game/InGame/Resources/Network/Photon/Enemy0Photon.prefab using Guid(f6946823d5b49b841af9370eb08227f5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cd95dd10534b321b6b66d4159bd93f6c') in 0.169881 seconds
+  Import took 0.173446 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 23.209771 seconds.
+  path: Assets/8BricksDefense/Game/InGame/Resources/Network/Photon/Enemy0Photon.prefab
+  artifactKey: Guid(f6946823d5b49b841af9370eb08227f5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/8BricksDefense/Game/InGame/Resources/Network/Photon/Enemy0Photon.prefab using Guid(f6946823d5b49b841af9370eb08227f5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e847975516179fa2bafe265d37c29561') in 0.170709 seconds
+  Import took 0.174557 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 5.267577 seconds.
+  path: Assets/8BricksDefense/Game/InGame/Resources/Network/Photon/Enemy0Photon.prefab
+  artifactKey: Guid(f6946823d5b49b841af9370eb08227f5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/8BricksDefense/Game/InGame/Resources/Network/Photon/Enemy0Photon.prefab using Guid(f6946823d5b49b841af9370eb08227f5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '914d6a1d3376564b9043e8ce2937583a') in 0.169442 seconds
+  Import took 0.173137 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 3.264635 seconds.
+  path: Assets/8BricksDefense/Game/InGame/Resources/Network/Photon/Enemy1Photon.prefab
+  artifactKey: Guid(d139b2d3878214c4298331d0461ab6d2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/8BricksDefense/Game/InGame/Resources/Network/Photon/Enemy1Photon.prefab using Guid(d139b2d3878214c4298331d0461ab6d2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1675fe0d1948d0e449d22f0b950dc58d') in 0.173708 seconds
+  Import took 0.177521 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.138109 seconds.
+  path: Assets/8BricksDefense/Game/InGame/Resources/Network/Photon/Enemy1Photon.prefab
+  artifactKey: Guid(d139b2d3878214c4298331d0461ab6d2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/8BricksDefense/Game/InGame/Resources/Network/Photon/Enemy1Photon.prefab using Guid(d139b2d3878214c4298331d0461ab6d2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c9d0b4b64841737c746f43a58684d2fd') in 0.162343 seconds
+  Import took 0.166059 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 2.469168 seconds.
+  path: Assets/8BricksDefense/Game/InGame/Resources/Network/Photon/Enemy2Photon.prefab
+  artifactKey: Guid(03d511c2a5cdd144792d89b9d0477356) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/8BricksDefense/Game/InGame/Resources/Network/Photon/Enemy2Photon.prefab using Guid(03d511c2a5cdd144792d89b9d0477356) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd5ea1e820f1f5e20acf90a9ae38ba220') in 0.179195 seconds
+  Import took 0.183167 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.941548 seconds.
+  path: Assets/8BricksDefense/Game/InGame/Resources/Network/Photon/Enemy2Photon.prefab
+  artifactKey: Guid(03d511c2a5cdd144792d89b9d0477356) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/8BricksDefense/Game/InGame/Resources/Network/Photon/Enemy2Photon.prefab using Guid(03d511c2a5cdd144792d89b9d0477356) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f625ddf510a270587eabf9742c2dcd45') in 0.175328 seconds
+  Import took 0.179059 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 5.089979 seconds.
+  path: Assets/8BricksDefense/Game/InGame/Resources/Network/Photon/Enemy2Photon.prefab
+  artifactKey: Guid(03d511c2a5cdd144792d89b9d0477356) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/8BricksDefense/Game/InGame/Resources/Network/Photon/Enemy2Photon.prefab using Guid(03d511c2a5cdd144792d89b9d0477356) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c11953da982341837e5375b1cb8c879d') in 0.173602 seconds
+  Import took 0.177647 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.734853 seconds.
+  path: Assets/8BricksDefense/Game/InGame/Resources/Network/Photon/Enemy1Photon.prefab
+  artifactKey: Guid(d139b2d3878214c4298331d0461ab6d2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/8BricksDefense/Game/InGame/Resources/Network/Photon/Enemy1Photon.prefab using Guid(d139b2d3878214c4298331d0461ab6d2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '36ab31371d253d905547f4ccc26c33a3') in 0.164605 seconds
+  Import took 0.168272 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.940205 seconds.
+  path: Assets/8BricksDefense/Game/InGame/Resources/Network/Photon/Enemy1Photon.prefab
+  artifactKey: Guid(d139b2d3878214c4298331d0461ab6d2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/8BricksDefense/Game/InGame/Resources/Network/Photon/Enemy1Photon.prefab using Guid(d139b2d3878214c4298331d0461ab6d2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd64fd5b9f3b86c134ff55f0ee52d6cc7') in 0.176378 seconds
+  Import took 0.179994 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.554712 seconds.
+  path: Assets/8BricksDefense/Game/InGame/Resources/Network/Photon/Enemy0Photon.prefab
+  artifactKey: Guid(f6946823d5b49b841af9370eb08227f5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/8BricksDefense/Game/InGame/Resources/Network/Photon/Enemy0Photon.prefab using Guid(f6946823d5b49b841af9370eb08227f5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0f357472cc938d67ecff6b4af8d7d07a') in 0.167578 seconds
+  Import took 0.171176 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.136432 seconds.
+  path: Assets/8BricksDefense/Game/InGame/Resources/Network/Photon/Enemy0Photon.prefab
+  artifactKey: Guid(f6946823d5b49b841af9370eb08227f5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/8BricksDefense/Game/InGame/Resources/Network/Photon/Enemy0Photon.prefab using Guid(f6946823d5b49b841af9370eb08227f5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5bdc801fd479d4e5e85cf60d19683096') in 0.171296 seconds
+  Import took 0.175090 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.778876 seconds.
+  path: Assets/8BricksDefense/Game/InGame/Resources/Network/Photon/Player0Photon.prefab
+  artifactKey: Guid(eb1cc465d5b96cd4ea8262d63f08c09d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/8BricksDefense/Game/InGame/Resources/Network/Photon/Player0Photon.prefab using Guid(eb1cc465d5b96cd4ea8262d63f08c09d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '36e830833bf8748da56c9e1178444ed0') in 0.175324 seconds
+  Import took 0.179487 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 4.218985 seconds.
+  path: Assets/8BricksDefense/Game/InGame/Resources/Network/Photon/Player0Photon.prefab
+  artifactKey: Guid(eb1cc465d5b96cd4ea8262d63f08c09d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/8BricksDefense/Game/InGame/Resources/Network/Photon/Player0Photon.prefab using Guid(eb1cc465d5b96cd4ea8262d63f08c09d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5204582f1496300ffeed490266e6db25') in 0.169805 seconds
+  Import took 0.174533 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.082011 seconds.
+  path: Assets/8BricksDefense/Game/InGame/Resources/Network/Photon/Player2Photon.prefab
+  artifactKey: Guid(3c05abe62dcd7a64eaee88a625f1ceca) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/8BricksDefense/Game/InGame/Resources/Network/Photon/Player2Photon.prefab using Guid(3c05abe62dcd7a64eaee88a625f1ceca) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e8771508305b922a4d24dea43af88393') in 0.170183 seconds
+  Import took 0.174057 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.448858 seconds.
+  path: Assets/8BricksDefense/Game/InGame/Resources/Network/Photon/Player1Photon.prefab
+  artifactKey: Guid(66d8a3b1ff67c514a86bafe15d7bd0be) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/8BricksDefense/Game/InGame/Resources/Network/Photon/Player1Photon.prefab using Guid(66d8a3b1ff67c514a86bafe15d7bd0be) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7e74f518904a152451ad9292dc79c624') in 0.173120 seconds
+  Import took 0.177484 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.757489 seconds.
+  path: Assets/8BricksDefense/Game/InGame/Resources/Network/Photon/Player1Photon.prefab
+  artifactKey: Guid(66d8a3b1ff67c514a86bafe15d7bd0be) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/8BricksDefense/Game/InGame/Resources/Network/Photon/Player1Photon.prefab using Guid(66d8a3b1ff67c514a86bafe15d7bd0be) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '47dca88f625c50f07d6f34680b7a5fdc') in 0.174608 seconds
+  Import took 0.178637 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 4.923729 seconds.
+  path: Assets/8BricksDefense/Game/InGame/Resources/Network/Photon/Player2Photon.prefab
+  artifactKey: Guid(3c05abe62dcd7a64eaee88a625f1ceca) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/8BricksDefense/Game/InGame/Resources/Network/Photon/Player2Photon.prefab using Guid(3c05abe62dcd7a64eaee88a625f1ceca) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2cca8d5a3eddc827c671abbe7eae6f70') in 0.173026 seconds
+  Import took 0.177122 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 33.254092 seconds.
+  path: Assets/8BricksDefense/Game/InGame/Resources/Network/Photon/Enemy0Photon.prefab
+  artifactKey: Guid(f6946823d5b49b841af9370eb08227f5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/8BricksDefense/Game/InGame/Resources/Network/Photon/Enemy0Photon.prefab using Guid(f6946823d5b49b841af9370eb08227f5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '19fe245f54c601826f255dc17f29d4ce') in 0.174472 seconds
+  Import took 0.178577 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.004359 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.67 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.184 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.70 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2152 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 93.7 MB.
+System memory in use after: 93.8 MB.
+
+Unloading 52 unused Assets to reduce memory usage. Loaded Objects now: 2613.
+Total: 1.690700 ms (FindLiveObjects: 0.191000 ms CreateObjectMapping: 0.084100 ms MarkObjects: 1.391700 ms  DeleteObjects: 0.023200 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 232.334387 seconds.
+  path: Assets/8BricksDefense/Game/InGame/Resources/Network/Photon/Player0Photon.prefab
+  artifactKey: Guid(eb1cc465d5b96cd4ea8262d63f08c09d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/8BricksDefense/Game/InGame/Resources/Network/Photon/Player0Photon.prefab using Guid(eb1cc465d5b96cd4ea8262d63f08c09d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '713393395210eb69c919df6d9ce9d868') in 0.229875 seconds
+  Import took 0.233967 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 12.456296 seconds.
+  path: Assets/8BricksDefense/Game/InGame/Resources/Network/Photon/Enemy0Photon.prefab
+  artifactKey: Guid(f6946823d5b49b841af9370eb08227f5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/8BricksDefense/Game/InGame/Resources/Network/Photon/Enemy0Photon.prefab using Guid(f6946823d5b49b841af9370eb08227f5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f695e97fb610e21c4564683b01b1f15a') in 0.176759 seconds
+  Import took 0.180274 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 9.754688 seconds.
+  path: Assets/8BricksDefense/Game/InGame/Resources/Network/Photon/Enemy1Photon.prefab
+  artifactKey: Guid(d139b2d3878214c4298331d0461ab6d2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/8BricksDefense/Game/InGame/Resources/Network/Photon/Enemy1Photon.prefab using Guid(d139b2d3878214c4298331d0461ab6d2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8fae907a219158691f3b383c4b47145f') in 0.169007 seconds
+  Import took 0.172952 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 9.387787 seconds.
+  path: Assets/8BricksDefense/Game/InGame/Resources/Network/Photon/Enemy2Photon.prefab
+  artifactKey: Guid(03d511c2a5cdd144792d89b9d0477356) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/8BricksDefense/Game/InGame/Resources/Network/Photon/Enemy2Photon.prefab using Guid(03d511c2a5cdd144792d89b9d0477356) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00af87e86d8a7e637ba19a4c54bb1e37') in 0.171333 seconds
+  Import took 0.175217 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 7.068997 seconds.
+  path: Assets/8BricksDefense/Game/InGame/Resources/Network/Photon/Player0Photon.prefab
+  artifactKey: Guid(eb1cc465d5b96cd4ea8262d63f08c09d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/8BricksDefense/Game/InGame/Resources/Network/Photon/Player0Photon.prefab using Guid(eb1cc465d5b96cd4ea8262d63f08c09d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f9b46d851cf466c6de6e750662fb2718') in 0.180194 seconds
+  Import took 0.184457 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 4.439644 seconds.
+  path: Assets/8BricksDefense/Game/InGame/Resources/Network/Photon/Player1Photon.prefab
+  artifactKey: Guid(66d8a3b1ff67c514a86bafe15d7bd0be) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/8BricksDefense/Game/InGame/Resources/Network/Photon/Player1Photon.prefab using Guid(66d8a3b1ff67c514a86bafe15d7bd0be) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7409b54e662e67cbd3282637981678d0') in 0.168139 seconds
+  Import took 0.172410 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 3.586489 seconds.
+  path: Assets/8BricksDefense/Game/InGame/Resources/Network/Photon/Player2Photon.prefab
+  artifactKey: Guid(3c05abe62dcd7a64eaee88a625f1ceca) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/8BricksDefense/Game/InGame/Resources/Network/Photon/Player2Photon.prefab using Guid(3c05abe62dcd7a64eaee88a625f1ceca) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1001ad435427e464ce8cf48c21f255ea') in 0.173918 seconds
+  Import took 0.178234 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.004362 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.79 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.231 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.71 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2152 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 93.8 MB.
+System memory in use after: 93.9 MB.
+
+Unloading 52 unused Assets to reduce memory usage. Loaded Objects now: 2616.
+Total: 1.772200 ms (FindLiveObjects: 0.187000 ms CreateObjectMapping: 0.077600 ms MarkObjects: 1.484400 ms  DeleteObjects: 0.022500 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.004050 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.73 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.291 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.76 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2152 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 93.8 MB.
+System memory in use after: 94.0 MB.
+
+Unloading 52 unused Assets to reduce memory usage. Loaded Objects now: 2618.
+Total: 3.459400 ms (FindLiveObjects: 1.561800 ms CreateObjectMapping: 0.230500 ms MarkObjects: 1.617700 ms  DeleteObjects: 0.048200 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.003563 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.66 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.206 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.71 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2152 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 94.0 MB.
+System memory in use after: 94.2 MB.
+
+Unloading 52 unused Assets to reduce memory usage. Loaded Objects now: 2620.
+Total: 1.997900 ms (FindLiveObjects: 0.323400 ms CreateObjectMapping: 0.099000 ms MarkObjects: 1.551200 ms  DeleteObjects: 0.022800 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 548.407847 seconds.
+  path: Assets/8BricksDefense/Game/InGame/Resources/Network/Photon/Player1Photon.prefab
+  artifactKey: Guid(66d8a3b1ff67c514a86bafe15d7bd0be) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/8BricksDefense/Game/InGame/Resources/Network/Photon/Player1Photon.prefab using Guid(66d8a3b1ff67c514a86bafe15d7bd0be) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '47b3c9b9ce62b4725b9f90a391f2002b') in 0.232694 seconds
+  Import took 0.237612 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 11.534497 seconds.
+  path: Assets/8BricksDefense/Game/InGame/Resources/Network/Photon/Enemy1Photon.prefab
+  artifactKey: Guid(d139b2d3878214c4298331d0461ab6d2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/8BricksDefense/Game/InGame/Resources/Network/Photon/Enemy1Photon.prefab using Guid(d139b2d3878214c4298331d0461ab6d2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6100fd09fe979b11aa922ac7819f402d') in 0.164006 seconds
+  Import took 0.167696 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 3.456249 seconds.
+  path: Assets/8BricksDefense/Game/InGame/Resources/Network/Photon/Enemy2Photon.prefab
+  artifactKey: Guid(03d511c2a5cdd144792d89b9d0477356) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/8BricksDefense/Game/InGame/Resources/Network/Photon/Enemy2Photon.prefab using Guid(03d511c2a5cdd144792d89b9d0477356) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '65ba48cc79ff4084418b11d8cdaae40a') in 0.185525 seconds
+  Import took 0.188963 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 2.380584 seconds.
+  path: Assets/8BricksDefense/Game/InGame/Resources/Network/Photon/Enemy0Photon.prefab
+  artifactKey: Guid(f6946823d5b49b841af9370eb08227f5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/8BricksDefense/Game/InGame/Resources/Network/Photon/Enemy0Photon.prefab using Guid(f6946823d5b49b841af9370eb08227f5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a352e267def1db3cca4bcf5a045e738c') in 0.172604 seconds
+  Import took 0.176231 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.004645 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 1.09 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.430 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.71 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2152 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 94.2 MB.
+System memory in use after: 94.4 MB.
+
+Unloading 52 unused Assets to reduce memory usage. Loaded Objects now: 2623.
+Total: 2.090400 ms (FindLiveObjects: 0.276300 ms CreateObjectMapping: 0.116000 ms MarkObjects: 1.669900 ms  DeleteObjects: 0.027000 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.003693 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.72 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.183 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.72 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2152 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 94.4 MB.
+System memory in use after: 94.5 MB.
+
+Unloading 52 unused Assets to reduce memory usage. Loaded Objects now: 2625.
+Total: 2.004600 ms (FindLiveObjects: 0.188700 ms CreateObjectMapping: 0.080200 ms MarkObjects: 1.710300 ms  DeleteObjects: 0.024700 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.003705 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 1.12 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.235 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.70 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2152 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 94.5 MB.
+System memory in use after: 94.6 MB.
+
+Unloading 52 unused Assets to reduce memory usage. Loaded Objects now: 2627.
+Total: 2.008800 ms (FindLiveObjects: 0.211700 ms CreateObjectMapping: 0.086900 ms MarkObjects: 1.655200 ms  DeleteObjects: 0.053400 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.004056 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.99 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.285 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.75 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2152 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 94.4 MB.
+System memory in use after: 94.5 MB.
+
+Unloading 52 unused Assets to reduce memory usage. Loaded Objects now: 2629.
+Total: 1.933500 ms (FindLiveObjects: 0.234900 ms CreateObjectMapping: 0.095700 ms MarkObjects: 1.578500 ms  DeleteObjects: 0.023100 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.005086 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.76 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.275 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.75 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2152 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 93.7 MB.
+System memory in use after: 93.8 MB.
+
+Unloading 52 unused Assets to reduce memory usage. Loaded Objects now: 2631.
+Total: 1.911800 ms (FindLiveObjects: 0.320100 ms CreateObjectMapping: 0.149000 ms MarkObjects: 1.417200 ms  DeleteObjects: 0.024700 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.004229 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.82 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.264 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.70 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2152 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 93.8 MB.
+System memory in use after: 93.9 MB.
+
+Unloading 52 unused Assets to reduce memory usage. Loaded Objects now: 2633.
+Total: 1.828200 ms (FindLiveObjects: 0.195400 ms CreateObjectMapping: 0.090900 ms MarkObjects: 1.465700 ms  DeleteObjects: 0.075500 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 540.139833 seconds.
+  path: Assets/8BricksDefense/Game/InGame/Resources/Network/Photon/Player1Photon.prefab
+  artifactKey: Guid(66d8a3b1ff67c514a86bafe15d7bd0be) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/8BricksDefense/Game/InGame/Resources/Network/Photon/Player1Photon.prefab using Guid(66d8a3b1ff67c514a86bafe15d7bd0be) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0a963ce7752e36a1c5c592100223c6f7') in 0.228295 seconds
+  Import took 0.232491 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.354869 seconds.
+  path: Assets/8BricksDefense/Game/InGame/Resources/Network/Photon/Player1Photon.prefab
+  artifactKey: Guid(66d8a3b1ff67c514a86bafe15d7bd0be) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/8BricksDefense/Game/InGame/Resources/Network/Photon/Player1Photon.prefab using Guid(66d8a3b1ff67c514a86bafe15d7bd0be) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '53d572a2fa838e88b03ec7d2a9d84805') in 0.169441 seconds
+  Import took 0.173363 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.710351 seconds.
+  path: Assets/8BricksDefense/Game/InGame/Resources/Network/Photon/Player2Photon.prefab
+  artifactKey: Guid(3c05abe62dcd7a64eaee88a625f1ceca) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/8BricksDefense/Game/InGame/Resources/Network/Photon/Player2Photon.prefab using Guid(3c05abe62dcd7a64eaee88a625f1ceca) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ea91282fe6b6510e4e5f2aa3af085411') in 0.169473 seconds
+  Import took 0.174562 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 9.472450 seconds.
+  path: Assets/8BricksDefense/Game/InGame/Resources/Network/Photon/Player2Photon.prefab
+  artifactKey: Guid(3c05abe62dcd7a64eaee88a625f1ceca) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/8BricksDefense/Game/InGame/Resources/Network/Photon/Player2Photon.prefab using Guid(3c05abe62dcd7a64eaee88a625f1ceca) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '33ec467c33f3e2ca2b96995aae3dc759') in 0.176831 seconds
+  Import took 0.181025 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 11.455753 seconds.
+  path: Assets/8BricksDefense/Game/InGame/Resources/Network/Photon/Player0Photon.prefab
+  artifactKey: Guid(eb1cc465d5b96cd4ea8262d63f08c09d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/8BricksDefense/Game/InGame/Resources/Network/Photon/Player0Photon.prefab using Guid(eb1cc465d5b96cd4ea8262d63f08c09d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0339297ef7e3e285f75f017728340b89') in 0.173856 seconds
+  Import took 0.177917 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 11.895344 seconds.
+  path: Assets/8BricksDefense/Game/InGame/Resources/Network/Photon/Enemy1Photon.prefab
+  artifactKey: Guid(d139b2d3878214c4298331d0461ab6d2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/8BricksDefense/Game/InGame/Resources/Network/Photon/Enemy1Photon.prefab using Guid(d139b2d3878214c4298331d0461ab6d2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '828ba01c1e36b0ecbba321e71b75c96d') in 0.177608 seconds
+  Import took 0.181124 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.672384 seconds.
+  path: Assets/8BricksDefense/Game/InGame/Resources/Network/Photon/Enemy0Photon.prefab
+  artifactKey: Guid(f6946823d5b49b841af9370eb08227f5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/8BricksDefense/Game/InGame/Resources/Network/Photon/Enemy0Photon.prefab using Guid(f6946823d5b49b841af9370eb08227f5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dee5f210670f768b7344196ec8aa2daa') in 0.171904 seconds
+  Import took 0.175778 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 9.080971 seconds.
+  path: Assets/8BricksDefense/Game/InGame/Resources/Network/Photon/Enemy2Photon.prefab
+  artifactKey: Guid(03d511c2a5cdd144792d89b9d0477356) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/8BricksDefense/Game/InGame/Resources/Network/Photon/Enemy2Photon.prefab using Guid(03d511c2a5cdd144792d89b9d0477356) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '668a9d78b451862046ea335c4a7c5274') in 0.178750 seconds
+  Import took 0.182610 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.298250 seconds.
+  path: Assets/8BricksDefense/Game/InGame/Resources/Network/Photon/Player0Photon.prefab
+  artifactKey: Guid(eb1cc465d5b96cd4ea8262d63f08c09d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/8BricksDefense/Game/InGame/Resources/Network/Photon/Player0Photon.prefab using Guid(eb1cc465d5b96cd4ea8262d63f08c09d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6ef1c25eaf385ad87bd2f0b6f9c03cab') in 0.177356 seconds
+  Import took 0.181369 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.672819 seconds.
+  path: Assets/8BricksDefense/Game/InGame/Resources/Network/Photon/Player1Photon.prefab
+  artifactKey: Guid(66d8a3b1ff67c514a86bafe15d7bd0be) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/8BricksDefense/Game/InGame/Resources/Network/Photon/Player1Photon.prefab using Guid(66d8a3b1ff67c514a86bafe15d7bd0be) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3448f60344de446db618597209fbf89f') in 0.171483 seconds
+  Import took 0.175333 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.003808 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.72 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.264 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.72 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2152 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 94.0 MB.
+System memory in use after: 94.1 MB.
+
+Unloading 52 unused Assets to reduce memory usage. Loaded Objects now: 2636.
+Total: 2.146900 ms (FindLiveObjects: 0.214100 ms CreateObjectMapping: 0.091700 ms MarkObjects: 1.814700 ms  DeleteObjects: 0.025100 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.003804 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.69 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.248 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.72 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2152 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 94.1 MB.
+System memory in use after: 94.2 MB.
+
+Unloading 52 unused Assets to reduce memory usage. Loaded Objects now: 2638.
+Total: 1.891500 ms (FindLiveObjects: 0.220900 ms CreateObjectMapping: 0.097100 ms MarkObjects: 1.515900 ms  DeleteObjects: 0.056800 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.003929 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.66 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.265 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.86 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2152 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 94.1 MB.
+System memory in use after: 94.2 MB.
+
+Unloading 52 unused Assets to reduce memory usage. Loaded Objects now: 2640.
+Total: 2.066800 ms (FindLiveObjects: 0.257600 ms CreateObjectMapping: 0.092400 ms MarkObjects: 1.689300 ms  DeleteObjects: 0.026500 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 775.092833 seconds.
+  path: Assets/Photon/PhotonUnityNetworking/Resources/PhotonServerSettings.asset
+  artifactKey: Guid(f3c9dd7f5a657c846bb6ed0f4e3b159f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Photon/PhotonUnityNetworking/Resources/PhotonServerSettings.asset using Guid(f3c9dd7f5a657c846bb6ed0f4e3b159f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'da90eb77c585da08ebf244c6f11f7a5a') in 0.016922 seconds
+  Import took 0.020490 seconds .
 
 AssetImportWorkerClient::OnTransportError - code=2 error=End of file

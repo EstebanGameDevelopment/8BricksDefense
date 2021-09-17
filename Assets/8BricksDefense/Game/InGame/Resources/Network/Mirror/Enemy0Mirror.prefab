@@ -407,7 +407,7 @@ GameObject:
   - component: {fileID: 114899039439231318}
   - component: {fileID: 1447357538758811563}
   m_Layer: 2
-  m_Name: Enemy0
+  m_Name: Enemy0Mirror
   m_TagString: ENEMY
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -477,11 +477,14 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 147574}
-  m_Enabled: 1
+  m_Enabled: 0
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 22ce72691cbda4a4a9c4fb5379230998, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  syncMode: 0
+  syncInterval: 0.1
+  LocalAssignedName: 
 --- !u!114 &114830497418831674
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -489,7 +492,7 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 147574}
-  m_Enabled: 0
+  m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: c6915e5131d3ce04baac7fb19c828d3e, type: 3}
   m_Name: 

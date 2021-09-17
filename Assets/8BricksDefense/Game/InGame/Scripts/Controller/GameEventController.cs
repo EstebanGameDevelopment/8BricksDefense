@@ -508,7 +508,6 @@ namespace EightBricksDefense
 			if ((_nameEvent == NetworkEventController.EVENT_SYSTEM_INITIALITZATION_LOCAL_COMPLETED)
 				|| (_nameEvent == NetworkEventController.EVENT_SYSTEM_INITIALITZATION_REMOTE_COMPLETED))
 			{
-				Debug.LogError("GameEventController::_nameEvent="+ _nameEvent);
 				if (m_connectionPlayersInitialized > 0)
 				{
 					m_connectionPlayersInitialized--;
@@ -594,6 +593,13 @@ namespace EightBricksDefense
 					UIEventController.Instance.DispatchUIEvent(UIEventController.EVENT_SCREENMANAGER_DESTROY_ALL_SCREEN);
 
 					GameEventController.instance.DispatchGameEvent(ScreenVRHUDView.EVENT_HUD_ACTIVATION, false);
+
+					if (!YourNetworkTools.Instance.IsLocalGame)
+                    {
+#if ENABLE_PHOTON
+						BasicSystemEventController.Instance.DelayBasicSystemEvent(PhotonController.EVENT_PHOTONCONTROLLER_GAME_STARTED, 0.2f);
+#endif
+					}
 					CreateLoadingScreen();
 					break;
 
@@ -742,11 +748,19 @@ namespace EightBricksDefense
 						}
 						else
 						{
+#if ENABLE_PHOTON
+							if (PhotonController.Instance.UniqueNetworkID != -1)
+							{
+								m_loadedEventInitialDataHasBeenDispatched = true;
+								NetworkEventController.Instance.DispatchNetworkEvent(EVENT_GAMEEVENT_PLAYER_HAS_LOADED_INITIAL_DATA);
+							}
+#else
 							if (ClientTCPEventsController.Instance.UniqueNetworkID != -1)
 							{
 								m_loadedEventInitialDataHasBeenDispatched = true;
 								NetworkEventController.Instance.DispatchNetworkEvent(EVENT_GAMEEVENT_PLAYER_HAS_LOADED_INITIAL_DATA);
 							}
+#endif
 						}
 					}
 

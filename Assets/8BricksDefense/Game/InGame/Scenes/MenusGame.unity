@@ -808,8 +808,8 @@ MonoBehaviour:
   MaxPlayers: 4
   ForceFixedPlayers: -1
   ScreenGameOptions: SCREEN_GAME_OPTIONS
-  ServerIPAdress: 46.101.241.31
-  ServerPortNumber: 6249
+  ServerIPAdress: localhost
+  ServerPortNumber: 8892
   ScanImageARCore: {fileID: 0}
   MainCamera2D: {fileID: 666405604}
   VRComponents: {fileID: 964397235}
