@@ -45,7 +45,7 @@ namespace EightBricksDefense
 		// ----------------------------------------------
 		// PUBLIC MEMBERS
 		// ----------------------------------------------
-		public GameObject[] PlayersAssets;
+		public string[] PlayersAssets;
 		public GameObject TowerAsset;
 
 		// ----------------------------------------------
@@ -191,13 +191,20 @@ namespace EightBricksDefense
 		{
 			int totalPositions = LevelBuilderController.Instance.PlayerInitialPosition.Count;
 			int positionIndexStart = -1;
-			if (YourNetworkTools.Instance.IsLocalGame)
-			{
-				positionIndexStart = _player.NetworkID.UID;
+			if (GameEventController.Instance.TotalPlayersConfigurated != 1)
+            {
+				if (YourNetworkTools.Instance.IsLocalGame)
+				{
+					positionIndexStart = _player.NetworkID.UID % totalPositions;
+				}
+				else
+				{
+					positionIndexStart = _player.NetworkID.NetID % totalPositions;
+				}
 			}
 			else
-			{
-				positionIndexStart = _player.NetworkID.NetID;
+            {
+				positionIndexStart = 0;
 			}
 			Vector3 positionInitial = LevelBuilderController.Instance.PlayerInitialPosition[(int)(positionIndexStart % totalPositions)];
             float incrementPos = GameConfiguration.CELL_SIZE;
@@ -220,12 +227,12 @@ namespace EightBricksDefense
 			{
                 if (GameEventController.Instance.TotalPlayersConfigurated != 1)
                 {
-                    YourNetworkTools.Instance.CreateLocalNetworkObject(PlayersAssets[CounterPlayers].name, CounterPlayers, false);
-                }
+					YourNetworkTools.Instance.CreateLocalNetworkObject(PlayersAssets[CounterPlayers], YourNetworkTools.Instance.CreatePathToPrefabInResources(PlayersAssets[CounterPlayers], true), CounterPlayers, false, 10000, 10000, 10000);
+				}
                 else
                 {
-                    GameObject myOwnPlayer = Instantiate(PlayersAssets[CounterPlayers]);
-                    if (myOwnPlayer.GetComponent<IGameNetworkActor>() != null) myOwnPlayer.GetComponent<IGameNetworkActor>().Initialize(new object[1] { CounterPlayers });
+                    GameObject myOwnPlayer = Instantiate(Resources.Load(YourNetworkTools.Instance.CreatePathToPrefabInResources(PlayersAssets[CounterPlayers], true, true)) as GameObject);
+					if (myOwnPlayer.GetComponent<IGameNetworkActor>() != null) myOwnPlayer.GetComponent<IGameNetworkActor>().Initialize(new object[1] { CounterPlayers });
                 }
                 CounterPlayers++;
 			}

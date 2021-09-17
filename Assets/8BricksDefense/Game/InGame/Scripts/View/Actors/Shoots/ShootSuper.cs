@@ -22,7 +22,7 @@ namespace EightBricksDefense
 		// CONSTANTS
 		// ----------------------------------------------	
 		public const float DAMAGE = 20;
-		public const float SPEED = 15;
+		public const float SPEED = 50;
 
 		// -------------------------------------------
 		/* 

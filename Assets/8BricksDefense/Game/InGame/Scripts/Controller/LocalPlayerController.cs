@@ -521,7 +521,7 @@ namespace EightBricksDefense
 			// UPDATE AVATAR
 			if (m_avatarPlayer != null)
 			{
-				m_avatarPlayer.transform.position = this.gameObject.transform.position;
+				m_avatarPlayer.transform.position = this.gameObject.transform.position - new Vector3(0, 0.5f,0);
 				m_avatarPlayer.transform.forward = new Vector3(YourVRUIScreenController.Instance.GameCamera.transform.forward.x, 0, YourVRUIScreenController.Instance.GameCamera.transform.forward.z);
 			}
 		}
@@ -670,6 +670,7 @@ namespace EightBricksDefense
 			switch (m_state)
 			{
 				case STATE_IDLE:
+					YourVRUIScreenController.Instance.EnableMoveCamera = true;
 					m_pointerReference.SetActive(true);
 					m_pointerReference.transform.position = this.gameObject.transform.position + 2 * GameConfiguration.CELL_SIZE * YourVRUIScreenController.Instance.GameCamera.transform.forward;
 					break;

@@ -79,7 +79,7 @@ namespace EightBricksDefense
 		 * The player could have been created by a remote client so we should throw an event
 		 * so that the controller will be listening to it.
 		 */
-		public void Start()
+		public override void Start()
 		{
 			InitializeCommon();
 		}
@@ -103,6 +103,8 @@ namespace EightBricksDefense
 		{
 			if (m_animationStates == null)
 			{
+				this.transform.Find("Model").localScale = new Vector3(0.15f, 0.15f, 0.15f);
+
 				// ANIMATION STATES
 				CreateAnimationStates("stateID,0",      // IDLE
 										"stateID,1",    // WALK
@@ -155,7 +157,7 @@ namespace EightBricksDefense
 		{
 			if (_nameEvent == NetworkEventController.EVENT_WORLDOBJECTCONTROLLER_LOCAL_CREATION_CONFIRMATION)
 			{
-				if (this.gameObject == (GameObject)_list[0])
+				if (this.gameObject.GetComponent<ActorNetwork>().NetworkID.GetID() == (string)_list[0])
 				{
 					if (LocalPlayerController.Instance.AvatarPlayer == null)
 					{

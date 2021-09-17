@@ -30,7 +30,7 @@ namespace EightBricksDefense
 		public const float DAMAGE = 1000;
 		public const float RANGE_ENEMIES = GameConfiguration.CELL_SIZE * 2;
 		public const float RANGE_BLOCKS = GameConfiguration.CELL_SIZE * 1;
-		public const float SPEED = 10;
+		public const float SPEED = 50;
 
 		// -------------------------------------------
 		/* 

@@ -168,7 +168,7 @@ namespace EightBricksDefense
 
 			m_level = INITIAL_LEVEL;
 			m_globalLifes = TOTAL_GLOBAL_LIFES;
-			SetState(STATE_GAME_LOADING);
+			SetState(-1);
 		}
 
 		// -------------------------------------------
@@ -452,6 +452,10 @@ namespace EightBricksDefense
 		*/
 		private void OnScreenVREvent(string _nameEvent, params object[] _list)
 		{
+			if (_nameEvent == YourVRUIScreenController.EVENT_SCREENMANAGER_INITED_VR_MANAGER)
+			{
+				SetState(STATE_GAME_LOADING);
+			}
 			if (_nameEvent == UIEventController.EVENT_SCREENMANAGER_REPORT_DESTROYED)
 			{
 				switch (m_state)
@@ -504,6 +508,7 @@ namespace EightBricksDefense
 			if ((_nameEvent == NetworkEventController.EVENT_SYSTEM_INITIALITZATION_LOCAL_COMPLETED)
 				|| (_nameEvent == NetworkEventController.EVENT_SYSTEM_INITIALITZATION_REMOTE_COMPLETED))
 			{
+				Debug.LogError("GameEventController::_nameEvent="+ _nameEvent);
 				if (m_connectionPlayersInitialized > 0)
 				{
 					m_connectionPlayersInitialized--;

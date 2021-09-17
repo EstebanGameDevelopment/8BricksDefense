@@ -34,6 +34,8 @@ namespace EightBricksDefense
 		public const int TYPE_SUPER_SHOOT = 1;
 		public const int TYPE_BOMB_SHOOT = 2;
 
+		public const float SPEED_SHOOT = 5;
+
 		// ----------------------------------------------
 		// PRIVATE MEMBERS
 		// ----------------------------------------------	
@@ -67,6 +69,7 @@ namespace EightBricksDefense
 			transform.forward = (Vector3)_list[2];
 			m_networkIDOwner = (int)_list[3];
 			m_timeAlive = 0;
+			Speed = SPEED_SHOOT;
 
 			GameEventController.Instance.DispatchGameEvent(EVENT_SHOOT_IGNORE_COLLISION_PLAYERS, this.gameObject.GetComponent<Collider>());
 		}
