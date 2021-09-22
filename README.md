@@ -19,7 +19,7 @@ SOURCE CODE
 The package contains the code of the game in multiplayer mode. In order to do the tutorial you 
 will have to request access to the repository to clone it and start the tutorial from the beginning.
 
-Email me to the address esteban@yourvrexperience.com with your purchase order and I will give you access
+Email me to the address info@yourvrexperience.com with your purchase order and I will give you access
 to the repository:
 
 https://github.com/EstebanGameDevelopment/8BricksDefense
