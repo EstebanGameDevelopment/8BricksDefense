@@ -2,6 +2,12 @@
 ----------------
 In this tutorial we will see how to convert a single-player game in a multiplayer game with YourNetworkTools.
 
+When you have properly completed the cloning of the project you should be able to do the next tests:
+
+-8Bricks Defense create LAN party with Mirror: https://youtu.be/kLm5-IaGhus
+
+-8Bricks Defense create a multiplayer party with Photon: https://youtu.be/sG3ebwY05l4
+
 PRE-REQUISITES
 --------------
 This is not a tutorial for people who don't know about game programming. You have to be familiar 
